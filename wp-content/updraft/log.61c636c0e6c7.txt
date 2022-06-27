@@ -1,0 +1,1657 @@
+0000.000 (0) Opened log file at time: Fri, 17 Jun 2022 09:31:56 +0000 on https://770.world/
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 8M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 197.3 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB:  (schedule: every2hours)
+0000.004 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.005 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1655451032, seconds_ago=7284)
+0000.007 (0) Set semaphore last lock (fd) time to 2022-06-17 09:31:56
+0000.007 (0) Semaphore lock (fd) complete
+0000.009 (0) Backup run: resumption=0, nonce=61c636c0e6c7, file_nonce=61c636c0e6c7 begun at=1655458316 (0s ago), job type=backup
+0000.011 (0) Scheduling a resumption (1) after 300 seconds (1655458616) in case this run gets aborted
+0000.012 (0) Checking if we have a zip executable available
+0000.012 (0) Creation of backups of directories: beginning
+0000.014 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.134 (0) Total entities for the zip file: 1324 directories, 8429 files (0 skipped as non-modified), 77.7 MB
+0000.139 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.142 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.145 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.147 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.150 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.153 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.156 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.159 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.162 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.167 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.168 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.1 MB, 8429 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.620 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 1100 files added (on-disk size: 4786 KB)
+0000.623 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 1200 files added (on-disk size: 4786 KB)
+0000.626 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 1300 files added (on-disk size: 4786 KB)
+0000.629 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 1400 files added (on-disk size: 4786 KB)
+0000.632 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 1500 files added (on-disk size: 4786 KB)
+0000.635 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 1600 files added (on-disk size: 4786 KB)
+0000.638 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 1700 files added (on-disk size: 4786 KB)
+0000.641 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 1800 files added (on-disk size: 4786 KB)
+0000.644 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 1900 files added (on-disk size: 4786 KB)
+0000.646 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 2000 files added (on-disk size: 4786 KB)
+0000.648 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.9 MB, 8429 files batched, 1001 (2002) added so far); re-opening (prior size: 4786 KB)
+0000.996 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 2100 files added (on-disk size: 6535.4 KB)
+0000.999 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 2200 files added (on-disk size: 6535.4 KB)
+0001.002 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 2300 files added (on-disk size: 6535.4 KB)
+0001.005 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 2400 files added (on-disk size: 6535.4 KB)
+0001.008 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 2500 files added (on-disk size: 6535.4 KB)
+0001.011 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 2600 files added (on-disk size: 6535.4 KB)
+0001.014 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 2700 files added (on-disk size: 6535.4 KB)
+0001.017 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 2800 files added (on-disk size: 6535.4 KB)
+0001.020 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 2900 files added (on-disk size: 6535.4 KB)
+0001.023 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 3000 files added (on-disk size: 6535.4 KB)
+0001.024 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.1 MB, 8429 files batched, 1001 (3003) added so far); re-opening (prior size: 6535.4 KB)
+0001.652 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 3100 files added (on-disk size: 8789.1 KB)
+0001.655 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 3200 files added (on-disk size: 8789.1 KB)
+0001.659 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 3300 files added (on-disk size: 8789.1 KB)
+0001.663 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 3400 files added (on-disk size: 8789.1 KB)
+0001.666 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 3500 files added (on-disk size: 8789.1 KB)
+0001.669 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 3600 files added (on-disk size: 8789.1 KB)
+0001.672 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 3700 files added (on-disk size: 8789.1 KB)
+0001.675 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 3800 files added (on-disk size: 8789.1 KB)
+0001.678 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 3900 files added (on-disk size: 8789.1 KB)
+0001.681 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 4000 files added (on-disk size: 8789.1 KB)
+0001.681 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.7 MB, 8429 files batched, 1001 (4004) added so far); re-opening (prior size: 8789.1 KB)
+0002.022 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 4100 files added (on-disk size: 10662.9 KB)
+0002.025 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 4200 files added (on-disk size: 10662.9 KB)
+0002.029 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 4300 files added (on-disk size: 10662.9 KB)
+0002.032 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 4400 files added (on-disk size: 10662.9 KB)
+0002.034 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 4500 files added (on-disk size: 10662.9 KB)
+0002.037 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 4600 files added (on-disk size: 10662.9 KB)
+0002.040 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 4700 files added (on-disk size: 10662.9 KB)
+0002.043 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 4800 files added (on-disk size: 10662.9 KB)
+0002.046 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 4900 files added (on-disk size: 10662.9 KB)
+0002.049 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 5000 files added (on-disk size: 10662.9 KB)
+0002.050 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.9 MB, 8429 files batched, 1001 (5005) added so far); re-opening (prior size: 10662.9 KB)
+0005.881 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 5100 files added (on-disk size: 17061.2 KB)
+0005.884 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 5200 files added (on-disk size: 17061.2 KB)
+0005.887 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 5300 files added (on-disk size: 17061.2 KB)
+0005.891 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 5400 files added (on-disk size: 17061.2 KB)
+0005.894 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 5500 files added (on-disk size: 17061.2 KB)
+0005.897 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 5600 files added (on-disk size: 17061.2 KB)
+0005.900 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 5700 files added (on-disk size: 17061.2 KB)
+0005.903 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 5800 files added (on-disk size: 17061.2 KB)
+0005.906 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 5900 files added (on-disk size: 17061.2 KB)
+0005.909 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 6000 files added (on-disk size: 17061.2 KB)
+0005.909 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.5 MB, 8429 files batched, 1001 (6006) added so far); re-opening (prior size: 17061.2 KB)
+0006.431 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 6100 files added (on-disk size: 19709.9 KB)
+0006.435 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 6200 files added (on-disk size: 19709.9 KB)
+0006.438 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 6300 files added (on-disk size: 19709.9 KB)
+0006.441 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 6400 files added (on-disk size: 19709.9 KB)
+0006.444 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 6500 files added (on-disk size: 19709.9 KB)
+0006.447 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 6600 files added (on-disk size: 19709.9 KB)
+0006.450 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 6700 files added (on-disk size: 19709.9 KB)
+0006.453 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 6800 files added (on-disk size: 19709.9 KB)
+0006.455 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 6900 files added (on-disk size: 19709.9 KB)
+0006.459 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 7000 files added (on-disk size: 19709.9 KB)
+0006.460 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.3 MB, 8429 files batched, 1001 (7007) added so far); re-opening (prior size: 19709.9 KB)
+0007.289 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 7100 files added (on-disk size: 22726 KB)
+0007.292 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 7200 files added (on-disk size: 22726 KB)
+0007.297 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 7300 files added (on-disk size: 22726 KB)
+0007.300 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 7400 files added (on-disk size: 22726 KB)
+0007.303 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 7500 files added (on-disk size: 22726 KB)
+0007.306 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 7600 files added (on-disk size: 22726 KB)
+0007.309 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 7700 files added (on-disk size: 22726 KB)
+0007.312 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 7800 files added (on-disk size: 22726 KB)
+0007.314 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 7900 files added (on-disk size: 22726 KB)
+0007.317 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 8000 files added (on-disk size: 22726 KB)
+0007.318 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.1 MB, 8429 files batched, 1001 (8008) added so far); re-opening (prior size: 22726 KB)
+0007.592 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 8100 files added (on-disk size: 24618 KB)
+0007.596 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 8200 files added (on-disk size: 24618 KB)
+0007.599 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 8300 files added (on-disk size: 24618 KB)
+0007.602 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.tmp: 8400 files added (on-disk size: 24618 KB)
+0008.435 (0) Creating zip file manifest (backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.list-temp.tmp)
+0008.454 (0) Successfully created zip file manifest (size: 808802)
+0008.681 (0) Created plugins zip (0) - 26765.4 KB in 8.7 s (3088.6 KB/s) (sha1: 1a43b9a5069419e6beff2c2ee9e9cb057a38737a, sha256: 9766be618f920737e7d23ed7f376a8d43d0d7ccf1976bbb0fd3412712f5d1c7c)
+0008.683 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.690 (0) Total entities for the zip file: 79 directories, 380 files (0 skipped as non-modified), 11.5 MB
+0008.693 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.697 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.700 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.063 (0) Creating zip file manifest (backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip.list-temp.tmp)
+0009.065 (0) Successfully created zip file manifest (size: 27051)
+0009.146 (0) Created themes zip (0) - 9386.6 KB in 0.5 s (20329.1 KB/s) (sha1: 5849ce268e3aa19232365438a86d14cec962bc58, sha256: 349dddbfc7bab3a7046ef884fd7a21eafd487dc73d5dfa4bfe4853b556e58430)
+0009.148 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.149 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0009.149 (0) finding files: sites: adding to list (1)
+0009.150 (0) finding files: 2022: adding to list (2)
+0009.150 (0) finding files: wpforms: adding to list (3)
+0009.151 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.154 (0) Total entities for the zip file: 10 directories, 131 files (0 skipped as non-modified), 474.8 MB
+0009.155 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (31.9 MB, 131 files batched, 6 (6) added so far); re-opening (prior size: 0 KB)
+0010.382 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.2 s, rate: 21311 KB/s)
+0010.383 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.5315749645233, normalised_time=1.2012548179663, max_time=10.382447957993, data points known=1, old_max_bytes=26214400, new_max_bytes=135942669)
+0010.386 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 129.6 MB added on this batch (131 MB, 131 files batched, 32 (38) added so far); re-opening (prior size: 32540.5 KB)
+0013.967 (0) PHP event: code E_WARNING: ZipArchive::close(): Write error: No space left on device (line 3997, wp-content/plugins/updraftplus/backup.php)
+0013.969 (0) The attempt to close the zip file returned an error (Unknown: ZipArchive does not return error messages). List of files we were trying to add follows (check their permissions).
+0013.969 (0) File: uploads/2022/05/revit-jpg-300x259.png (exists: 1, is_readable: 1 size: 13987)
+0013.969 (0) File: uploads/2022/05/update-5-4-150x150.png (exists: 1, is_readable: 1 size: 2876)
+0013.969 (0) File: uploads/2022/05/האם-הקב_ה-אומר-תפלת-_אנא-בכח_-6.pdf (exists: 1, is_readable: 1 size: 46287)
+0013.969 (0) File: uploads/2022/05/top-view-revit.png (exists: 1, is_readable: 1 size: 29634)
+0013.969 (0) File: uploads/2022/05/next333-gold-wall-150x150.png (exists: 1, is_readable: 1 size: 21540)
+0013.969 (0) File: uploads/2022/05/תורת-מנחם-התשי.pdf (exists: 1, is_readable: 1 size: 7210077)
+0013.969 (0) File: uploads/2022/05/top-view-revit-1.png (exists: 1, is_readable: 1 size: 29634)
+0013.969 (0) File: uploads/2022/05/buying-entire-block-768x371.png (exists: 1, is_readable: 1 size: 626933)
+0013.969 (0) File: uploads/2022/05/revit-jpg-150x150.png (exists: 1, is_readable: 1 size: 3540)
+0013.969 (0) File: uploads/2022/05/ספר-השיחות-התשנב.pdf (exists: 1, is_readable: 1 size: 11868306)
+0013.969 (0) File: uploads/2022/05/miracle-1.png (exists: 1, is_readable: 1 size: 35318)
+0013.969 (0) File: uploads/2022/05/Kuntres-Beis-Rabeinu-SheBeBovel-4.pdf (exists: 1, is_readable: 1 size: 281424)
+0013.970 (0) File: uploads/2022/05/autocad-770-beis-hamikdosh-3.png (exists: 1, is_readable: 1 size: 778222)
+0013.970 (0) File: uploads/2022/05/דרך-מצוותיך.pdf (exists: 1, is_readable: 1 size: 24874383)
+0013.970 (0) File: uploads/2022/05/top-view-revit-1-300x272.png (exists: 1, is_readable: 1 size: 14406)
+0013.970 (0) File: uploads/2022/05/next2-revit-1536x864.png (exists: 1, is_readable: 1 size: 1275839)
+0013.970 (0) File: uploads/2022/05/next333-gold-wall-768x341.png (exists: 1, is_readable: 1 size: 245988)
+0013.970 (0) File: uploads/2022/05/progress-768x399.png (exists: 1, is_readable: 1 size: 16124)
+0013.970 (0) File: uploads/2022/05/next333-shin-revit.png (exists: 1, is_readable: 1 size: 1235406)
+0013.970 (0) File: uploads/2022/05/big-1.png (exists: 1, is_readable: 1 size: 33868)
+0013.970 (0) File: uploads/2022/05/770-ze-shaar-hashomoyim-768x565.png (exists: 1, is_readable: 1 size: 190391)
+0013.970 (0) File: uploads/2022/05/autocad-770-beis-hamikdosh-3-150x150.png (exists: 1, is_readable: 1 size: 38785)
+0013.970 (0) File: uploads/2022/05/buy-the-block.png (exists: 1, is_readable: 1 size: 1835689)
+0013.970 (0) File: uploads/2022/05/תורת-מנחם-התוועדויות-התשנב-חלק-א.pdf (exists: 1, is_readable: 1 size: 24593948)
+0013.970 (0) File: uploads/2022/05/revit-jpg-1-768x662.png (exists: 1, is_readable: 1 size: 31211)
+0013.970 (0) File: uploads/2022/05/פירסום-ראשון-22.pdf (exists: 1, is_readable: 1 size: 2165157)
+0013.970 (0) File: uploads/2022/05/progress3-1024x744.png (exists: 1, is_readable: 1 size: 177133)
+0013.970 (0) File: uploads/2022/05/buy-the-block-300x166.png (exists: 1, is_readable: 1 size: 127440)
+0013.970 (0) File: uploads/2022/05/buying-entire-block-1024x495.png (exists: 1, is_readable: 1 size: 1021709)
+0013.970 (0) File: uploads/2022/05/לבטל-אמעריקא.pdf (exists: 1, is_readable: 1 size: 44700)
+0013.970 (0) File: uploads/2022/05/רמבם-הלכות-מלכים-ומלחמותיהם-והלכות-מלך-המשיח.htm (exists: 1, is_readable: 1 size: 71394)
+0013.970 (0) File: uploads/2022/05/רמבם-ספר-עבודה.pdf (exists: 1, is_readable: 1 size: 58443440)
+0013.971 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 129.6 MB added on this batch (131.1 MB, 131 files batched, 1 (39) added so far); re-opening (prior size: 32540.5 KB)
+0014.032 (0) A useful amount of data was added after this amount of zip processing: 0.2 s (normalised: 0.2 s, rate: 739612.8 KB/s)
+0014.035 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.18147110939026, normalised_time=0.17949460416003, max_time=14.033731937408, data points known=1, old_max_bytes=135942669, new_max_bytes=209715200)
+0014.037 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip.tmp: 100 files added (on-disk size: 32594.2 KB)
+0014.038 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 200 MB added on this batch (200.2 MB, 131 files batched, 66 (105) added so far); re-opening (prior size: 32594.2 KB)
+0018.039 (0) PHP event: code E_WARNING: ZipArchive::close(): Write error: No space left on device (line 3997, wp-content/plugins/updraftplus/backup.php)
+0018.040 (0) The attempt to close the zip file returned an error (Unknown: ZipArchive does not return error messages). List of files we were trying to add follows (check their permissions).
+0018.041 (0) File: uploads/2022/05/miracle.png (exists: 1, is_readable: 1 size: 35318)
+0018.041 (0) File: uploads/2022/05/miracle-768x738.png (exists: 1, is_readable: 1 size: 54813)
+0018.041 (0) File: uploads/2022/05/update-5-4-300x164.png (exists: 1, is_readable: 1 size: 5012)
+0018.041 (0) File: uploads/2022/05/top-view-revit-768x697.png (exists: 1, is_readable: 1 size: 32696)
+0018.041 (0) File: uploads/2022/05/פת-שחרית-1-2.pdf (exists: 1, is_readable: 1 size: 30670)
+0018.041 (0) File: uploads/2022/05/update-5-4-768x420.png (exists: 1, is_readable: 1 size: 13358)
+0018.041 (0) File: uploads/2022/05/חומש-בראשית.pdf (exists: 1, is_readable: 1 size: 48293975)
+0018.041 (0) File: uploads/2022/05/top-view-revit-300x272.png (exists: 1, is_readable: 1 size: 14406)
+0018.041 (0) File: uploads/2022/05/next333-gold-wall.png (exists: 1, is_readable: 1 size: 1476320)
+0018.041 (0) File: uploads/2022/05/חצופות-או-חופות-עם-צדיק-10.pdf (exists: 1, is_readable: 1 size: 39414)
+0018.041 (0) File: uploads/2022/05/miracle-150x150.png (exists: 1, is_readable: 1 size: 4506)
+0018.041 (0) File: uploads/2022/05/770-ze-shaar-hashomoyim-1024x753.png (exists: 1, is_readable: 1 size: 240654)
+0018.041 (0) File: uploads/2022/05/revit-jpg-1.png (exists: 1, is_readable: 1 size: 29688)
+0018.041 (0) File: uploads/2022/05/progress3-300x218.png (exists: 1, is_readable: 1 size: 36056)
+0018.041 (0) File: uploads/2022/05/770-ze-shaar-hashomoyim-300x221.png (exists: 1, is_readable: 1 size: 47850)
+0018.041 (0) File: uploads/2022/05/אין-אפילו-משוגע-אחד-בכל-העולם-כולו-4.pdf (exists: 1, is_readable: 1 size: 33297)
+0018.041 (0) File: uploads/2022/05/autocad-770-beis-hamikdosh-3-300x224.png (exists: 1, is_readable: 1 size: 91304)
+0018.041 (0) File: uploads/2022/05/progress3-768x558.png (exists: 1, is_readable: 1 size: 134366)
+0018.041 (0) File: uploads/2022/05/השתחוואה-גשמית-לאדון-עולם-בגוף-גשמי-1.pdf (exists: 1, is_readable: 1 size: 28513)
+0018.041 (0) File: uploads/2022/05/זהר-חלק-ג.pdf (exists: 1, is_readable: 1 size: 22636436)
+0018.041 (0) File: uploads/2022/05/progress-150x150.png (exists: 1, is_readable: 1 size: 4299)
+0018.041 (0) File: uploads/2022/05/big-286x300.png (exists: 1, is_readable: 1 size: 21999)
+0018.041 (0) File: uploads/2022/05/770-ze-shaar-hashomoyim.png (exists: 1, is_readable: 1 size: 89241)
+0018.041 (0) File: uploads/2022/05/buying-entire-block-300x145.png (exists: 1, is_readable: 1 size: 109697)
+0018.041 (0) File: uploads/2022/05/ברוך-שאמר-והיה-העולם-11.pdf (exists: 1, is_readable: 1 size: 35010)
+0018.041 (0) File: uploads/2022/05/תיקוני-נשים-7.pdf (exists: 1, is_readable: 1 size: 27542)
+0018.041 (0) File: uploads/2022/05/GD-22.pdf (exists: 1, is_readable: 1 size: 70811)
+0018.041 (0) File: uploads/2022/05/Ani-Hashoshan-Haelyon-768x1024-1.jpg (exists: 1, is_readable: 1 size: 118901)
+0018.041 (0) File: uploads/2022/05/next333-shin-revit-300x171.png (exists: 1, is_readable: 1 size: 66976)
+0018.041 (0) File: uploads/2022/05/חצופות-או-חופות-עם-צדיק-22.pdf (exists: 1, is_readable: 1 size: 93951)
+0018.041 (0) File: uploads/2022/05/Ani-Hashoshan-Haelyon-768x1024-1-150x150.jpg (exists: 1, is_readable: 1 size: 6346)
+0018.041 (0) File: uploads/2022/05/סידור-תהלת-השם.pdf (exists: 1, is_readable: 1 size: 25698603)
+0018.041 (0) File: uploads/2022/05/ילקוט-שמעוני-חלק-ב.pdf (exists: 1, is_readable: 1 size: 39471059)
+0018.041 (0) File: uploads/2022/05/תניא.pdf (exists: 1, is_readable: 1 size: 8921219)
+0018.041 (0) File: uploads/2022/05/revit-jpg-1-300x259.png (exists: 1, is_readable: 1 size: 13987)
+0018.041 (0) File: uploads/2022/05/ערוך-לנר-סוכה.pdf (exists: 1, is_readable: 1 size: 32395899)
+0018.041 (0) File: uploads/2022/05/next2-revit-150x150.png (exists: 1, is_readable: 1 size: 29274)
+0018.041 (0) File: uploads/2022/05/next333-shin-revit-150x150.png (exists: 1, is_readable: 1 size: 29616)
+0018.041 (0) File: uploads/2022/05/buy-the-block-150x150.png (exists: 1, is_readable: 1 size: 59029)
+0018.041 (0) File: uploads/2022/05/miracle-1-150x150.png (exists: 1, is_readable: 1 size: 4506)
+0018.041 (0) File: uploads/2022/05/לא-תנסו-את-יהוה-אלהיכם-5.pdf (exists: 1, is_readable: 1 size: 45801)
+0018.041 (0) File: uploads/2022/05/progress3-150x150.png (exists: 1, is_readable: 1 size: 16262)
+0018.041 (0) File: uploads/2022/05/קיסר-מחיה-ומצמיח-ישועה-4.pdf (exists: 1, is_readable: 1 size: 52695)
+0018.041 (0) File: uploads/2022/05/top-view-revit-1-768x697.png (exists: 1, is_readable: 1 size: 32696)
+0018.041 (0) File: uploads/2022/05/next333-shin-revit-1024x585.png (exists: 1, is_readable: 1 size: 569888)
+0018.041 (0) File: uploads/2022/05/miracle-1-300x288.png (exists: 1, is_readable: 1 size: 21979)
+0018.041 (0) File: uploads/2022/05/autocad-770-beis-hamikdosh-3-768x574.png (exists: 1, is_readable: 1 size: 441818)
+0018.041 (0) File: uploads/2022/05/big-150x150.png (exists: 1, is_readable: 1 size: 4789)
+0018.041 (0) File: uploads/2022/05/next333-gold-wall-1536x682.png (exists: 1, is_readable: 1 size: 810107)
+0018.041 (0) File: uploads/2022/05/progress-1024x533.png (exists: 1, is_readable: 1 size: 21946)
+0018.041 (0) File: uploads/2022/05/update-5-4.png (exists: 1, is_readable: 1 size: 28227)
+0018.041 (0) File: uploads/2022/05/buy-the-block-1024x566.png (exists: 1, is_readable: 1 size: 1231018)
+0018.041 (0) File: uploads/2022/05/buying-entire-block-150x150.png (exists: 1, is_readable: 1 size: 57940)
+0018.041 (0) File: uploads/2022/05/revit-jpg.png (exists: 1, is_readable: 1 size: 29688)
+0018.041 (0) File: uploads/2022/05/top-view-revit-1-150x150.png (exists: 1, is_readable: 1 size: 7116)
+0018.041 (0) File: uploads/2022/05/אנכי-קיסר-אחד-בארץ-ישראל-4.pdf (exists: 1, is_readable: 1 size: 84994)
+0018.041 (0) File: uploads/2022/05/רמבם-ספר-המדע.pdf (exists: 1, is_readable: 1 size: 2519998)
+0018.041 (0) File: uploads/2022/05/miracle-300x288.png (exists: 1, is_readable: 1 size: 21979)
+0018.041 (0) File: uploads/2022/05/progress-300x156.png (exists: 1, is_readable: 1 size: 6090)
+0018.041 (0) File: uploads/2022/05/big-1-286x300.png (exists: 1, is_readable: 1 size: 21999)
+0018.041 (0) File: uploads/2022/05/אנכי-קיסר-אחד-בארץ-ישראל.pdf (exists: 1, is_readable: 1 size: 67515)
+0018.041 (0) File: uploads/2022/05/מסכת-סוכה.pdf (exists: 1, is_readable: 1 size: 17550622)
+0018.041 (0) File: uploads/2022/05/autocad-770-beis-hamikdosh-3-1024x765.png (exists: 1, is_readable: 1 size: 704371)
+0018.041 (0) File: uploads/2022/05/revit-jpg-768x662.png (exists: 1, is_readable: 1 size: 31211)
+0018.041 (0) File: uploads/2022/05/next2-revit-1024x576.png (exists: 1, is_readable: 1 size: 610855)
+0018.041 (0) File: uploads/2022/05/מסכת-מגילה.pdf (exists: 1, is_readable: 1 size: 4404330)
+0018.042 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 200 MB added on this batch (200.2 MB, 131 files batched, 1 (106) added so far); re-opening (prior size: 32594.2 KB)
+0018.103 (0) A useful amount of data was added after this amount of zip processing: 0.3 s (normalised: 0.3 s, rate: 811990.4 KB/s)
+0018.103 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=0.25251698493958, normalised_time=0.25221972038237, max_time=18.103027820587, data points known=1, max_bytes=209715200)
+0022.049 (0) PHP event: code E_WARNING: ZipArchive::close(): Write error: No space left on device (line 4194, wp-content/plugins/updraftplus/backup.php)
+0022.050 (0) The attempt to close the zip file returned an error (Unknown: ZipArchive does not return error messages). List of files we were trying to add follows (check their permissions).
+0022.051 (0) File: uploads/2022/05/next333-gold-wall-1024x454.png (exists: 1, is_readable: 1 size: 406348)
+0022.051 (0) File: uploads/2022/05/פירסום-ראשון-43.pdf (exists: 1, is_readable: 1 size: 2188354)
+0022.051 (0) File: uploads/2022/05/next333-shin-revit-768x438.png (exists: 1, is_readable: 1 size: 347516)
+0022.051 (0) File: uploads/2022/05/next333-gold-wall-300x133.png (exists: 1, is_readable: 1 size: 48558)
+0022.051 (0) File: uploads/2022/05/תורת-חיים-נצחיים-5.pdf (exists: 1, is_readable: 1 size: 31254)
+0022.051 (0) File: uploads/2022/05/update-5-4-1024x560.png (exists: 1, is_readable: 1 size: 18610)
+0022.051 (0) File: uploads/2022/05/buy-the-block-768x425.png (exists: 1, is_readable: 1 size: 747413)
+0022.051 (0) File: uploads/2022/05/next2-revit-300x169.png (exists: 1, is_readable: 1 size: 67299)
+0022.052 (0) File: uploads/2022/05/big.png (exists: 1, is_readable: 1 size: 33868)
+0022.052 (0) File: uploads/2022/05/ביטול-כל-הממשלות.pdf (exists: 1, is_readable: 1 size: 46604)
+0022.052 (0) File: uploads/2022/05/next2-revit.png (exists: 1, is_readable: 1 size: 2488093)
+0022.052 (0) File: uploads/2022/05/buying-entire-block.png (exists: 1, is_readable: 1 size: 1809910)
+0022.052 (0) File: uploads/2022/05/Ani-Hashoshan-Haelyon-768x1024-1-225x300.jpg (exists: 1, is_readable: 1 size: 15294)
+0022.052 (0) File: uploads/2022/05/מדרש-רבה-במדבר-דברים.pdf (exists: 1, is_readable: 1 size: 60028403)
+0022.052 (0) File: uploads/2022/05/revit-jpg-1-150x150.png (exists: 1, is_readable: 1 size: 3540)
+0022.052 (0) File: uploads/2022/05/תנך-ספר-נביאים.pdf (exists: 1, is_readable: 1 size: 48121417)
+0022.052 (0) File: uploads/2022/05/next2-revit-768x432.png (exists: 1, is_readable: 1 size: 358787)
+0022.052 (0) File: uploads/2022/05/progress.png (exists: 1, is_readable: 1 size: 27075)
+0022.052 (0) File: uploads/2022/05/top-view-revit-150x150.png (exists: 1, is_readable: 1 size: 7116)
+0022.052 (0) File: uploads/2022/05/big-1-150x150.png (exists: 1, is_readable: 1 size: 4789)
+0022.052 (0) File: uploads/wpforms/cache/addons.json (exists: 1, is_readable: 1 size: 78868)
+0022.052 (0) File: uploads/wpforms/cache/index.html (exists: 1, is_readable: 1 size: 0)
+0022.052 (0) File: uploads/wpforms/cache/templates.json (exists: 1, is_readable: 1 size: 174433)
+0022.052 (0) File: uploads/wpforms/cache/email-summaries.json (exists: 1, is_readable: 1 size: 21659)
+0022.052 (0) File: uploads/wpforms/.htaccess (exists: 1, is_readable: 1 size: 737)
+0022.052 (0) Creating zip file manifest (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip.list-temp.tmp)
+0022.053 (0) Successfully created zip file manifest (size: 670)
+0022.053 (0) Error: makezip_addfiles returned false
+0022.053 (0) makezip_addfiles(UpdraftPlus_ZipArchive) apparently failed (file=backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip.tmp, type=uploads, size=33396427) - retrying with PclZip
+0022.054 (0) Creating zip file manifest (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip.list-temp.tmp)
+0022.055 (0) Successfully created zip file manifest (size: 670)
+0022.055 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip.tmp: Zip file already exists, with 8 files
+0022.058 (0) Total entities for the zip file: 10 directories, 131 files (0 skipped as non-modified), 474.8 MB
+0022.059 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (200.9 MB, 131 files batched, 52 (52) added so far); re-opening (prior size: 32613.7 KB)
+0027.900 (0) PHP event: code E_NOTICE: fputs(): write of 30 bytes failed with errno=28 No space left on device (line 3052, wp-admin/includes/class-pclzip.php)
+0027.902 (0) PHP event: code E_NOTICE: fput0030.675 (0) A useful amount of data was added after this amount of zip processing: 8.8 s (normalised: 8.8 s, rate: 23312.3 KB/s)
+0030.676 (0) Zip: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip.tmp: 100 files added (on-disk size: 132416 KB)
+0030.677 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (241.3 MB, 131 files batched, 62 (114) added so far); re-opening (prior size: 132416 KB)
+0030.682 (0) [Warning] A zip error occurred - check your log for more details.
+0030.682 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature). List of files we were trying to add follows (check their permissions).
+0030.683 (0) File: uploads/2022/05/progress-150x150.png (exists: 1, is_readable: 1 size: 4299)
+0030.683 (0) File: uploads/2022/05/big-286x300.png (exists: 1, is_readable: 1 size: 21999)
+0030.683 (0) File: uploads/2022/05/770-ze-shaar-hashomoyim.png (exists: 1, is_readable: 1 size: 89241)
+0030.683 (0) File: uploads/2022/05/buying-entire-block-300x145.png (exists: 1, is_readable: 1 size: 109697)
+0030.683 (0) File: uploads/2022/05/ברוך-שאמר-והיה-העולם-11.pdf (exists: 1, is_readable: 1 size: 35010)
+0030.683 (0) File: uploads/2022/05/תיקוני-נשים-7.pdf (exists: 1, is_readable: 1 size: 27542)
+0030.683 (0) File: uploads/2022/05/GD-22.pdf (exists: 1, is_readable: 1 size: 70811)
+0030.683 (0) File: uploads/2022/05/Ani-Hashoshan-Haelyon-768x1024-1.jpg (exists: 1, is_readable: 1 size: 118901)
+0030.683 (0) File: uploads/2022/05/next333-shin-revit-300x171.png (exists: 1, is_readable: 1 size: 66976)
+0030.683 (0) File: uploads/2022/05/חצופות-או-חופות-עם-צדיק-22.pdf (exists: 1, is_readable: 1 size: 93951)
+0030.683 (0) File: uploads/2022/05/Ani-Hashoshan-Haelyon-768x1024-1-150x150.jpg (exists: 1, is_readable: 1 size: 6346)
+0030.683 (0) File: uploads/2022/05/סידור-תהלת-השם.pdf (exists: 1, is_readable: 1 size: 25698603)
+0030.683 (0) File: uploads/2022/05/ילקוט-שמעוני-חלק-ב.pdf (exists: 1, is_readable: 1 size: 39471059)
+0030.683 (0) File: uploads/2022/05/תניא.pdf (exists: 1, is_readable: 1 size: 8921219)
+0030.683 (0) File: uploads/2022/05/revit-jpg-1-300x259.png (exists: 1, is_readable: 1 size: 13987)
+0030.683 (0) File: uploads/2022/05/ערוך-לנר-סוכה.pdf (exists: 1, is_readable: 1 size: 32395899)
+0030.683 (0) File: uploads/2022/05/next2-revit-150x150.png (exists: 1, is_readable: 1 size: 29274)
+0030.683 (0) File: uploads/2022/05/next333-shin-revit-150x150.png (exists: 1, is_readable: 1 size: 29616)
+0030.683 (0) File: uploads/2022/05/buy-the-block-150x150.png (exists: 1, is_readable: 1 size: 59029)
+0030.683 (0) File: uploads/2022/05/miracle-1-150x150.png (exists: 1, is_readable: 1 size: 4506)
+0030.683 (0) File: uploads/2022/05/לא-תנסו-את-יהוה-אלהיכם-5.pdf (exists: 1, is_readable: 1 size: 45801)
+0030.683 (0) File: uploads/2022/05/progress3-150x150.png (exists: 1, is_readable: 1 size: 16262)
+0030.683 (0) File: uploads/2022/05/קיסר-מחיה-ומצמיח-ישועה-4.pdf (exists: 1, is_readable: 1 size: 52695)
+0030.683 (0) File: uploads/2022/05/top-view-revit-1-768x697.png (exists: 1, is_readable: 1 size: 32696)
+0030.683 (0) File: uploads/2022/05/next333-shin-revit-1024x585.png (exists: 1, is_readable: 1 size: 569888)
+0030.683 (0) File: uploads/2022/05/miracle-1-300x288.png (exists: 1, is_readable: 1 size: 21979)
+0030.683 (0) File: uploads/2022/05/autocad-770-beis-hamikdosh-3-768x574.png (exists: 1, is_readable: 1 size: 441818)
+0030.683 (0) File: uploads/2022/05/big-150x150.png (exists: 1, is_readable: 1 size: 4789)
+0030.683 (0) File: uploads/2022/05/next333-gold-wall-1536x682.png (exists: 1, is_readable: 1 size: 810107)
+0030.683 (0) File: uploads/2022/05/progress-1024x533.png (exists: 1, is_readable: 1 size: 21946)
+0030.683 (0) File: uploads/2022/05/update-5-4.png (exists: 1, is_readable: 1 size: 28227)
+0030.683 (0) File: uploads/2022/05/buy-the-block-1024x566.png (exists: 1, is_readable: 1 size: 1231018)
+0030.683 (0) File: uploads/2022/05/buying-entire-block-150x150.png (exists: 1, is_readable: 1 size: 57940)
+0030.683 (0) File: uploads/2022/05/revit-jpg.png (exists: 1, is_readable: 1 size: 29688)
+0030.683 (0) File: uploads/2022/05/top-view-revit-1-150x150.png (exists: 1, is_readable: 1 size: 7116)
+0030.683 (0) File: uploads/2022/05/אנכי-קיסר-אחד-בארץ-ישראל-4.pdf (exists: 1, is_readable: 1 size: 84994)
+0030.683 (0) File: uploads/2022/05/רמבם-ספר-המדע.pdf (exists: 1, is_readable: 1 size: 2519998)
+0030.683 (0) File: uploads/2022/05/miracle-300x288.png (exists: 1, is_readable: 1 size: 21979)
+0030.683 (0) File: uploads/2022/05/progress-300x156.png (exists: 1, is_readable: 1 size: 6090)
+0030.683 (0) File: uploads/2022/05/big-1-286x300.png (exists: 1, is_readable: 1 size: 21999)
+0030.683 (0) File: uploads/2022/05/אנכי-קיסר-אחד-בארץ-ישראל.pdf (exists: 1, is_readable: 1 size: 67515)
+0030.683 (0) File: uploads/2022/05/מסכת-סוכה.pdf (exists: 1, is_readable: 1 size: 17550622)
+0030.683 (0) File: uploads/2022/05/autocad-770-beis-hamikdosh-3-1024x765.png (exists: 1, is_readable: 1 size: 704371)
+0030.683 (0) File: uploads/2022/05/revit-jpg-768x662.png (exists: 1, is_readable: 1 size: 31211)
+0030.683 (0) File: uploads/2022/05/next2-revit-1024x576.png (exists: 1, is_readable: 1 size: 610855)
+0030.683 (0) File: uploads/2022/05/מסכת-מגילה.pdf (exists: 1, is_readable: 1 size: 4404330)
+0030.683 (0) File: uploads/2022/05/next333-gold-wall-1024x454.png (exists: 1, is_readable: 1 size: 406348)
+0030.683 (0) File: uploads/2022/05/פירסום-ראשון-43.pdf (exists: 1, is_readable: 1 size: 2188354)
+0030.683 (0) File: uploads/2022/05/next333-shin-revit-768x438.png (exists: 1, is_readable: 1 size: 347516)
+0030.683 (0) File: uploads/2022/05/next333-gold-wall-300x133.png (exists: 1, is_readable: 1 size: 48558)
+0030.683 (0) File: uploads/2022/05/תורת-חיים-נצחיים-5.pdf (exists: 1, is_readable: 1 size: 31254)
+0030.683 (0) File: uploads/2022/05/update-5-4-1024x560.png (exists: 1, is_readable: 1 size: 18610)
+0030.683 (0) File: uploads/2022/05/buy-the-block-768x425.png (exists: 1, is_readable: 1 size: 747413)
+0030.683 (0) File: uploads/2022/05/next2-revit-300x169.png (exists: 1, is_readable: 1 size: 67299)
+0030.683 (0) File: uploads/2022/05/big.png (exists: 1, is_readable: 1 size: 33868)
+0030.683 (0) File: uploads/2022/05/ביטול-כל-הממשלות.pdf (exists: 1, is_readable: 1 size: 46604)
+0030.683 (0) File: uploads/2022/05/next2-revit.png (exists: 1, is_readable: 1 size: 2488093)
+0030.683 (0) File: uploads/2022/05/buying-entire-block.png (exists: 1, is_readable: 1 size: 1809910)
+0030.683 (0) File: uploads/2022/05/Ani-Hashoshan-Haelyon-768x1024-1-225x300.jpg (exists: 1, is_readable: 1 size: 15294)
+0030.683 (0) File: uploads/2022/05/מדרש-רבה-במדבר-דברים.pdf (exists: 1, is_readable: 1 size: 60028403)
+0030.683 (0) File: uploads/2022/05/revit-jpg-1-150x150.png (exists: 1, is_readable: 1 size: 3540)
+0030.683 (0) File: uploads/2022/05/תנך-ספר-נביאים.pdf (exists: 1, is_readable: 1 size: 48121417)
+0030.684 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (241.7 MB, 131 files batched, 1 (115) added so far); re-opening (prior size: 132416 KB)
+0030.688 (0) [Warning] A zip error occurred - check your log for more details.
+0030.689 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature). List of files we were trying to add follows (check their permissions).
+0030.689 (0) File: uploads/2022/05/next2-revit-768x432.png (exists: 1, is_readable: 1 size: 358787)
+0030.690 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (241.7 MB, 131 files batched, 1 (116) added so far); re-opening (prior size: 132416 KB)
+0030.694 (0) [Warning] A zip error occurred - check your log for more details.
+0030.694 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature). List of files we were trying to add follows (check their permissions).
+0030.695 (0) File: uploads/2022/05/progress.png (exists: 1, is_readable: 1 size: 27075)
+0030.695 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (241.7 MB, 131 files batched, 1 (117) added so far); re-opening (prior size: 132416 KB)
+0030.700 (0) [Warning] A zip error occurred - check your log for more details.
+0030.700 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature). List of files we were trying to add follows (check their permissions).
+0030.701 (0) File: uploads/2022/05/top-view-revit-150x150.png (exists: 1, is_readable: 1 size: 7116)
+0030.701 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (241.7 MB, 131 files batched, 1 (118) added so far); re-opening (prior size: 132416 KB)
+0030.707 (0) [Warning] A zip error occurred - check your log for more details.
+0030.708 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature). List of files we were trying to add follows (check their permissions).
+0030.709 (0) File: uploads/2022/05/big-1-150x150.png (exists: 1, is_readable: 1 size: 4789)
+0030.709 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (241.8 MB, 131 files batched, 1 (119) added so far); re-opening (prior size: 132416 KB)
+0030.715 (0) [Warning] A zip error occurred - check your log for more details.
+0030.716 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature). List of files we were trying to add follows (check their permissions).
+0030.717 (0) File: uploads/wpforms/cache/addons.json (exists: 1, is_readable: 1 size: 78868)
+0030.717 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (241.8 MB, 131 files batched, 1 (120) added so far); re-opening (prior size: 132416 KB)
+0030.723 (0) [Warning] A zip error occurred - check your log for more details.
+0030.724 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature). List of files we were trying to add follows (check their permissions).
+0030.725 (0) File: uploads/wpforms/cache/index.html (exists: 1, is_readable: 1 size: 0)
+0030.725 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (242 MB, 131 files batched, 1 (121) added so far); re-opening (prior size: 132416 KB)
+0030.731 (0) [Warning] A zip error occurred - check your log for more details.
+0030.732 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature). List of files we were trying to add follows (check their permissions).
+0030.733 (0) File: uploads/wpforms/cache/templates.json (exists: 1, is_readable: 1 size: 174433)
+0030.733 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (242 MB, 131 files batched, 1 (122) added so far); re-opening (prior size: 132416 KB)
+0030.739 (0) [Warning] A zip error occurred - check your log for more details.
+0030.740 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature). List of files we were trying to add follows (check their permissions).
+0030.740 (0) File: uploads/wpforms/cache/email-summaries.json (exists: 1, is_readable: 1 size: 21659)
+0030.741 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (242 MB, 131 files batched, 1 (123) added so far); re-opening (prior size: 132416 KB)
+0030.747 (0) [Warning] A zip error occurred - check your log for more details.
+0030.748 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_BAD_FORMAT (-10) : Unable to find End of Central Dir Record signature). List of files we were trying to add follows (check their permissions).
+0030.748 (0) File: uploads/wpforms/.htaccess (exists: 1, is_readable: 1 size: 737)
+0030.749 (0) Error: makezip_addfiles returned false
+0031.827 (0) Created uploads zip (0) - 132416 KB in 22.7 s (5839.7 KB/s) (sha1: a8793dac93711d0f410fe8eec7edd0438f52db0b, sha256: 87a8579df9b98bfa5b47946085a71acdefaff4d87fe7e30e154ce0465ae65ce5)
+0031.828 (0) Beginning backup of other directories found in the content directory (index: 0)
+0031.829 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0031.829 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0031.829 (0) finding files: updraft: skipping: this is the updraft directory
+0031.830 (0) finding files: wflogs: adding to list (1)
+0031.830 (0) finding files: cache: skipping: excluded by options
+0031.831 (0) finding files: plugins: skipping: this is the plugins directory
+0031.831 (0) finding files: mu-plugins: adding to list (2)
+0031.831 (0) finding files: index.php: adding to list (3)
+0031.832 (0) finding files: themes: skipping: this is the themes directory
+0031.832 (0) finding files: upgrade: skipping: excluded by options
+0031.832 (0) finding files: uploads: skipping: this is the uploads directory
+0031.834 (0) Total entities for the zip file: 2 directories, 44 files (0 skipped as non-modified), 7.1 MB
+0035.041 (0) Creating zip file manifest (backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip.list-temp.tmp)
+0035.042 (0) Successfully created zip file manifest (size: 1420)
+0035.072 (0) Created others zip (0) - 3415.6 KB in 3.2 s (1054.4 KB/s) (sha1: efeca0d583cfd47fd92b802e485c641c82ccda48, sha256: fe71c852b808c0dea6023408a659873f548584a50c342268a414a5667ce0fc04)
+0035.075 (0) Saving backup status to database (elements: 8)
+0035.079 (0) Beginning creation of database dump (WordPress DB)
+0035.080 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0035.087 (0) Table wp_options: Total expected rows (via COUNT): 664
+0035.149 (0) Table wp_options: Rows added in this batch (next record: 37412): 664 (uncompressed bytes in this segment=1593353) in 0.06 seconds
+0035.152 (0) Table wp_options: finishing file(s) (2, 381.7 KB)
+0035.154 (0) Table wp_site: Total expected rows (via COUNT): 1
+0035.155 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.156 (0) Table wp_site: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=632) in 0.00 seconds
+0035.158 (0) Table wp_site: finishing file(s) (2, 0.4 KB)
+0035.160 (0) Table wp_blogs: Total expected rows (via COUNT): 2
+0035.160 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.161 (0) Table wp_blogs: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=1271) in 0.00 seconds
+0035.163 (0) Table wp_blogs: finishing file(s) (2, 0.6 KB)
+0035.164 (0) Table wp_users: Total expected rows (via COUNT): 2
+0035.165 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.165 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1644) in 0.00 seconds
+0035.167 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0035.169 (0) Table wp_usermeta: Total expected rows (via COUNT): 66
+0035.170 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.171 (0) Table wp_usermeta: Rows added in this batch (next record: 95): 66 (uncompressed bytes in this segment=10288) in 0.00 seconds
+0035.173 (0) Table wp_usermeta: finishing file(s) (2, 3.8 KB)
+0035.175 (0) Table wp_blogmeta: Total expected rows (via COUNT): 0
+0035.177 (0) Table wp_blogmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=649) in 0.00 seconds
+0035.179 (0) Table wp_blogmeta: finishing file(s) (2, 0.4 KB)
+0035.181 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0035.182 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0035.184 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0035.186 (0) Table wp_comments: Total expected rows (via COUNT): 2
+0035.186 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.187 (0) Table wp_comments: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=2508) in 0.00 seconds
+0035.189 (0) Table wp_comments: finishing file(s) (2, 1 KB)
+0035.190 (0) Table wp_links: Total expected rows (via COUNT): 0
+0035.192 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0035.193 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0035.196 (0) Table wp_postmeta: Total expected rows (via COUNT): 182
+0035.196 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.198 (0) Table wp_postmeta: Rows added in this batch (next record: 644): 182 (uncompressed bytes in this segment=38096) in 0.00 seconds
+0035.200 (0) Table wp_postmeta: finishing file(s) (2, 5.4 KB)
+0035.204 (0) Table wp_posts: Total expected rows (via COUNT): 535
+0035.252 (0) Table wp_posts: Rows added in this batch (next record: 746): 535 (uncompressed bytes in this segment=4163142) in 0.05 seconds
+0035.255 (0) Table wp_posts: finishing file(s) (2, 71 KB)
+0035.257 (0) Table wp_registration_log: Total expected rows (via COUNT): 2
+0035.258 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.259 (0) Table wp_registration_log: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=910) in 0.00 seconds
+0035.260 (0) Table wp_registration_log: finishing file(s) (2, 0.5 KB)
+0035.264 (0) Table wp_signups: Total expected rows (via COUNT): 0
+0035.265 (0) Table wp_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1254) in 0.00 seconds
+0035.267 (0) Table wp_signups: finishing file(s) (2, 0.5 KB)
+0035.270 (0) Table wp_sitemeta: Total expected rows (via COUNT): 114
+0035.270 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.273 (0) Table wp_sitemeta: Rows added in this batch (next record: 660): 104 (uncompressed bytes in this segment=61110) in 0.00 seconds
+0035.275 (0) Table wp_sitemeta: finishing file(s) (2, 11.9 KB)
+0035.277 (0) Table wp_term_relationships: Total expected rows (approximate): 9
+0035.278 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=806) in 0.00 seconds
+0035.280 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0035.283 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0035.283 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.284 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1045) in 0.00 seconds
+0035.286 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0035.289 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0035.289 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0035.292 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0035.294 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0035.294 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.295 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=841) in 0.00 seconds
+0035.297 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0035.300 (0) Table wp_2_yoast_indexable: Total expected rows (via COUNT): 1
+0035.300 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.301 (0) Table wp_2_yoast_indexable: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=4368) in 0.00 seconds
+0035.303 (0) Table wp_2_yoast_indexable: finishing file(s) (2, 1.2 KB)
+0035.305 (0) Table wp_2_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0035.306 (0) Table wp_2_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=829) in 0.00 seconds
+0035.307 (0) Table wp_2_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0035.309 (0) Table wp_2_yoast_migrations: Total expected rows (via COUNT): 23
+0035.309 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.310 (0) Table wp_2_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1258) in 0.00 seconds
+0035.312 (0) Table wp_2_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0035.314 (0) Table wp_2_yoast_primary_term: Total expected rows (via COUNT): 0
+0035.315 (0) Table wp_2_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=870) in 0.00 seconds
+0035.316 (0) Table wp_2_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0035.318 (0) Table wp_2_yoast_seo_links: Total expected rows (via COUNT): 0
+0035.319 (0) Table wp_2_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=993) in 0.00 seconds
+0035.320 (0) Table wp_2_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0035.322 (0) Table wp_3_commentmeta: Total expected rows (via COUNT): 0
+0035.323 (0) Table wp_3_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.00 seconds
+0035.325 (0) Table wp_3_commentmeta: finishing file(s) (2, 0.4 KB)
+0035.327 (0) Table wp_3_comments: Total expected rows (via COUNT): 1
+0035.327 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.328 (0) Table wp_3_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2151) in 0.00 seconds
+0035.330 (0) Table wp_3_comments: finishing file(s) (2, 0.8 KB)
+0035.331 (0) Table wp_3_links: Total expected rows (via COUNT): 0
+0035.332 (0) Table wp_3_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1322) in 0.00 seconds
+0035.334 (0) Table wp_3_links: finishing file(s) (2, 0.5 KB)
+0035.337 (0) Table wp_3_options: Total expected rows (via COUNT): 158
+0035.337 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.388 (0) Table wp_3_options: Rows added in this batch (next record: 208): 158 (uncompressed bytes in this segment=1338801) in 0.05 seconds
+0035.392 (0) Table wp_3_options: finishing file(s) (2, 333.2 KB)
+0035.395 (0) Table wp_3_postmeta: Total expected rows (via COUNT): 1
+0035.395 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.396 (0) Table wp_3_postmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=763) in 0.00 seconds
+0035.398 (0) Table wp_3_postmeta: finishing file(s) (2, 0.4 KB)
+0035.400 (0) Table wp_3_posts: Total expected rows (via COUNT): 5
+0035.401 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.402 (0) Table wp_3_posts: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=4698) in 0.00 seconds
+0035.404 (0) Table wp_3_posts: finishing file(s) (2, 1.5 KB)
+0035.405 (0) Table wp_3_term_relationships: Total expected rows (approximate): 0
+0035.406 (0) Table wp_3_term_relationships: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=716) in 0.00 seconds
+0035.408 (0) Table wp_3_term_relationships: finishing file(s) (2, 0.4 KB)
+0035.410 (0) Table wp_3_term_taxonomy: Total expected rows (via COUNT): 1
+0035.410 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.411 (0) Table wp_3_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=940) in 0.00 seconds
+0035.413 (0) Table wp_3_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0035.415 (0) Table wp_3_termmeta: Total expected rows (via COUNT): 0
+0035.416 (0) Table wp_3_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=670) in 0.00 seconds
+0035.418 (0) Table wp_3_termmeta: finishing file(s) (2, 0.4 KB)
+0035.420 (0) Table wp_3_terms: Total expected rows (via COUNT): 1
+0035.421 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.422 (0) Table wp_3_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=750) in 0.00 seconds
+0035.424 (0) Table wp_3_terms: finishing file(s) (2, 0.4 KB)
+0035.427 (0) Table wp_3_yoast_indexable: Total expected rows (via COUNT): 8
+0035.427 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.428 (0) Table wp_3_yoast_indexable: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=7059) in 0.00 seconds
+0035.430 (0) Table wp_3_yoast_indexable: finishing file(s) (2, 1.5 KB)
+0035.432 (0) Table wp_3_yoast_indexable_hierarchy: Total expected rows (approximate): 4
+0035.433 (0) Table wp_3_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=874) in 0.00 seconds
+0035.435 (0) Table wp_3_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0035.437 (0) Table wp_3_yoast_migrations: Total expected rows (via COUNT): 23
+0035.437 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.439 (0) Table wp_3_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1258) in 0.00 seconds
+0035.440 (0) Table wp_3_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0035.442 (0) Table wp_3_yoast_primary_term: Total expected rows (via COUNT): 0
+0035.443 (0) Table wp_3_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=870) in 0.00 seconds
+0035.444 (0) Table wp_3_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0035.446 (0) Table wp_3_yoast_seo_links: Total expected rows (via COUNT): 2
+0035.446 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.447 (0) Table wp_3_yoast_seo_links: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1242) in 0.00 seconds
+0035.449 (0) Table wp_3_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0035.452 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 60
+0035.452 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.454 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 527): 60 (uncompressed bytes in this segment=22777) in 0.00 seconds
+0035.456 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.8 KB)
+0035.458 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0035.459 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=615) in 0.00 seconds
+0035.460 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0035.462 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0035.463 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.464 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=722) in 0.00 seconds
+0035.466 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0035.467 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 172
+0035.468 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.470 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 858): 172 (uncompressed bytes in this segment=15490) in 0.00 seconds
+0035.471 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 2.1 KB)
+0035.473 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 8
+0035.474 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.476 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 26): 8 (uncompressed bytes in this segment=72556) in 0.00 seconds
+0035.479 (0) Table wp_aioseo_cache: finishing file(s) (2, 13.6 KB)
+0035.481 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 1
+0035.482 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.482 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2237) in 0.00 seconds
+0035.484 (0) Table wp_aioseo_notifications: finishing file(s) (2, 0.8 KB)
+0035.487 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 3
+0035.487 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.488 (0) Table wp_aioseo_posts: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=6195) in 0.00 seconds
+0035.490 (0) Table wp_aioseo_posts: finishing file(s) (2, 1.2 KB)
+0035.492 (0) Table wp_dms_mapping_values: Total expected rows (approximate): 0
+0035.493 (0) Table wp_dms_mapping_values: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=752) in 0.00 seconds
+0035.495 (0) Table wp_dms_mapping_values: finishing file(s) (2, 0.4 KB)
+0035.496 (0) Table wp_dms_mappings: Total expected rows (via COUNT): 0
+0035.497 (0) Table wp_dms_mappings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=732) in 0.00 seconds
+0035.498 (0) Table wp_dms_mappings: finishing file(s) (2, 0.4 KB)
+0035.500 (0) Table wp_domain_mapping: Total expected rows (via COUNT): 2
+0035.501 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.502 (0) Table wp_domain_mapping: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=681) in 0.00 seconds
+0035.504 (0) Table wp_domain_mapping: finishing file(s) (2, 0.4 KB)
+0035.505 (0) Table wp_pronamic_domain_posts: Total expected rows (approximate): 0
+0035.506 (0) Table wp_pronamic_domain_posts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=563) in 0.00 seconds
+0035.508 (0) Table wp_pronamic_domain_posts: finishing file(s) (2, 0.3 KB)
+0035.510 (0) Table wp_wfblockediplog: Total expected rows (approximate): 952
+0035.514 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 1000): 956 (uncompressed bytes in this segment=61439) in 0.00 seconds
+0035.516 (0) Table wp_wfblockediplog: finishing file(s) (2, 7.5 KB)
+0035.518 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0035.519 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=811) in 0.00 seconds
+0035.520 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0035.521 (0) Table wp_wfconfig: Total expected rows (approximate): 262
+0035.559 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 264 (uncompressed bytes in this segment=823821) in 0.04 seconds
+0035.562 (0) Table wp_wfconfig: finishing file(s) (2, 426.6 KB)
+0035.564 (0) Table wp_wfcrawlers: Total expected rows (approximate): 47
+0035.565 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 1000): 47 (uncompressed bytes in this segment=6950) in 0.00 seconds
+0035.566 (0) Table wp_wfcrawlers: finishing file(s) (2, 1 KB)
+0035.568 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0035.568 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.00 seconds
+0035.570 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0035.574 (0) Table wp_wffilemods: Total expected rows (approximate): 11869
+0035.767 (0) Table wp_wffilemods: Rows added in this batch (next record: 12000): 10911 (uncompressed bytes in this segment=4074780) in 0.19 seconds
+0035.769 (0) Table wp_wffilemods: finishing file(s) (2, 1156.7 KB)
+0035.771 (0) Table wp_wfhits: Total expected rows (approximate): 1741
+0035.795 (0) Table wp_wfhits: Rows added in this batch (next record: 5534): 1765 (uncompressed bytes in this segment=753662) in 0.02 seconds
+0035.797 (0) Table wp_wfhits: finishing file(s) (2, 46.1 KB)
+0035.799 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0035.800 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=476) in 0.00 seconds
+0035.801 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0035.804 (0) Table wp_wfissues: Total expected rows (via COUNT): 0
+0035.804 (0) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=804) in 0.00 seconds
+0035.806 (0) Table wp_wfissues: finishing file(s) (2, 0.4 KB)
+0035.807 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 10543
+0035.864 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: 10911): 10911 (uncompressed bytes in this segment=2055652) in 0.06 seconds
+0035.866 (0) Table wp_wfknownfilelist: finishing file(s) (2, 151.4 KB)
+0035.868 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0035.868 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0035.870 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0035.872 (0) Table wp_wflocs: Total expected rows (approximate): 28
+0035.873 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 28 (uncompressed bytes in this segment=4073) in 0.00 seconds
+0035.874 (0) Table wp_wflocs: finishing file(s) (2, 1.4 KB)
+0035.876 (0) Table wp_wflogins: Total expected rows (approximate): 1931
+0035.892 (0) Table wp_wflogins: Rows added in this batch (next record: 1962): 1962 (uncompressed bytes in this segment=457166) in 0.02 seconds
+0035.895 (0) Table wp_wflogins: finishing file(s) (2, 29.4 KB)
+0035.897 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0035.897 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0035.899 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0035.900 (0) Table wp_wfls_settings: Total expected rows (approximate): 24
+0035.901 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=1809) in 0.00 seconds
+0035.903 (0) Table wp_wfls_settings: finishing file(s) (2, 0.9 KB)
+0035.904 (0) Table wp_wfnotifications: Total expected rows (approximate): 17
+0035.905 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 17 (uncompressed bytes in this segment=4254) in 0.00 seconds
+0035.907 (0) Table wp_wfnotifications: finishing file(s) (2, 1.1 KB)
+0035.909 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0035.909 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.00 seconds
+0035.911 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0035.912 (0) Table wp_wfreversecache: Total expected rows (approximate): 52
+0035.913 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 52 (uncompressed bytes in this segment=4822) in 0.00 seconds
+0035.914 (0) Table wp_wfreversecache: finishing file(s) (2, 1.3 KB)
+0035.916 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0035.917 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.00 seconds
+0035.919 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0035.921 (0) Table wp_wfstatus: Total expected rows (via COUNT): 946
+0035.925 (0) Table wp_wfstatus: Rows added in this batch (next record: 8862): 946 (uncompressed bytes in this segment=91551) in 0.01 seconds
+0035.928 (0) Table wp_wfstatus: finishing file(s) (2, 15.4 KB)
+0035.929 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0035.930 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.00 seconds
+0035.932 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0035.934 (0) Table wp_wp_phpmyadmin_extension__errors_log: Total expected rows (via COUNT): 0
+0035.935 (0) Table wp_wp_phpmyadmin_extension__errors_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.00 seconds
+0035.936 (0) Table wp_wp_phpmyadmin_extension__errors_log: finishing file(s) (2, 0.4 KB)
+0035.939 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 9
+0035.939 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.940 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1350) in 0.00 seconds
+0035.942 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0035.945 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 75
+0035.945 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.949 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 263): 75 (uncompressed bytes in this segment=46969) in 0.01 seconds
+0035.951 (0) Table wp_yoast_indexable: finishing file(s) (2, 7.7 KB)
+0035.953 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 66
+0035.955 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 66 (uncompressed bytes in this segment=1877) in 0.00 seconds
+0035.957 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0035.958 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 23
+0035.959 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.960 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1240) in 0.00 seconds
+0035.962 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0035.964 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0035.964 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0035.966 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0035.968 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 53
+0035.969 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.970 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 255): 53 (uncompressed bytes in this segment=8886) in 0.00 seconds
+0035.972 (0) Table wp_yoast_seo_links: finishing file(s) (2, 1.9 KB)
+0035.973 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_options.table.tmpr37413.gz (1/77/fopen): adding to final database dump
+0035.976 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_options.table.gz (2/77/fopen): adding to final database dump
+0035.977 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_site.table.tmpr2.gz (3/77/fopen): adding to final database dump
+0035.977 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_site.table.gz (4/77/fopen): adding to final database dump
+0035.978 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_blogs.table.tmpr4.gz (5/77/fopen): adding to final database dump
+0035.978 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_blogs.table.gz (6/77/fopen): adding to final database dump
+0035.979 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_users.table.tmpr3.gz (7/77/fopen): adding to final database dump
+0035.979 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_users.table.gz (8/77/fopen): adding to final database dump
+0035.979 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_usermeta.table.tmpr96.gz (9/77/fopen): adding to final database dump
+0035.980 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_usermeta.table.gz (10/77/fopen): adding to final database dump
+0035.980 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_blogmeta.table.tmpr0.gz (11/77/fopen): adding to final database dump
+0035.980 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_blogmeta.table.gz (12/77/fopen): adding to final database dump
+0035.981 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_commentmeta.table.tmpr0.gz (13/77/fopen): adding to final database dump
+0035.981 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_commentmeta.table.gz (14/77/fopen): adding to final database dump
+0035.981 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_comments.table.tmpr5.gz (15/77/fopen): adding to final database dump
+0035.982 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_comments.table.gz (16/77/fopen): adding to final database dump
+0035.982 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_links.table.tmpr0.gz (17/77/fopen): adding to final database dump
+0035.983 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_links.table.gz (18/77/fopen): adding to final database dump
+0035.983 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_postmeta.table.tmpr645.gz (19/77/fopen): adding to final database dump
+0035.984 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_postmeta.table.gz (20/77/fopen): adding to final database dump
+0035.984 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_posts.table.tmpr747.gz (21/77/fopen): adding to final database dump
+0035.985 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_posts.table.gz (22/77/fopen): adding to final database dump
+0035.985 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_registration_log.table.tmpr3.gz (23/77/fopen): adding to final database dump
+0035.985 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_registration_log.table.gz (24/77/fopen): adding to final database dump
+0035.986 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_signups.table.tmpr0.gz (25/77/fopen): adding to final database dump
+0035.986 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_signups.table.gz (26/77/fopen): adding to final database dump
+0035.987 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_sitemeta.table.tmpr661.gz (27/77/fopen): adding to final database dump
+0035.987 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_sitemeta.table.gz (28/77/fopen): adding to final database dump
+0035.988 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_term_relationships.table.tmpr100001.gz (29/77/fopen): adding to final database dump
+0035.988 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_term_relationships.table.gz (30/77/fopen): adding to final database dump
+0035.988 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_term_taxonomy.table.tmpr5.gz (31/77/fopen): adding to final database dump
+0035.989 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_term_taxonomy.table.gz (32/77/fopen): adding to final database dump
+0035.989 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_termmeta.table.tmpr0.gz (33/77/fopen): adding to final database dump
+0035.989 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_termmeta.table.gz (34/77/fopen): adding to final database dump
+0035.989 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_terms.table.tmpr5.gz (35/77/fopen): adding to final database dump
+0035.990 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_terms.table.gz (36/77/fopen): adding to final database dump
+0035.990 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_2_yoast_indexable.table.tmpr2.gz (37/77/fopen): adding to final database dump
+0035.991 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_2_yoast_indexable.table.gz (38/77/fopen): adding to final database dump
+0035.991 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_2_yoast_indexable_hierarchy.table.tmpr1001.gz (39/77/fopen): adding to final database dump
+0035.991 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_2_yoast_indexable_hierarchy.table.gz (40/77/fopen): adding to final database dump
+0035.992 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_2_yoast_migrations.table.tmpr24.gz (41/77/fopen): adding to final database dump
+0035.992 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_2_yoast_migrations.table.gz (42/77/fopen): adding to final database dump
+0035.993 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_2_yoast_primary_term.table.tmpr0.gz (43/77/fopen): adding to final database dump
+0035.994 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_2_yoast_primary_term.table.gz (44/77/fopen): adding to final database dump
+0035.994 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_2_yoast_seo_links.table.tmpr0.gz (45/77/fopen): adding to final database dump
+0035.995 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_2_yoast_seo_links.table.gz (46/77/fopen): adding to final database dump
+0035.995 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_commentmeta.table.tmpr0.gz (47/77/fopen): adding to final database dump
+0035.995 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_commentmeta.table.gz (48/77/fopen): adding to final database dump
+0035.996 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_comments.table.tmpr2.gz (49/77/fopen): adding to final database dump
+0035.996 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_comments.table.gz (50/77/fopen): adding to final database dump
+0035.996 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_links.table.tmpr0.gz (51/77/fopen): adding to final database dump
+0035.997 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_links.table.gz (52/77/fopen): adding to final database dump
+0035.997 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_options.table.tmpr209.gz (53/77/fopen): adding to final database dump
+0036.000 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_options.table.gz (54/77/fopen): adding to final database dump
+0036.001 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_postmeta.table.tmpr2.gz (55/77/fopen): adding to final database dump
+0036.001 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_postmeta.table.gz (56/77/fopen): adding to final database dump
+0036.001 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_posts.table.tmpr6.gz (57/77/fopen): adding to final database dump
+0036.002 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_posts.table.gz (58/77/fopen): adding to final database dump
+0036.002 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_term_relationships.table.tmpr1001.gz (59/77/fopen): adding to final database dump
+0036.003 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_term_relationships.table.gz (60/77/fopen): adding to final database dump
+0036.003 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_term_taxonomy.table.tmpr2.gz (61/77/fopen): adding to final database dump
+0036.003 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_term_taxonomy.table.gz (62/77/fopen): adding to final database dump
+0036.004 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_termmeta.table.tmpr0.gz (63/77/fopen): adding to final database dump
+0036.004 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_termmeta.table.gz (64/77/fopen): adding to final database dump
+0036.005 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_terms.table.tmpr2.gz (65/77/fopen): adding to final database dump
+0036.005 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_terms.table.gz (66/77/fopen): adding to final database dump
+0036.005 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_yoast_indexable.table.tmpr9.gz (67/77/fopen): adding to final database dump
+0036.006 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_yoast_indexable.table.gz (68/77/fopen): adding to final database dump
+0036.006 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_yoast_indexable_hierarchy.table.tmpr1001.gz (69/77/fopen): adding to final database dump
+0036.007 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_yoast_indexable_hierarchy.table.gz (70/77/fopen): adding to final database dump
+0036.007 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_yoast_migrations.table.tmpr24.gz (71/77/fopen): adding to final database dump
+0036.007 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_yoast_migrations.table.gz (72/77/fopen): adding to final database dump
+0036.008 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_yoast_primary_term.table.tmpr0.gz (73/77/fopen): adding to final database dump
+0036.008 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_yoast_primary_term.table.gz (74/77/fopen): adding to final database dump
+0036.008 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_yoast_seo_links.table.tmpr3.gz (75/77/fopen): adding to final database dump
+0036.008 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_3_yoast_seo_links.table.gz (76/77/fopen): adding to final database dump
+0036.009 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_actionscheduler_actions.table.tmpr528.gz (77/77/fopen): adding to final database dump
+0036.009 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_actionscheduler_actions.table.gz (78/77/fopen): adding to final database dump
+0036.009 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_actionscheduler_claims.table.tmpr0.gz (79/77/fopen): adding to final database dump
+0036.010 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_actionscheduler_claims.table.gz (80/77/fopen): adding to final database dump
+0036.010 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_actionscheduler_groups.table.tmpr4.gz (81/77/fopen): adding to final database dump
+0036.011 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_actionscheduler_groups.table.gz (82/77/fopen): adding to final database dump
+0036.011 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_actionscheduler_logs.table.tmpr859.gz (83/77/fopen): adding to final database dump
+0036.012 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_actionscheduler_logs.table.gz (84/77/fopen): adding to final database dump
+0036.012 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_aioseo_cache.table.tmpr27.gz (85/77/fopen): adding to final database dump
+0036.012 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_aioseo_cache.table.gz (86/77/fopen): adding to final database dump
+0036.013 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_aioseo_notifications.table.tmpr2.gz (87/77/fopen): adding to final database dump
+0036.013 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_aioseo_notifications.table.gz (88/77/fopen): adding to final database dump
+0036.013 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_aioseo_posts.table.tmpr4.gz (89/77/fopen): adding to final database dump
+0036.014 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_aioseo_posts.table.gz (90/77/fopen): adding to final database dump
+0036.014 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_dms_mapping_values.table.tmpr1.gz (91/77/fopen): adding to final database dump
+0036.014 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_dms_mapping_values.table.gz (92/77/fopen): adding to final database dump
+0036.015 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_dms_mappings.table.tmpr0.gz (93/77/fopen): adding to final database dump
+0036.015 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_dms_mappings.table.gz (94/77/fopen): adding to final database dump
+0036.015 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_domain_mapping.table.tmpr3.gz (95/77/fopen): adding to final database dump
+0036.016 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_domain_mapping.table.gz (96/77/fopen): adding to final database dump
+0036.016 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_pronamic_domain_posts.table.tmpr1.gz (97/77/fopen): adding to final database dump
+0036.016 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_pronamic_domain_posts.table.gz (98/77/fopen): adding to final database dump
+0036.017 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfblockediplog.table.tmpr1001.gz (99/77/fopen): adding to final database dump
+0036.018 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfblockediplog.table.gz (100/77/fopen): adding to final database dump
+0036.018 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfblocks7.table.tmpr0.gz (101/77/fopen): adding to final database dump
+0036.018 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfblocks7.table.gz (102/77/fopen): adding to final database dump
+0036.019 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfconfig.table.tmpr1001.gz (103/77/fopen): adding to final database dump
+0036.023 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfconfig.table.gz (104/77/fopen): adding to final database dump
+0036.023 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfcrawlers.table.tmpr1001.gz (105/77/fopen): adding to final database dump
+0036.024 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfcrawlers.table.gz (106/77/fopen): adding to final database dump
+0036.024 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wffilechanges.table.tmpr1.gz (107/77/fopen): adding to final database dump
+0036.025 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wffilechanges.table.gz (108/77/fopen): adding to final database dump
+0036.025 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wffilemods.table.tmpr12001.gz (109/77/fopen): adding to final database dump
+0036.036 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wffilemods.table.gz (110/77/fopen): adding to final database dump
+0036.037 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfhits.table.tmpr5535.gz (111/77/fopen): adding to final database dump
+0036.038 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfhits.table.gz (112/77/fopen): adding to final database dump
+0036.039 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfhoover.table.tmpr0.gz (113/77/fopen): adding to final database dump
+0036.039 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfhoover.table.gz (114/77/fopen): adding to final database dump
+0036.040 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfissues.table.tmpr0.gz (115/77/fopen): adding to final database dump
+0036.040 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfissues.table.gz (116/77/fopen): adding to final database dump
+0036.040 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfknownfilelist.table.tmpr10912.gz (117/77/fopen): adding to final database dump
+0036.042 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfknownfilelist.table.gz (118/77/fopen): adding to final database dump
+0036.044 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wflivetraffichuman.table.tmpr1.gz (119/77/fopen): adding to final database dump
+0036.045 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wflivetraffichuman.table.gz (120/77/fopen): adding to final database dump
+0036.045 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wflocs.table.tmpr1001.gz (121/77/fopen): adding to final database dump
+0036.045 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wflocs.table.gz (122/77/fopen): adding to final database dump
+0036.046 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wflogins.table.tmpr1963.gz (123/77/fopen): adding to final database dump
+0036.047 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wflogins.table.gz (124/77/fopen): adding to final database dump
+0036.047 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (125/77/fopen): adding to final database dump
+0036.048 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfls_2fa_secrets.table.gz (126/77/fopen): adding to final database dump
+0036.048 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfls_settings.table.tmpr1001.gz (127/77/fopen): adding to final database dump
+0036.048 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfls_settings.table.gz (128/77/fopen): adding to final database dump
+0036.049 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfnotifications.table.tmpr1001.gz (129/77/fopen): adding to final database dump
+0036.049 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfnotifications.table.gz (130/77/fopen): adding to final database dump
+0036.049 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfpendingissues.table.tmpr0.gz (131/77/fopen): adding to final database dump
+0036.049 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfpendingissues.table.gz (132/77/fopen): adding to final database dump
+0036.050 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfreversecache.table.tmpr1001.gz (133/77/fopen): adding to final database dump
+0036.050 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfreversecache.table.gz (134/77/fopen): adding to final database dump
+0036.051 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfsnipcache.table.tmpr0.gz (135/77/fopen): adding to final database dump
+0036.051 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfsnipcache.table.gz (136/77/fopen): adding to final database dump
+0036.051 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfstatus.table.tmpr8863.gz (137/77/fopen): adding to final database dump
+0036.052 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wfstatus.table.gz (138/77/fopen): adding to final database dump
+0036.052 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wftrafficrates.table.tmpr1.gz (139/77/fopen): adding to final database dump
+0036.052 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wftrafficrates.table.gz (140/77/fopen): adding to final database dump
+0036.053 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wp_phpmyadmin_extension__errors_log.table.tmpr0.gz (141/77/fopen): adding to final database dump
+0036.053 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wp_phpmyadmin_extension__errors_log.table.gz (142/77/fopen): adding to final database dump
+0036.053 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wpforms_tasks_meta.table.tmpr10.gz (143/77/fopen): adding to final database dump
+0036.054 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_wpforms_tasks_meta.table.gz (144/77/fopen): adding to final database dump
+0036.054 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_yoast_indexable.table.tmpr264.gz (145/77/fopen): adding to final database dump
+0036.055 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_yoast_indexable.table.gz (146/77/fopen): adding to final database dump
+0036.055 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (147/77/fopen): adding to final database dump
+0036.055 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_yoast_indexable_hierarchy.table.gz (148/77/fopen): adding to final database dump
+0036.055 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_yoast_migrations.table.tmpr24.gz (149/77/fopen): adding to final database dump
+0036.056 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_yoast_migrations.table.gz (150/77/fopen): adding to final database dump
+0036.056 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_yoast_primary_term.table.tmpr0.gz (151/77/fopen): adding to final database dump
+0036.056 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_yoast_primary_term.table.gz (152/77/fopen): adding to final database dump
+0036.057 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_yoast_seo_links.table.tmpr256.gz (153/77/fopen): adding to final database dump
+0036.057 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db-table-wp_yoast_seo_links.table.gz (154/77/fopen): adding to final database dump
+0036.059 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: finished writing out complete database file (2701.2 KB)
+0036.086 (0) Total database tables backed up: 77 (backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz, size: 2766189, sha1: 038410df55f17983b9a504acadb1a6756c328e35, sha256: c63b5415dcd9bb4e899487794d05a1c003171ed31aa65b0e05a93193e494f6d0)
+0036.093 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0036.094 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0036.094 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0036.095 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0036.095 (0) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0036.095 (0) Saving backup history. Total backup size: 170.6 MB
+0036.099 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0036.100 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0036.100 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+0040.088 (0) Google Drive: quota usage: used=15223 MB, total=15360 MB, available=137 MB
+0040.089 (0) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0041.391 (0) Googledrive chunked upload: 3.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 12.8 / 20)
+0042.099 (0) Googledrive chunked upload: 11.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 12.8 / 20)
+0042.941 (0) Googledrive chunked upload: 26.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 12.8 / 20)
+0043.986 (0) Googledrive chunked upload: 57.4 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 12.8 / 20)
+0047.013 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0047.015 (0) Google Drive: OK: Archive backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip uploaded in 6.93 seconds
+0047.016 (0) Recording as successfully uploaded: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip
+0047.020 (0) Deleting local file: backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: OK
+0047.021 (0) Deleting zip manifest (backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip.list.tmp)
+0047.573 (0) Google Drive: quota usage: used=15223 MB, total=15360 MB, available=137 MB
+0047.574 (0) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0048.841 (0) Googledrive chunked upload: 10.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 12.8 / 20)
+0049.579 (0) Googledrive chunked upload: 32.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 12.8 / 20)
+0050.760 (0) Googledrive chunked upload: 76.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 12.8 / 20)
+0052.575 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0052.577 (0) Google Drive: OK: Archive backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip uploaded in 5 seconds
+0052.578 (0) Recording as successfully uploaded: backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip
+0052.580 (0) Deleting local file: backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: OK
+0052.581 (0) Deleting zip manifest (backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip.list.tmp)
+0053.061 (0) Google Drive: quota usage: used=15258.3 MB, total=15360 MB, available=101.7 MB
+0053.062 (0) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0053.062 (0) Google Drive: File upload expected to fail: file (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip) size is 135593984 b, whereas available quota is only 106592924 b
+0053.063 (0) An error condition has occurred for the first time during this job
+0053.604 (0) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0054.083 (0) Google Drive: quota usage: used=15258.3 MB, total=15360 MB, available=101.7 MB
+0054.084 (0) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0055.303 (0) Googledrive chunked upload: 30 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 12.8 / 20)
+0056.119 (0) Googledrive chunked upload: 89.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 12.8 / 20)
+0057.702 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0057.704 (0) Google Drive: OK: Archive backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip uploaded in 3.62 seconds
+0057.704 (0) Recording as successfully uploaded: backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip
+0057.705 (0) Deleting local file: backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: OK
+0057.706 (0) Deleting zip manifest (backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip.list.tmp)
+0058.183 (0) Google Drive: quota usage: used=15261.7 MB, total=15360 MB, available=98.3 MB
+0058.184 (0) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0059.455 (0) Googledrive chunked upload: 37.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 12.8 / 20)
+0061.466 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0061.468 (0) Google Drive: OK: Archive backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz uploaded in 3.28 seconds
+0061.469 (0) Recording as successfully uploaded: backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz
+0061.470 (0) Deleting local file: backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: OK
+0061.471 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+0061.473 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+0061.473 (0) Number of backup sets in history: 47; groups (db): 1
+0061.474 (0) Examining (for databases) backup set with group_id=0, nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0061.474 (0) This backup set is the backup set just made, so will not be deleted.
+0061.474 (0) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0061.474 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0061.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0061.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0061.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0061.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0061.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0061.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0061.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0061.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0061.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0061.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.475 (0) Number of backup sets in history: 47; groups (files): 1
+0061.476 (0) Examining (for files) backup set with nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0061.476 (0) This backup set is the backup set just made, so will not be deleted.
+0061.476 (0) This backup set is the backup set just made, so will not be deleted.
+0061.476 (0) This backup set is the backup set just made, so will not be deleted.
+0061.476 (0) This backup set is the backup set just made, so will not be deleted.
+0061.476 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0061.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0061.477 (0) Retain: saving new backup history (sets now: 47) and finishing retain operation
+0061.479 (0) Resume backup (61c636c0e6c7, 0): finish run
+0061.480 (0) Decremented the semaphore (fd) by 1
+0061.481 (0) Semaphore (fd) unlocked
+0061.481 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0061.483 (0) Rescheduling resumption 1: moving to 60 seconds from now (1655458437)
+0061.484 (0) No email will/can be sent - the user has not configured an email address.
+0061.484 (0) The backup has not finished; a resumption is scheduled
+0264.937 (1) Opened log file at time: Fri, 17 Jun 2022 09:36:21 +0000 on https://770.world/
+0264.940 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 2M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0264.943 (1) Free space on disk containing Updraft's temporary directory: 67.9 MB
+0264.944 (1) Requesting backup semaphore lock (61c636c0e6c7)
+0264.945 (1) [Debug] Lock option (updraft_lock_61c636c0e6c7, wp_options) was created in the database
+0264.945 (1) [Info] Lock (updraft_lock_61c636c0e6c7, wp_options) acquired after initialising the database
+0264.946 (1) Backup run: resumption=1, nonce=61c636c0e6c7, file_nonce=61c636c0e6c7 begun at=1655458316 (265s ago), job type=backup, previous check-in=61.46s
+0264.947 (1) Scheduling a resumption (2) after 300 seconds (1655458881) in case this run gets aborted
+0264.949 (1) Checking if we have a zip executable available
+0264.949 (1) Creation of backups of directories: already finished
+0264.949 (1) Saving backup status to database (elements: 8)
+0264.953 (1) Database dump (WordPress DB): Creation was completed already
+0264.953 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0264.957 (1) backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: plugins: This file has already been successfully uploaded
+0264.957 (1) backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: themes: This file has already been successfully uploaded
+0264.957 (1) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0264.958 (1) backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: others: This file has already been successfully uploaded
+0264.958 (1) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: db: This file has already been successfully uploaded
+0264.959 (1) Saving backup history. Total backup size: Unknown
+0264.961 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0264.962 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0264.963 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+0266.530 (1) Google Drive: quota usage: used=15264.3 MB, total=15360 MB, available=95.7 MB
+0266.532 (1) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0266.532 (1) Google Drive: File upload expected to fail: file (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip) size is 135593984 b, whereas available quota is only 100329111 b
+0266.533 (1) An error condition has occurred for the first time during this job
+0267.083 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0267.085 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+0267.086 (1) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+0267.086 (1) Number of backup sets in history: 47; groups (db): 1
+0267.087 (1) Examining (for databases) backup set with group_id=0, nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0267.087 (1) This backup set is the backup set just made, so will not be deleted.
+0267.087 (1) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0267.087 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.087 (1) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0267.087 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.088 (1) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0267.088 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.088 (1) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0267.088 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.088 (1) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0267.088 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.088 (1) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0267.088 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.088 (1) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0267.088 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.088 (1) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0267.088 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.088 (1) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0267.088 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.088 (1) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0267.088 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.088 (1) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0267.088 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.088 (1) Number of backup sets in history: 47; groups (files): 1
+0267.088 (1) Examining (for files) backup set with nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0267.088 (1) This backup set is the backup set just made, so will not be deleted.
+0267.089 (1) This backup set is the backup set just made, so will not be deleted.
+0267.089 (1) This backup set is the backup set just made, so will not be deleted.
+0267.089 (1) This backup set is the backup set just made, so will not be deleted.
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.089 (1) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.089 (1) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.089 (1) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.089 (1) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.089 (1) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.089 (1) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.089 (1) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.089 (1) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.089 (1) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.089 (1) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0267.089 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.090 (1) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0267.090 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0267.090 (1) Retain: saving new backup history (sets now: 47) and finishing retain operation
+0267.091 (1) Resume backup (61c636c0e6c7, 1): finish run
+0267.092 (1) [Info] Lock option (updraft_lock_61c636c0e6c7, wp_options) released
+0267.093 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0267.094 (1) No email will/can be sent - the user has not configured an email address.
+0267.094 (1) The backup has not finished; a resumption is scheduled
+0593.080 (2) Opened log file at time: Fri, 17 Jun 2022 09:41:49 +0000 on https://770.world/
+0593.081 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 2M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0593.081 (2) Free space on disk containing Updraft's temporary directory: 67.8 MB
+0593.082 (2) Requesting backup semaphore lock (61c636c0e6c7)
+0593.083 (2) [Info] Lock (updraft_lock_61c636c0e6c7, wp_options) acquired
+0593.084 (2) Backup run: resumption=2, nonce=61c636c0e6c7, file_nonce=61c636c0e6c7 begun at=1655458316 (593s ago), job type=backup
+0593.084 (2) Scheduling a resumption (3) after 300 seconds (1655459209) in case this run gets aborted
+0593.085 (2) Checking if we have a zip executable available
+0593.086 (2) Creation of backups of directories: already finished
+0593.086 (2) Saving backup status to database (elements: 8)
+0593.090 (2) Database dump (WordPress DB): Creation was completed already
+0593.091 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0593.095 (2) backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: plugins: This file has already been successfully uploaded
+0593.096 (2) backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: themes: This file has already been successfully uploaded
+0593.096 (2) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0593.096 (2) backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: others: This file has already been successfully uploaded
+0593.097 (2) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: db: This file has already been successfully uploaded
+0593.097 (2) Saving backup history. Total backup size: Unknown
+0593.101 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+0593.102 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0593.102 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+0594.716 (2) Google Drive: quota usage: used=15264.3 MB, total=15360 MB, available=95.7 MB
+0594.717 (2) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0594.718 (2) Google Drive: File upload expected to fail: file (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip) size is 135593984 b, whereas available quota is only 100329111 b
+0594.718 (2) An error condition has occurred for the first time during this job
+0595.269 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0595.272 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+0595.273 (2) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+0595.273 (2) Number of backup sets in history: 47; groups (db): 1
+0595.274 (2) Examining (for databases) backup set with group_id=0, nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0595.274 (2) This backup set is the backup set just made, so will not be deleted.
+0595.274 (2) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0595.274 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0595.275 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0595.275 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0595.275 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0595.275 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0595.275 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0595.275 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0595.275 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0595.275 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0595.275 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0595.275 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.275 (2) Number of backup sets in history: 47; groups (files): 1
+0595.276 (2) Examining (for files) backup set with nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0595.276 (2) This backup set is the backup set just made, so will not be deleted.
+0595.276 (2) This backup set is the backup set just made, so will not be deleted.
+0595.276 (2) This backup set is the backup set just made, so will not be deleted.
+0595.276 (2) This backup set is the backup set just made, so will not be deleted.
+0595.276 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.276 (2) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0595.276 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.276 (2) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0595.276 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.277 (2) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0595.277 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.277 (2) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0595.277 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.277 (2) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0595.277 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.277 (2) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0595.277 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.277 (2) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0595.277 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.277 (2) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0595.277 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.277 (2) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0595.277 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.277 (2) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0595.277 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.277 (2) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0595.277 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0595.277 (2) Retain: saving new backup history (sets now: 47) and finishing retain operation
+0595.279 (2) Resume backup (61c636c0e6c7, 2): finish run
+0595.280 (2) [Info] Lock option (updraft_lock_61c636c0e6c7, wp_options) released
+0595.280 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0595.281 (2) No email will/can be sent - the user has not configured an email address.
+0595.281 (2) The backup has not finished; a resumption is scheduled
+0893.409 (3) Opened log file at time: Fri, 17 Jun 2022 09:46:49 +0000 on https://770.world/
+0893.410 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 2M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0893.411 (3) Free space on disk containing Updraft's temporary directory: 67.8 MB
+0893.411 (3) Requesting backup semaphore lock (61c636c0e6c7)
+0893.412 (3) [Info] Lock (updraft_lock_61c636c0e6c7, wp_options) acquired
+0893.413 (3) Backup run: resumption=3, nonce=61c636c0e6c7, file_nonce=61c636c0e6c7 begun at=1655458316 (893s ago), job type=backup
+0893.413 (3) Scheduling a resumption (4) after 300 seconds (1655459509) in case this run gets aborted
+0893.415 (3) Checking if we have a zip executable available
+0893.415 (3) Creation of backups of directories: already finished
+0893.415 (3) Saving backup status to database (elements: 8)
+0893.419 (3) Database dump (WordPress DB): Creation was completed already
+0893.419 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0893.423 (3) backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: plugins: This file has already been successfully uploaded
+0893.424 (3) backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: themes: This file has already been successfully uploaded
+0893.424 (3) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0893.424 (3) backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: others: This file has already been successfully uploaded
+0893.425 (3) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: db: This file has already been successfully uploaded
+0893.425 (3) Saving backup history. Total backup size: Unknown
+0893.428 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+0893.429 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0893.430 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+0895.027 (3) Google Drive: quota usage: used=15264.3 MB, total=15360 MB, available=95.7 MB
+0895.028 (3) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0895.029 (3) Google Drive: File upload expected to fail: file (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip) size is 135593984 b, whereas available quota is only 100329111 b
+0895.029 (3) An error condition has occurred for the first time during this job
+0895.579 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0895.581 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+0895.582 (3) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+0895.583 (3) Number of backup sets in history: 47; groups (db): 1
+0895.583 (3) Examining (for databases) backup set with group_id=0, nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0895.583 (3) This backup set is the backup set just made, so will not be deleted.
+0895.583 (3) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0895.583 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0895.584 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0895.584 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0895.584 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0895.584 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0895.584 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0895.584 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0895.584 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0895.584 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0895.584 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0895.584 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.584 (3) Number of backup sets in history: 47; groups (files): 1
+0895.584 (3) Examining (for files) backup set with nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0895.584 (3) This backup set is the backup set just made, so will not be deleted.
+0895.585 (3) This backup set is the backup set just made, so will not be deleted.
+0895.585 (3) This backup set is the backup set just made, so will not be deleted.
+0895.585 (3) This backup set is the backup set just made, so will not be deleted.
+0895.585 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.585 (3) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0895.585 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.585 (3) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0895.585 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.585 (3) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0895.585 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.585 (3) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0895.585 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.585 (3) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0895.585 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.585 (3) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0895.585 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.585 (3) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0895.585 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.585 (3) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0895.585 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.585 (3) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0895.585 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.586 (3) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0895.586 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.586 (3) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0895.586 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0895.586 (3) Retain: saving new backup history (sets now: 47) and finishing retain operation
+0895.587 (3) Resume backup (61c636c0e6c7, 3): finish run
+0895.588 (3) [Info] Lock option (updraft_lock_61c636c0e6c7, wp_options) released
+0895.589 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0895.590 (3) No email will/can be sent - the user has not configured an email address.
+0895.590 (3) The backup has not finished; a resumption is scheduled
+1200.001 (4) Opened log file at time: Fri, 17 Jun 2022 09:51:56 +0000 on https://770.world/
+1200.002 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 2M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+1200.003 (4) Free space on disk containing Updraft's temporary directory: 67.8 MB
+1200.003 (4) Requesting backup semaphore lock (61c636c0e6c7)
+1200.004 (4) [Info] Lock (updraft_lock_61c636c0e6c7, wp_options) acquired
+1200.005 (4) Backup run: resumption=4, nonce=61c636c0e6c7, file_nonce=61c636c0e6c7 begun at=1655458316 (1200s ago), job type=backup
+1200.006 (4) Scheduling a resumption (5) after 300 seconds (1655459816) in case this run gets aborted
+1200.008 (4) Checking if we have a zip executable available
+1200.008 (4) Creation of backups of directories: already finished
+1200.009 (4) Saving backup status to database (elements: 8)
+1200.013 (4) Database dump (WordPress DB): Creation was completed already
+1200.014 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1200.019 (4) backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: plugins: This file has already been successfully uploaded
+1200.020 (4) backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: themes: This file has already been successfully uploaded
+1200.020 (4) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1200.021 (4) backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: others: This file has already been successfully uploaded
+1200.021 (4) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: db: This file has already been successfully uploaded
+1200.022 (4) Saving backup history. Total backup size: Unknown
+1200.027 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+1200.028 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1200.029 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+1201.523 (4) Google Drive: quota usage: used=15264.3 MB, total=15360 MB, available=95.7 MB
+1201.525 (4) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+1201.525 (4) Google Drive: File upload expected to fail: file (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip) size is 135593984 b, whereas available quota is only 100329111 b
+1201.526 (4) An error condition has occurred for the first time during this job
+1202.075 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+1202.078 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+1202.079 (4) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+1202.080 (4) Number of backup sets in history: 47; groups (db): 1
+1202.080 (4) Examining (for databases) backup set with group_id=0, nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+1202.081 (4) This backup set is the backup set just made, so will not be deleted.
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+1202.081 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.081 (4) Number of backup sets in history: 47; groups (files): 1
+1202.082 (4) Examining (for files) backup set with nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+1202.082 (4) This backup set is the backup set just made, so will not be deleted.
+1202.082 (4) This backup set is the backup set just made, so will not be deleted.
+1202.082 (4) This backup set is the backup set just made, so will not be deleted.
+1202.083 (4) This backup set is the backup set just made, so will not be deleted.
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+1202.083 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1202.083 (4) Retain: saving new backup history (sets now: 47) and finishing retain operation
+1202.085 (4) Resume backup (61c636c0e6c7, 4): finish run
+1202.086 (4) [Info] Lock option (updraft_lock_61c636c0e6c7, wp_options) released
+1202.087 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1202.088 (4) No email will/can be sent - the user has not configured an email address.
+1202.089 (4) The backup has not finished; a resumption is scheduled
+1502.642 (5) Opened log file at time: Fri, 17 Jun 2022 09:56:58 +0000 on https://770.world/
+1502.643 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 2M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+1502.643 (5) Free space on disk containing Updraft's temporary directory: 67.8 MB
+1502.644 (5) Requesting backup semaphore lock (61c636c0e6c7)
+1502.644 (5) [Info] Lock (updraft_lock_61c636c0e6c7, wp_options) acquired
+1502.645 (5) Backup run: resumption=5, nonce=61c636c0e6c7, file_nonce=61c636c0e6c7 begun at=1655458316 (1502s ago), job type=backup
+1502.646 (5) Scheduling a resumption (6) after 300 seconds (1655460118) in case this run gets aborted
+1502.647 (5) Checking if we have a zip executable available
+1502.648 (5) Creation of backups of directories: already finished
+1502.648 (5) Saving backup status to database (elements: 8)
+1502.652 (5) Database dump (WordPress DB): Creation was completed already
+1502.653 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1502.656 (5) backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: plugins: This file has already been successfully uploaded
+1502.656 (5) backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: themes: This file has already been successfully uploaded
+1502.656 (5) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1502.657 (5) backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: others: This file has already been successfully uploaded
+1502.657 (5) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: db: This file has already been successfully uploaded
+1502.657 (5) Saving backup history. Total backup size: Unknown
+1502.661 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+1502.662 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1502.662 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+1504.280 (5) Google Drive: quota usage: used=15264.3 MB, total=15360 MB, available=95.7 MB
+1504.281 (5) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+1504.281 (5) Google Drive: File upload expected to fail: file (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip) size is 135593984 b, whereas available quota is only 100329111 b
+1504.282 (5) An error condition has occurred for the first time during this job
+1504.845 (5) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+1504.847 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+1504.848 (5) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+1504.848 (5) Number of backup sets in history: 47; groups (db): 1
+1504.849 (5) Examining (for databases) backup set with group_id=0, nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+1504.849 (5) This backup set is the backup set just made, so will not be deleted.
+1504.849 (5) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+1504.849 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+1504.850 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+1504.850 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+1504.850 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+1504.850 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+1504.850 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+1504.850 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+1504.850 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+1504.850 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+1504.850 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+1504.850 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.850 (5) Number of backup sets in history: 47; groups (files): 1
+1504.851 (5) Examining (for files) backup set with nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+1504.851 (5) This backup set is the backup set just made, so will not be deleted.
+1504.851 (5) This backup set is the backup set just made, so will not be deleted.
+1504.851 (5) This backup set is the backup set just made, so will not be deleted.
+1504.851 (5) This backup set is the backup set just made, so will not be deleted.
+1504.852 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.852 (5) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+1504.852 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.852 (5) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+1504.852 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.852 (5) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+1504.852 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.852 (5) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+1504.852 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.852 (5) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+1504.852 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.852 (5) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+1504.852 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.852 (5) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+1504.852 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.852 (5) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+1504.852 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.853 (5) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+1504.853 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.853 (5) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+1504.853 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.853 (5) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+1504.853 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1504.853 (5) Retain: saving new backup history (sets now: 47) and finishing retain operation
+1504.855 (5) Resume backup (61c636c0e6c7, 5): finish run
+1504.855 (5) [Info] Lock option (updraft_lock_61c636c0e6c7, wp_options) released
+1504.856 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1504.857 (5) No email will/can be sent - the user has not configured an email address.
+1504.857 (5) The backup has not finished; a resumption is scheduled
+1802.684 (6) Opened log file at time: Fri, 17 Jun 2022 10:01:58 +0000 on https://770.world/
+1802.685 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 8M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+1802.686 (6) Free space on disk containing Updraft's temporary directory: Unknown
+1802.686 (6) Requesting backup semaphore lock (61c636c0e6c7)
+1802.687 (6) [Info] Lock (updraft_lock_61c636c0e6c7, wp_options) acquired
+1802.688 (6) Backup run: resumption=6, nonce=61c636c0e6c7, file_nonce=61c636c0e6c7 begun at=1655458316 (1802s ago), job type=backup
+1802.689 (6) Scheduling a resumption (7) after 300 seconds (1655460418) in case this run gets aborted
+1802.691 (6) Checking if we have a zip executable available
+1802.691 (6) Creation of backups of directories: already finished
+1802.691 (6) Saving backup status to database (elements: 8)
+1802.696 (6) Database dump (WordPress DB): Creation was completed already
+1802.696 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1802.700 (6) backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: plugins: This file has already been successfully uploaded
+1802.700 (6) backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: themes: This file has already been successfully uploaded
+1802.701 (6) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1802.701 (6) backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: others: This file has already been successfully uploaded
+1802.701 (6) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: db: This file has already been successfully uploaded
+1802.702 (6) Saving backup history. Total backup size: Unknown
+1802.705 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+1802.706 (6) Cloud backup selection (1/1): googledrive with i2102.738 (7) Opened log file at time: Fri, 17 Jun 2022 10:06:58 +0000 on https://770.world/
+2102.739 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 14M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+2102.739 (7) Free space on disk containing Updraft's temporary directory: 67.7 MB
+2102.740 (7) Requesting backup semaphore lock (61c636c0e6c7)
+2102.741 (7) [Info] Lock (updraft_lock_61c636c0e6c7, wp_options) acquired
+2102.742 (7) Backup run: resumption=7, nonce=61c636c0e6c7, file_nonce=61c636c0e6c7 begun at=1655458316 (2102s ago), job type=backup
+2102.743 (7) Scheduling a resumption (8) after 300 seconds (1655460718) in case this run gets aborted
+2102.744 (7) Checking if we have a zip executable available
+2102.744 (7) Creation of backups of directories: already finished
+2102.745 (7) Saving backup status to database (elements: 8)
+2102.749 (7) Database dump (WordPress DB): Creation was completed already
+2102.750 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2102.753 (7) backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: plugins: This file has already been successfully uploaded
+2102.754 (7) backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: themes: This file has already been successfully uploaded
+2102.754 (7) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2102.755 (7) backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: others: This file has already been successfully uploaded
+2102.755 (7) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: db: This file has already been successfully uploaded
+2102.755 (7) Saving backup history. Total backup size: Unknown
+2102.759 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+2102.760 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2102.760 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+2104.595 (7) Google Drive: quota usage: used=15264.3 MB, total=15360 MB, available=95.7 MB
+2104.596 (7) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2104.597 (7) Google Drive: File upload expected to fail: file (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip) size is 135593984 b, whereas available quota is only 100329111 b
+2104.598 (7) An error condition has occurred for the first time during this job
+2105.156 (7) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2105.158 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+2105.160 (7) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+2105.161 (7) Number of backup sets in history: 47; groups (db): 1
+2105.161 (7) Examining (for databases) backup set with group_id=0, nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2105.162 (7) This backup set is the backup set just made, so will not be deleted.
+2105.162 (7) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2105.162 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.162 (7) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2105.162 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.162 (7) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2105.162 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.162 (7) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2105.162 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.162 (7) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2105.162 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.163 (7) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2105.163 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.163 (7) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2105.163 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.163 (7) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2105.163 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.163 (7) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2105.163 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.163 (7) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2105.163 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.163 (7) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2105.163 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.163 (7) Number of backup sets in history: 47; groups (files): 1
+2105.163 (7) Examining (for files) backup set with nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2105.163 (7) This backup set is the backup set just made, so will not be deleted.
+2105.164 (7) This backup set is the backup set just made, so will not be deleted.
+2105.164 (7) This backup set is the backup set just made, so will not be deleted.
+2105.164 (7) This backup set is the backup set just made, so will not be deleted.
+2105.164 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.164 (7) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2105.164 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.164 (7) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2105.164 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.164 (7) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2105.164 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.164 (7) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2105.164 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.164 (7) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2105.164 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.165 (7) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2105.165 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.165 (7) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2105.165 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.165 (7) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2105.165 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.165 (7) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2105.165 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.165 (7) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2105.165 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.165 (7) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2105.165 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2105.165 (7) Retain: saving new backup history (sets now: 47) and finishing retain operation
+2105.167 (7) Resume backup (61c636c0e6c7, 7): finish run
+2105.168 (7) [Info] Lock option (updraft_lock_61c636c0e6c7, wp_options) released
+2105.169 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2105.170 (7) No email will/can be sent - the user has not configured an email address.
+2105.171 (7) The backup has not finished; a resumption is scheduled
+2402.666 (8) Opened log file at time: Fri, 17 Jun 2022 10:11:58 +0000 on https://770.world/
+2402.667 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 8M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+2402.667 (8) Free space on disk containing Updraft's temporary directory: 67.7 MB
+2402.667 (8) Requesting backup semaphore lock (61c636c0e6c7)
+2402.668 (8) [Info] Lock (updraft_lock_61c636c0e6c7, wp_options) acquired
+2402.669 (8) Backup run: resumption=8, nonce=61c636c0e6c7, file_nonce=61c636c0e6c7 begun at=1655458316 (2402s ago), job type=backup
+2402.670 (8) Scheduling a resumption (9) after 300 seconds (1655461018) in case this run gets aborted
+2402.672 (8) Checking if we have a zip executable available
+2402.672 (8) Creation of backups of directories: already finished
+2402.673 (8) Saving backup status to database (elements: 8)
+2402.678 (8) Database dump (WordPress DB): Creation was completed already
+2402.679 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2402.683 (8) backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: plugins: This file has already been successfully uploaded
+2402.683 (8) backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: themes: This file has already been successfully uploaded
+2402.683 (8) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2402.684 (8) backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: others: This file has already been successfully uploaded
+2402.684 (8) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: db: This file has already been successfully uploaded
+2402.684 (8) Saving backup history. Total backup size: Unknown
+2402.688 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+2402.689 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2402.689 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+2404.175 (8) Google Drive: quota usage: used=15264.3 MB, total=15360 MB, available=95.7 MB
+2404.176 (8) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2404.177 (8) Google Drive: File upload expected to fail: file (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip) size is 135593984 b, whereas available quota is only 100329111 b
+2404.178 (8) An error condition has occurred for the first time during this job
+2404.690 (8) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2404.692 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+2404.694 (8) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+2404.694 (8) Number of backup sets in history: 47; groups (db): 1
+2404.695 (8) Examining (for databases) backup set with group_id=0, nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2404.695 (8) This backup set is the backup set just made, so will not be deleted.
+2404.695 (8) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2404.695 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2404.696 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2404.696 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2404.696 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2404.696 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2404.696 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2404.696 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2404.696 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2404.696 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2404.696 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2404.696 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.696 (8) Number of backup sets in history: 47; groups (files): 1
+2404.697 (8) Examining (for files) backup set with nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2404.697 (8) This backup set is the backup set just made, so will not be deleted.
+2404.697 (8) This backup set is the backup set just made, so will not be deleted.
+2404.697 (8) This backup set is the backup set just made, so will not be deleted.
+2404.697 (8) This backup set is the backup set just made, so will not be deleted.
+2404.697 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2404.698 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2404.698 (8) Retain: saving new backup history (sets now: 47) and finishing retain operation
+2404.700 (8) Resume backup (61c636c0e6c7, 8): finish run
+2404.701 (8) [Info] Lock option (updraft_lock_61c636c0e6c7, wp_options) released
+2404.702 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2404.703 (8) No email will/can be sent - the user has not configured an email address.
+2404.704 (8) The backup has not finished; a resumption is scheduled
+2702.613 (9) Opened log file at time: Fri, 17 Jun 2022 10:16:58 +0000 on https://770.world/
+2702.614 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.8M | 6M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+2702.614 (9) Free space on disk containing Updraft's temporary directory: 67.6 MB
+2702.615 (9) Requesting backup semaphore lock (61c636c0e6c7)
+2702.615 (9) [Info] Lock (updraft_lock_61c636c0e6c7, wp_options) acquired
+2702.617 (9) Backup run: resumption=9, nonce=61c636c0e6c7, file_nonce=61c636c0e6c7 begun at=1655458316 (2702s ago), job type=backup
+2702.618 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+2702.619 (9) Scheduling a resumption (10) after 300 seconds (1655461318); but the job will then be aborted unless something happens this time
+2702.620 (9) Creation of backups of directories: already finished
+2702.620 (9) Saving backup status to database (elements: 8)
+2702.624 (9) Database dump (WordPress DB): Creation was completed already
+2702.625 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2702.628 (9) backup_2022-06-17-0531_www770world_61c636c0e6c7-plugins.zip: plugins: This file has already been successfully uploaded
+2702.629 (9) backup_2022-06-17-0531_www770world_61c636c0e6c7-themes.zip: themes: This file has already been successfully uploaded
+2702.629 (9) backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2702.629 (9) backup_2022-06-17-0531_www770world_61c636c0e6c7-others.zip: others: This file has already been successfully uploaded
+2702.629 (9) backup_2022-06-17-0531_www770world_61c636c0e6c7-db.gz: db: This file has already been successfully uploaded
+2702.630 (9) Saving backup history. Total backup size: Unknown
+2702.633 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+2702.634 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2702.634 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+2704.200 (9) Google Drive: quota usage: used=15264.3 MB, total=15360 MB, available=95.7 MB
+2704.201 (9) Google Drive: backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2704.202 (9) Google Drive: File upload expected to fail: file (backup_2022-06-17-0531_www770world_61c636c0e6c7-uploads.zip) size is 135593984 b, whereas available quota is only 100329111 b
+2704.203 (9) An error condition has occurred for the first time during this job
+2704.734 (9) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2704.736 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+2704.737 (9) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+2704.738 (9) Number of backup sets in history: 47; groups (db): 1
+2704.739 (9) Examining (for databases) backup set with group_id=0, nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2704.739 (9) This backup set is the backup set just made, so will not be deleted.
+2704.739 (9) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2704.739 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.739 (9) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2704.739 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.739 (9) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2704.739 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.740 (9) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2704.740 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.740 (9) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2704.740 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.740 (9) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2704.740 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.740 (9) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2704.740 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.740 (9) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2704.740 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.740 (9) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2704.740 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.740 (9) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2704.740 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.740 (9) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2704.740 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.740 (9) Number of backup sets in history: 47; groups (files): 1
+2704.740 (9) Examining (for files) backup set with nonce=61c636c0e6c7, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2704.740 (9) This backup set is the backup set just made, so will not be deleted.
+2704.741 (9) This backup set is the backup set just made, so will not be deleted.
+2704.741 (9) This backup set is the backup set just made, so will not be deleted.
+2704.741 (9) This backup set is the backup set just made, so will not be deleted.
+2704.741 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.741 (9) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2704.741 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.741 (9) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2704.741 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.741 (9) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2704.741 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.741 (9) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2704.741 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.741 (9) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2704.741 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.741 (9) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2704.741 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.741 (9) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2704.741 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.742 (9) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2704.742 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.742 (9) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2704.742 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.742 (9) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2704.742 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.742 (9) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2704.742 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2704.742 (9) Retain: saving new backup history (sets now: 47) and finishing retain operation
+2704.744 (9) Resume backup (61c636c0e6c7, 9): finish run
+2704.745 (9) [Info] Lock option (updraft_lock_61c636c0e6c7, wp_options) released
+2704.746 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+2704.747 (9) No email will/can be sent - the user has not configured an email address.
+2704.747 (9) The backup attempt has finished, apparently unsuccessfully

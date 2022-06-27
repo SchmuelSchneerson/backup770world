@@ -1,0 +1,1150 @@
+0000.000 (0) Opened log file at time: Thu, 23 Jun 2022 01:20:41 +0000 on https://770.world/
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux 1e6c4d3e17fc 5.15.0-40-generic #43-Ubuntu SMP Wed Jun 15 12:54:21 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.3M | 2M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 1431.7 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB: 1 (schedule: every2hours)
+0000.005 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.009 (0) Set semaphore last lock (fd) time to 2022-06-23 01:20:41
+0000.009 (0) Semaphore lock (fd) complete
+0000.012 (0) Backup run: resumption=0, nonce=3b5be4773bd1, file_nonce=3b5be4773bd1 begun at=1655947241 (0s ago), job type=backup
+0000.012 (0) Scheduling a resumption (1) after 300 seconds (1655947541) in case this run gets aborted
+0000.027 (0) Checking if we have a zip executable available
+0000.029 (0) Creation of backups of directories: beginning
+0000.031 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.140 (0) Total entities for the zip file: 1796 directories, 10051 files (0 skipped as non-modified), 125.5 MB
+0000.145 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.148 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.150 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.152 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.155 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.156 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 10051 files batched, 558 (558) added so far); re-opening (prior size: 0 KB)
+0001.298 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 17007.5 KB/s)
+0001.299 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.5053548812866, normalised_time=1.5052170745476, max_time=1.2983028888702, data points known=1, old_max_bytes=26214400, new_max_bytes=104494164)
+0001.307 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 600 files added (on-disk size: 7372.8 KB)
+0001.310 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 700 files added (on-disk size: 7372.8 KB)
+0001.312 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 800 files added (on-disk size: 7372.8 KB)
+0001.314 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 900 files added (on-disk size: 7372.8 KB)
+0001.318 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 1000 files added (on-disk size: 7372.8 KB)
+0001.321 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 1100 files added (on-disk size: 7372.8 KB)
+0001.323 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 1200 files added (on-disk size: 7372.8 KB)
+0001.325 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 1300 files added (on-disk size: 7372.8 KB)
+0001.328 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 1400 files added (on-disk size: 7372.8 KB)
+0001.329 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 1500 files added (on-disk size: 7372.8 KB)
+0001.331 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.6 MB, 10051 files batched, 1001 (1559) added so far); re-opening (prior size: 7372.8 KB)
+0002.060 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 1600 files added (on-disk size: 10597.7 KB)
+0002.062 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 1700 files added (on-disk size: 10597.7 KB)
+0002.065 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 1800 files added (on-disk size: 10597.7 KB)
+0002.067 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 1900 files added (on-disk size: 10597.7 KB)
+0002.069 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 2000 files added (on-disk size: 10597.7 KB)
+0002.071 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 2100 files added (on-disk size: 10597.7 KB)
+0002.073 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 2200 files added (on-disk size: 10597.7 KB)
+0002.076 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 2300 files added (on-disk size: 10597.7 KB)
+0002.079 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 2400 files added (on-disk size: 10597.7 KB)
+0002.081 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 2500 files added (on-disk size: 10597.7 KB)
+0002.082 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.9 MB, 10051 files batched, 1001 (2560) added so far); re-opening (prior size: 10597.7 KB)
+0002.363 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 2600 files added (on-disk size: 14365.3 KB)
+0002.366 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 2700 files added (on-disk size: 14365.3 KB)
+0002.369 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 2800 files added (on-disk size: 14365.3 KB)
+0002.372 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 2900 files added (on-disk size: 14365.3 KB)
+0002.374 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 3000 files added (on-disk size: 14365.3 KB)
+0002.377 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 3100 files added (on-disk size: 14365.3 KB)
+0002.380 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 3200 files added (on-disk size: 14365.3 KB)
+0002.382 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 3300 files added (on-disk size: 14365.3 KB)
+0002.384 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 3400 files added (on-disk size: 14365.3 KB)
+0002.387 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 3500 files added (on-disk size: 14365.3 KB)
+0002.388 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.8 MB, 10051 files batched, 1001 (3561) added so far); re-opening (prior size: 14365.3 KB)
+0002.980 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 3600 files added (on-disk size: 16759.3 KB)
+0002.983 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 3700 files added (on-disk size: 16759.3 KB)
+0002.986 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 3800 files added (on-disk size: 16759.3 KB)
+0002.989 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 3900 files added (on-disk size: 16759.3 KB)
+0002.991 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 4000 files added (on-disk size: 16759.3 KB)
+0002.994 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 4100 files added (on-disk size: 16759.3 KB)
+0002.997 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 4200 files added (on-disk size: 16759.3 KB)
+0002.999 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 4300 files added (on-disk size: 16759.3 KB)
+0003.002 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 4400 files added (on-disk size: 16759.3 KB)
+0003.004 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 4500 files added (on-disk size: 16759.3 KB)
+0003.005 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.4 MB, 10051 files batched, 1001 (4562) added so far); re-opening (prior size: 16759.3 KB)
+0003.197 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 4600 files added (on-disk size: 18040.8 KB)
+0003.200 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 4700 files added (on-disk size: 18040.8 KB)
+0003.202 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 4800 files added (on-disk size: 18040.8 KB)
+0003.205 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 4900 files added (on-disk size: 18040.8 KB)
+0003.209 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 5000 files added (on-disk size: 18040.8 KB)
+0003.211 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 5100 files added (on-disk size: 18040.8 KB)
+0003.213 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 5200 files added (on-disk size: 18040.8 KB)
+0003.216 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 5300 files added (on-disk size: 18040.8 KB)
+0003.217 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 5400 files added (on-disk size: 18040.8 KB)
+0003.220 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 5500 files added (on-disk size: 18040.8 KB)
+0003.222 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.7 MB, 10051 files batched, 1001 (5563) added so far); re-opening (prior size: 18040.8 KB)
+0003.732 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 5600 files added (on-disk size: 20954.8 KB)
+0003.735 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 5700 files added (on-disk size: 20954.8 KB)
+0003.738 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 5800 files added (on-disk size: 20954.8 KB)
+0003.741 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 5900 files added (on-disk size: 20954.8 KB)
+0003.744 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 6000 files added (on-disk size: 20954.8 KB)
+0003.746 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 6100 files added (on-disk size: 20954.8 KB)
+0003.749 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 6200 files added (on-disk size: 20954.8 KB)
+0003.751 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 6300 files added (on-disk size: 20954.8 KB)
+0003.753 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 6400 files added (on-disk size: 20954.8 KB)
+0003.756 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 6500 files added (on-disk size: 20954.8 KB)
+0003.759 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.6 MB, 10051 files batched, 1001 (6564) added so far); re-opening (prior size: 20954.8 KB)
+0006.547 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 6600 files added (on-disk size: 27123.1 KB)
+0006.550 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 6700 files added (on-disk size: 27123.1 KB)
+0006.553 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 6800 files added (on-disk size: 27123.1 KB)
+0006.555 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 6900 files added (on-disk size: 27123.1 KB)
+0006.558 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 7000 files added (on-disk size: 27123.1 KB)
+0006.560 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 7100 files added (on-disk size: 27123.1 KB)
+0006.563 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 7200 files added (on-disk size: 27123.1 KB)
+0006.564 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 7300 files added (on-disk size: 27123.1 KB)
+0006.567 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 7400 files added (on-disk size: 27123.1 KB)
+0006.569 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 7500 files added (on-disk size: 27123.1 KB)
+0006.571 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.3 MB, 10051 files batched, 1001 (7565) added so far); re-opening (prior size: 27123.1 KB)
+0007.035 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 7600 files added (on-disk size: 30325.1 KB)
+0007.038 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 7700 files added (on-disk size: 30325.1 KB)
+0007.041 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 7800 files added (on-disk size: 30325.1 KB)
+0007.043 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 7900 files added (on-disk size: 30325.1 KB)
+0007.045 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 8000 files added (on-disk size: 30325.1 KB)
+0007.048 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 8100 files added (on-disk size: 30325.1 KB)
+0007.050 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 8200 files added (on-disk size: 30325.1 KB)
+0007.053 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 8300 files added (on-disk size: 30325.1 KB)
+0007.055 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 8400 files added (on-disk size: 30325.1 KB)
+0007.057 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 8500 files added (on-disk size: 30325.1 KB)
+0007.059 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.6 MB, 10051 files batched, 1001 (8566) added so far); re-opening (prior size: 30325.1 KB)
+0007.570 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 8600 files added (on-disk size: 33251 KB)
+0007.573 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 8700 files added (on-disk size: 33251 KB)
+0007.577 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 8800 files added (on-disk size: 33251 KB)
+0007.580 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 8900 files added (on-disk size: 33251 KB)
+0007.582 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 9000 files added (on-disk size: 33251 KB)
+0007.585 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 9100 files added (on-disk size: 33251 KB)
+0007.588 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 9200 files added (on-disk size: 33251 KB)
+0007.591 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 9300 files added (on-disk size: 33251 KB)
+0007.593 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 9400 files added (on-disk size: 33251 KB)
+0007.595 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 9500 files added (on-disk size: 33251 KB)
+0007.597 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.7 MB, 10051 files batched, 1001 (9567) added so far); re-opening (prior size: 33251 KB)
+0008.048 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 9600 files added (on-disk size: 35151.8 KB)
+0008.051 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 9700 files added (on-disk size: 35151.8 KB)
+0008.053 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 9800 files added (on-disk size: 35151.8 KB)
+0008.057 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 9900 files added (on-disk size: 35151.8 KB)
+0008.060 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.tmp: 10000 files added (on-disk size: 35151.8 KB)
+0008.706 (0) Creating zip file manifest (backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.list-temp.tmp)
+0008.720 (0) Successfully created zip file manifest (size: 929873)
+0008.977 (0) Created plugins zip (0) - 37999.6 KB in 8.9 s (4248.3 KB/s) (sha1: 0e00a091add9d44c2fdf982adb4d4d605ab03510, sha256: ba23da6edf29ce17ece752985dcffd73ba11668b598fab8587720611719c4913)
+0008.980 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.985 (0) Total entities for the zip file: 79 directories, 380 files (0 skipped as non-modified), 11.5 MB
+0008.988 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.990 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.992 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.277 (0) Creating zip file manifest (backup_2022-06-22-2120_www770world_3b5be4773bd1-themes.zip.list-temp.tmp)
+0009.278 (0) Successfully created zip file manifest (size: 27051)
+0009.341 (0) Created themes zip (0) - 9386.6 KB in 0.4 s (26066.4 KB/s) (sha1: adaad7b62dd8554123fb24ce37361a30469df5ae, sha256: 7495830a1a2bdab60105098207c400db247d186a063b03b7cc39f716c0540247)
+0009.343 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.344 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0009.344 (0) finding files: elementor: adding to list (1)
+0009.345 (0) finding files: 2022: adding to list (2)
+0009.346 (0) finding files: sites: adding to list (3)
+0009.346 (0) finding files: wpforms: adding to list (4)
+0009.347 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.350 (0) Total entities for the zip file: 12 directories, 173 files (0 skipped as non-modified), 484.1 MB
+0009.352 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 99.7 MB added on this batch (103.7 MB, 173 files batched, 27 (27) added so far); re-opening (prior size: 0 KB)
+0012.353 (0) A useful amount of data was added after this amount of zip processing: 3.6 s (normalised: 3.4 s, rate: 29817.7 KB/s)
+0012.354 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.5602729320526, normalised_time=3.4222994647727, max_time=12.353845834732, data points known=1, old_max_bytes=104494164, new_max_bytes=209715200)
+0012.357 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 200 MB added on this batch (228.6 MB, 173 files batched, 63 (90) added so far); re-opening (prior size: 105726.4 KB)
+0020.452 (0) A useful amount of data was added after this amount of zip processing: 8.7 s (normalised: 7.6 s, rate: 27033.3 KB/s)
+0020.454 (0) Zip: backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads.zip.tmp: 100 files added (on-disk size: 336853.3 KB)
+0020.455 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (85.3 MB, 27 (117) files added so far); last ratio: 0.9873; re-opening (prior size: 336853.3 KB)
+0023.612 (0) Zip size is at/near split limit (413.7 MB / 400 MB) - bumping index (from: 0)
+0026.608 (0) Creating zip file manifest (backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads.zip.list-temp.tmp)
+0026.609 (0) Successfully created zip file manifest (size: 9148)
+0026.611 (0) Created uploads zip (0) - 423627.4 KB in 14.3 s (29695.7 KB/s) (checksums: sha1: 7bf737bf7034ce2f11cd43b330a1c1150edd50e8, sha256: 88a810cfd915b72c4f381cf1d39f4f38fa197d2c9ae54fc7a924882a8d3885d2)
+0026.613 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (118) files added so far); re-opening (prior size: 0 KB)
+0028.362 (0) Creating zip file manifest (backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads2.zip.list-temp.tmp)
+0028.363 (0) Successfully created zip file manifest (size: 4363)
+0028.806 (0) Created uploads zip (1) - 67819.8 KB in 2.2 s (30911.5 KB/s) (sha1: 02e258db9decfa27a1a93a6c75991426c80c9a90, sha256: 32d6a8fba1d66248c0b3812d598ebb4758cf85a33ba9588b5a8469a1d1eb15c2)
+0028.809 (0) Beginning backup of other directories found in the content directory (index: 0)
+0028.810 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0028.810 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0028.811 (0) finding files: uploads: skipping: this is the uploads directory
+0028.811 (0) finding files: upgrade: skipping: excluded by options
+0028.812 (0) finding files: updraft: skipping: this is the updraft directory
+0028.812 (0) finding files: mu-plugins: adding to list (1)
+0028.813 (0) finding files: index.php: adding to list (2)
+0028.814 (0) finding files: plugins: skipping: this is the plugins directory
+0028.814 (0) finding files: cache: skipping: excluded by options
+0028.815 (0) finding files: wflogs: adding to list (3)
+0028.815 (0) finding files: themes: skipping: this is the themes directory
+0028.817 (0) Total entities for the zip file: 2 directories, 11 files (0 skipped as non-modified), 7.1 MB
+0031.235 (0) Creating zip file manifest (backup_2022-06-22-2120_www770world_3b5be4773bd1-others.zip.list-temp.tmp)
+0031.237 (0) Successfully created zip file manifest (size: 364)
+0031.261 (0) Created others zip (0) - 3411.8 KB in 2.4 s (1395.5 KB/s) (sha1: b1f71af0c1c56f41911889ef22c1360b91a0510b, sha256: 41fcfb3ec86aff0e54e3b4a1e3dc7432e75dd72a48ad8dc90e41faecc37ad85f)
+0031.266 (0) Saving backup status to database (elements: 9)
+0031.272 (0) Beginning creation of database dump (WordPress DB)
+0031.273 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0031.279 (0) Table wp_options: Total expected rows (via COUNT): 730
+0031.330 (0) Table wp_options: Rows added in this batch (next record: 45068): 730 (uncompressed bytes in this segment=2128762) in 0.05 seconds
+0031.335 (0) Table wp_options: finishing file(s) (2, 424.5 KB)
+0031.337 (0) Table wp_site: Total expected rows (via COUNT): 1
+0031.338 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.340 (0) Table wp_site: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=632) in 0.00 seconds
+0031.342 (0) Table wp_site: finishing file(s) (2, 0.4 KB)
+0031.344 (0) Table wp_blogs: Total expected rows (via COUNT): 2
+0031.345 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.346 (0) Table wp_blogs: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=1271) in 0.00 seconds
+0031.347 (0) Table wp_blogs: finishing file(s) (2, 0.6 KB)
+0031.349 (0) Table wp_users: Total expected rows (via COUNT): 2
+0031.350 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.351 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1644) in 0.00 seconds
+0031.352 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0031.355 (0) Table wp_usermeta: Total expected rows (via COUNT): 72
+0031.355 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.357 (0) Table wp_usermeta: Rows added in this batch (next record: 104): 72 (uncompressed bytes in this segment=10538) in 0.00 seconds
+0031.359 (0) Table wp_usermeta: finishing file(s) (2, 4 KB)
+0031.362 (0) Table wp_blogmeta: Total expected rows (via COUNT): 0
+0031.363 (0) Table wp_blogmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=649) in 0.00 seconds
+0031.365 (0) Table wp_blogmeta: finishing file(s) (2, 0.4 KB)
+0031.367 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0031.368 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0031.370 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0031.372 (0) Table wp_comments: Total expected rows (via COUNT): 2
+0031.372 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.374 (0) Table wp_comments: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=2508) in 0.00 seconds
+0031.375 (0) Table wp_comments: finishing file(s) (2, 1 KB)
+0031.377 (0) Table wp_links: Total expected rows (via COUNT): 0
+0031.378 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0031.380 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0031.383 (0) Table wp_postmeta: Total expected rows (via COUNT): 238
+0031.383 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.385 (0) Table wp_postmeta: Rows added in this batch (next record: 787): 238 (uncompressed bytes in this segment=50604) in 0.00 seconds
+0031.388 (0) Table wp_postmeta: finishing file(s) (2, 7.3 KB)
+0031.394 (0) Table wp_posts: Total expected rows (via COUNT): 681
+0031.465 (0) Table wp_posts: Rows added in this batch (next record: 962): 681 (uncompressed bytes in this segment=6341058) in 0.08 seconds
+0031.470 (0) Table wp_posts: finishing file(s) (2, 118.9 KB)
+0031.472 (0) Table wp_registration_log: Total expected rows (via COUNT): 2
+0031.474 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.475 (0) Table wp_registration_log: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=910) in 0.00 seconds
+0031.478 (0) Table wp_registration_log: finishing file(s) (2, 0.5 KB)
+0031.480 (0) Table wp_signups: Total expected rows (via COUNT): 0
+0031.482 (0) Table wp_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1254) in 0.00 seconds
+0031.484 (0) Table wp_signups: finishing file(s) (2, 0.5 KB)
+0031.487 (0) Table wp_sitemeta: Total expected rows (via COUNT): 159
+0031.488 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.498 (0) Table wp_sitemeta: Rows added in this batch (next record: 954): 158 (uncompressed bytes in this segment=271498) in 0.01 seconds
+0031.502 (0) Table wp_sitemeta: finishing file(s) (2, 42.4 KB)
+0031.504 (0) Table wp_term_relationships: Total expected rows (approximate): 9
+0031.506 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=806) in 0.00 seconds
+0031.507 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0031.510 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0031.511 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.512 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1045) in 0.00 seconds
+0031.514 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0031.517 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0031.518 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0031.520 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0031.523 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0031.523 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.524 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=841) in 0.00 seconds
+0031.526 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0031.530 (0) Table wp_2_yoast_indexable: Total expected rows (via COUNT): 1
+0031.531 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.532 (0) Table wp_2_yoast_indexable: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=4368) in 0.00 seconds
+0031.534 (0) Table wp_2_yoast_indexable: finishing file(s) (2, 1.2 KB)
+0031.536 (0) Table wp_2_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0031.537 (0) Table wp_2_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=829) in 0.00 seconds
+0031.539 (0) Table wp_2_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0031.541 (0) Table wp_2_yoast_migrations: Total expected rows (via COUNT): 23
+0031.542 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.543 (0) Table wp_2_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1258) in 0.00 seconds
+0031.545 (0) Table wp_2_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0031.547 (0) Table wp_2_yoast_primary_term: Total expected rows (via COUNT): 0
+0031.548 (0) Table wp_2_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=870) in 0.00 seconds
+0031.550 (0) Table wp_2_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0031.552 (0) Table wp_2_yoast_seo_links: Total expected rows (via COUNT): 0
+0031.553 (0) Table wp_2_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=993) in 0.00 seconds
+0031.555 (0) Table wp_2_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0031.559 (0) Table wp_3_commentmeta: Total expected rows (via COUNT): 0
+0031.560 (0) Table wp_3_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.00 seconds
+0031.563 (0) Table wp_3_commentmeta: finishing file(s) (2, 0.4 KB)
+0031.565 (0) Table wp_3_comments: Total expected rows (via COUNT): 1
+0031.566 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.567 (0) Table wp_3_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2151) in 0.00 seconds
+0031.569 (0) Table wp_3_comments: finishing file(s) (2, 0.8 KB)
+0031.571 (0) Table wp_3_links: Total expected rows (via COUNT): 0
+0031.572 (0) Table wp_3_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1322) in 0.00 seconds
+0031.574 (0) Table wp_3_links: finishing file(s) (2, 0.5 KB)
+0031.577 (0) Table wp_3_options: Total expected rows (via COUNT): 159
+0031.578 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.640 (0) Table wp_3_options: Rows added in this batch (next record: 209): 159 (uncompressed bytes in this segment=1338985) in 0.06 seconds
+0031.645 (0) Table wp_3_options: finishing file(s) (2, 333.3 KB)
+0031.648 (0) Table wp_3_postmeta: Total expected rows (via COUNT): 3
+0031.649 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.650 (0) Table wp_3_postmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=851) in 0.00 seconds
+0031.653 (0) Table wp_3_postmeta: finishing file(s) (2, 0.5 KB)
+0031.656 (0) Table wp_3_posts: Total expected rows (via COUNT): 6
+0031.657 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.658 (0) Table wp_3_posts: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=4943) in 0.00 seconds
+0031.660 (0) Table wp_3_posts: finishing file(s) (2, 1.6 KB)
+0031.662 (0) Table wp_3_term_relationships: Total expected rows (approximate): 0
+0031.664 (0) Table wp_3_term_relationships: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=716) in 0.00 seconds
+0031.666 (0) Table wp_3_term_relationships: finishing file(s) (2, 0.4 KB)
+0031.668 (0) Table wp_3_term_taxonomy: Total expected rows (via COUNT): 1
+0031.669 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.670 (0) Table wp_3_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=940) in 0.00 seconds
+0031.672 (0) Table wp_3_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0031.675 (0) Table wp_3_termmeta: Total expected rows (via COUNT): 0
+0031.676 (0) Table wp_3_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=670) in 0.00 seconds
+0031.678 (0) Table wp_3_termmeta: finishing file(s) (2, 0.4 KB)
+0031.680 (0) Table wp_3_terms: Total expected rows (via COUNT): 1
+0031.680 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.682 (0) Table wp_3_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=750) in 0.00 seconds
+0031.683 (0) Table wp_3_terms: finishing file(s) (2, 0.4 KB)
+0031.686 (0) Table wp_3_yoast_indexable: Total expected rows (via COUNT): 8
+0031.686 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.687 (0) Table wp_3_yoast_indexable: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=7059) in 0.00 seconds
+0031.690 (0) Table wp_3_yoast_indexable: finishing file(s) (2, 1.5 KB)
+0031.691 (0) Table wp_3_yoast_indexable_hierarchy: Total expected rows (approximate): 4
+0031.692 (0) Table wp_3_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=874) in 0.00 seconds
+0031.694 (0) Table wp_3_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0031.696 (0) Table wp_3_yoast_migrations: Total expected rows (via COUNT): 23
+0031.696 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.698 (0) Table wp_3_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1258) in 0.00 seconds
+0031.699 (0) Table wp_3_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0031.701 (0) Table wp_3_yoast_primary_term: Total expected rows (via COUNT): 0
+0031.702 (0) Table wp_3_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=870) in 0.00 seconds
+0031.704 (0) Table wp_3_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0031.706 (0) Table wp_3_yoast_seo_links: Total expected rows (via COUNT): 2
+0031.706 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.708 (0) Table wp_3_yoast_seo_links: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1242) in 0.00 seconds
+0031.710 (0) Table wp_3_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0031.712 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 60
+0031.712 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.715 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 527): 60 (uncompressed bytes in this segment=22777) in 0.00 seconds
+0031.717 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.8 KB)
+0031.719 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0031.720 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=615) in 0.00 seconds
+0031.722 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0031.724 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0031.725 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.727 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=722) in 0.00 seconds
+0031.728 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0031.731 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 172
+0031.731 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.733 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 858): 172 (uncompressed bytes in this segment=15490) in 0.00 seconds
+0031.736 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 2.1 KB)
+0031.738 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 8
+0031.739 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.741 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 26): 8 (uncompressed bytes in this segment=72556) in 0.00 seconds
+0031.744 (0) Table wp_aioseo_cache: finishing file(s) (2, 13.6 KB)
+0031.746 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 1
+0031.747 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.748 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2237) in 0.00 seconds
+0031.750 (0) Table wp_aioseo_notifications: finishing file(s) (2, 0.8 KB)
+0031.753 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 3
+0031.753 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.754 (0) Table wp_aioseo_posts: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=6195) in 0.00 seconds
+0031.757 (0) Table wp_aioseo_posts: finishing file(s) (2, 1.2 KB)
+0031.759 (0) Table wp_dms_mapping_values: Total expected rows (approximate): 0
+0031.760 (0) Table wp_dms_mapping_values: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=752) in 0.00 seconds
+0031.762 (0) Table wp_dms_mapping_values: finishing file(s) (2, 0.4 KB)
+0031.764 (0) Table wp_dms_mappings: Total expected rows (via COUNT): 0
+0031.764 (0) Table wp_dms_mappings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=732) in 0.00 seconds
+0031.767 (0) Table wp_dms_mappings: finishing file(s) (2, 0.4 KB)
+0031.769 (0) Table wp_domain_mapping: Total expected rows (via COUNT): 2
+0031.770 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.771 (0) Table wp_domain_mapping: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=681) in 0.00 seconds
+0031.773 (0) Table wp_domain_mapping: finishing file(s) (2, 0.4 KB)
+0031.774 (0) Table wp_e_events: Total expected rows (via COUNT): 1
+0031.775 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.776 (0) Table wp_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=790) in 0.00 seconds
+0031.778 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0031.779 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0031.780 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2282) in 0.00 seconds
+0031.782 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0031.784 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0031.785 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1251) in 0.00 seconds
+0031.787 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0031.789 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0031.790 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.00 seconds
+0031.792 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0031.794 (0) Table wp_pronamic_domain_posts: Total expected rows (approximate): 0
+0031.794 (0) Table wp_pronamic_domain_posts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=563) in 0.00 seconds
+0031.796 (0) Table wp_pronamic_domain_posts: finishing file(s) (2, 0.3 KB)
+0031.798 (0) Table wp_wfblockediplog: Total expected rows (approximate): 885
+0031.802 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 1000): 899 (uncompressed bytes in this segment=58332) in 0.00 seconds
+0031.804 (0) Table wp_wfblockediplog: finishing file(s) (2, 7.3 KB)
+0031.806 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0031.807 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=811) in 0.00 seconds
+0031.808 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0031.810 (0) Table wp_wfconfig: Total expected rows (approximate): 262
+0031.842 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 265 (uncompressed bytes in this segment=830901) in 0.03 seconds
+0031.846 (0) Table wp_wfconfig: finishing file(s) (2, 428.3 KB)
+0031.848 (0) Table wp_wfcrawlers: Total expected rows (approximate): 70
+0031.849 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 1000): 70 (uncompressed bytes in this segment=10039) in 0.00 seconds
+0031.851 (0) Table wp_wfcrawlers: finishing file(s) (2, 1.3 KB)
+0031.852 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0031.853 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.00 seconds
+0031.855 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0031.856 (0) Table wp_wffilemods: Total expected rows (approximate): 11944
+0032.040 (0) Table wp_wffilemods: Rows added in this batch (next record: 20000): 12381 (uncompressed bytes in this segment=4599011) in 0.18 seconds
+0032.044 (0) Table wp_wffilemods: finishing file(s) (2, 1318.4 KB)
+0032.047 (0) Table wp_wfhits: Total expected rows (approximate): 1765
+0032.069 (0) Table wp_wfhits: Rows added in this batch (next record: 6010): 1834 (uncompressed bytes in this segment=805770) in 0.02 seconds
+0032.073 (0) Table wp_wfhits: finishing file(s) (2, 54.7 KB)
+0032.075 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0032.076 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=476) in 0.00 seconds
+0032.078 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0032.080 (0) Table wp_wfissues: Total expected rows (via COUNT): 0
+0032.081 (0) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=804) in 0.00 seconds
+0032.083 (0) Table wp_wfissues: finishing file(s) (2, 0.4 KB)
+0032.084 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 12000
+0032.140 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: 12381): 12381 (uncompressed bytes in this segment=2309448) in 0.06 seconds
+0032.144 (0) Table wp_wfknownfilelist: finishing file(s) (2, 172.9 KB)
+0032.147 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0032.147 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0032.149 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0032.151 (0) Table wp_wflocs: Total expected rows (approximate): 1
+0032.152 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=939) in 0.00 seconds
+0032.155 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0032.157 (0) Table wp_wflogins: Total expected rows (approximate): 1932
+0032.171 (0) Table wp_wflogins: Rows added in this batch (next record: 1966): 1966 (uncompressed bytes in this segment=457940) in 0.01 seconds
+0032.175 (0) Table wp_wflogins: finishing file(s) (2, 29.5 KB)
+0032.177 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0032.178 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0032.180 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0032.182 (0) Table wp_wfls_settings: Total expected rows (approximate): 24
+0032.183 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=1805) in 0.00 seconds
+0032.184 (0) Table wp_wfls_settings: finishing file(s) (2, 0.9 KB)
+0032.186 (0) Table wp_wfnotifications: Total expected rows (approximate): 17
+0032.187 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 18 (uncompressed bytes in this segment=4423) in 0.00 seconds
+0032.190 (0) Table wp_wfnotifications: finishing file(s) (2, 1.1 KB)
+0032.191 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0032.192 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.00 seconds
+0032.194 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0032.195 (0) Table wp_wfreversecache: Total expected rows (approximate): 11
+0032.196 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 11 (uncompressed bytes in this segment=1465) in 0.00 seconds
+0032.198 (0) Table wp_wfreversecache: finishing file(s) (2, 0.6 KB)
+0032.200 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0032.200 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.00 seconds
+0032.202 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0032.203 (0) Table wp_wfstatus: Total expected rows (approximate): 1192
+0032.209 (0) Table wp_wfstatus: Rows added in this batch (next record: 10189): 1232 (uncompressed bytes in this segment=119691) in 0.01 seconds
+0032.212 (0) Table wp_wfstatus: finishing file(s) (2, 18.8 KB)
+0032.214 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0032.214 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.00 seconds
+0032.216 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0032.220 (0) Table wp_wp_phpmyadmin_extension__errors_log: Total expected rows (via COUNT): 0
+0032.220 (0) Table wp_wp_phpmyadmin_extension__errors_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.00 seconds
+0032.223 (0) Table wp_wp_phpmyadmin_extension__errors_log: finishing file(s) (2, 0.4 KB)
+0032.226 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 9
+0032.226 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.227 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1350) in 0.00 seconds
+0032.230 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0032.232 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 92
+0032.233 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.236 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 323): 92 (uncompressed bytes in this segment=57691) in 0.01 seconds
+0032.239 (0) Table wp_yoast_indexable: finishing file(s) (2, 9.3 KB)
+0032.241 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 73
+0032.242 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 73 (uncompressed bytes in this segment=2002) in 0.00 seconds
+0032.244 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0032.246 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 23
+0032.247 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.248 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1240) in 0.00 seconds
+0032.250 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0032.251 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0032.252 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0032.254 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0032.256 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 60
+0032.257 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0032.258 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 308): 60 (uncompressed bytes in this segment=9940) in 0.00 seconds
+0032.260 (0) Table wp_yoast_seo_links: finishing file(s) (2, 2.3 KB)
+0032.261 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_options.table.tmpr45069.gz (1/81/fopen): adding to final database dump
+0032.264 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_options.table.gz (2/81/fopen): adding to final database dump
+0032.264 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_site.table.tmpr2.gz (3/81/fopen): adding to final database dump
+0032.265 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_site.table.gz (4/81/fopen): adding to final database dump
+0032.266 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_blogs.table.tmpr4.gz (5/81/fopen): adding to final database dump
+0032.266 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_blogs.table.gz (6/81/fopen): adding to final database dump
+0032.267 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_users.table.tmpr3.gz (7/81/fopen): adding to final database dump
+0032.268 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_users.table.gz (8/81/fopen): adding to final database dump
+0032.268 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_usermeta.table.tmpr105.gz (9/81/fopen): adding to final database dump
+0032.269 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_usermeta.table.gz (10/81/fopen): adding to final database dump
+0032.269 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_blogmeta.table.tmpr0.gz (11/81/fopen): adding to final database dump
+0032.270 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_blogmeta.table.gz (12/81/fopen): adding to final database dump
+0032.270 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_commentmeta.table.tmpr0.gz (13/81/fopen): adding to final database dump
+0032.271 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_commentmeta.table.gz (14/81/fopen): adding to final database dump
+0032.271 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_comments.table.tmpr5.gz (15/81/fopen): adding to final database dump
+0032.272 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_comments.table.gz (16/81/fopen): adding to final database dump
+0032.272 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_links.table.tmpr0.gz (17/81/fopen): adding to final database dump
+0032.273 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_links.table.gz (18/81/fopen): adding to final database dump
+0032.273 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_postmeta.table.tmpr788.gz (19/81/fopen): adding to final database dump
+0032.274 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_postmeta.table.gz (20/81/fopen): adding to final database dump
+0032.274 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_posts.table.tmpr963.gz (21/81/fopen): adding to final database dump
+0032.275 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_posts.table.gz (22/81/fopen): adding to final database dump
+0032.276 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_registration_log.table.tmpr3.gz (23/81/fopen): adding to final database dump
+0032.276 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_registration_log.table.gz (24/81/fopen): adding to final database dump
+0032.277 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_signups.table.tmpr0.gz (25/81/fopen): adding to final database dump
+0032.278 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_signups.table.gz (26/81/fopen): adding to final database dump
+0032.278 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_sitemeta.table.tmpr955.gz (27/81/fopen): adding to final database dump
+0032.279 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_sitemeta.table.gz (28/81/fopen): adding to final database dump
+0032.279 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_term_relationships.table.tmpr100001.gz (29/81/fopen): adding to final database dump
+0032.280 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_term_relationships.table.gz (30/81/fopen): adding to final database dump
+0032.280 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_term_taxonomy.table.tmpr5.gz (31/81/fopen): adding to final database dump
+0032.280 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_term_taxonomy.table.gz (32/81/fopen): adding to final database dump
+0032.281 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_termmeta.table.tmpr0.gz (33/81/fopen): adding to final database dump
+0032.282 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_termmeta.table.gz (34/81/fopen): adding to final database dump
+0032.282 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_terms.table.tmpr5.gz (35/81/fopen): adding to final database dump
+0032.283 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_terms.table.gz (36/81/fopen): adding to final database dump
+0032.283 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_2_yoast_indexable.table.tmpr2.gz (37/81/fopen): adding to final database dump
+0032.283 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_2_yoast_indexable.table.gz (38/81/fopen): adding to final database dump
+0032.284 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_2_yoast_indexable_hierarchy.table.tmpr1001.gz (39/81/fopen): adding to final database dump
+0032.284 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_2_yoast_indexable_hierarchy.table.gz (40/81/fopen): adding to final database dump
+0032.285 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_2_yoast_migrations.table.tmpr24.gz (41/81/fopen): adding to final database dump
+0032.286 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_2_yoast_migrations.table.gz (42/81/fopen): adding to final database dump
+0032.286 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_2_yoast_primary_term.table.tmpr0.gz (43/81/fopen): adding to final database dump
+0032.286 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_2_yoast_primary_term.table.gz (44/81/fopen): adding to final database dump
+0032.287 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_2_yoast_seo_links.table.tmpr0.gz (45/81/fopen): adding to final database dump
+0032.287 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_2_yoast_seo_links.table.gz (46/81/fopen): adding to final database dump
+0032.288 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_commentmeta.table.tmpr0.gz (47/81/fopen): adding to final database dump
+0032.288 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_commentmeta.table.gz (48/81/fopen): adding to final database dump
+0032.289 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_comments.table.tmpr2.gz (49/81/fopen): adding to final database dump
+0032.289 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_comments.table.gz (50/81/fopen): adding to final database dump
+0032.290 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_links.table.tmpr0.gz (51/81/fopen): adding to final database dump
+0032.290 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_links.table.gz (52/81/fopen): adding to final database dump
+0032.290 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_options.table.tmpr210.gz (53/81/fopen): adding to final database dump
+0032.293 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_options.table.gz (54/81/fopen): adding to final database dump
+0032.293 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_postmeta.table.tmpr4.gz (55/81/fopen): adding to final database dump
+0032.294 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_postmeta.table.gz (56/81/fopen): adding to final database dump
+0032.294 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_posts.table.tmpr7.gz (57/81/fopen): adding to final database dump
+0032.295 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_posts.table.gz (58/81/fopen): adding to final database dump
+0032.295 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_term_relationships.table.tmpr1001.gz (59/81/fopen): adding to final database dump
+0032.296 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_term_relationships.table.gz (60/81/fopen): adding to final database dump
+0032.296 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_term_taxonomy.table.tmpr2.gz (61/81/fopen): adding to final database dump
+0032.297 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_term_taxonomy.table.gz (62/81/fopen): adding to final database dump
+0032.298 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_termmeta.table.tmpr0.gz (63/81/fopen): adding to final database dump
+0032.298 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_termmeta.table.gz (64/81/fopen): adding to final database dump
+0032.298 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_terms.table.tmpr2.gz (65/81/fopen): adding to final database dump
+0032.299 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_terms.table.gz (66/81/fopen): adding to final database dump
+0032.299 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_yoast_indexable.table.tmpr9.gz (67/81/fopen): adding to final database dump
+0032.300 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_yoast_indexable.table.gz (68/81/fopen): adding to final database dump
+0032.300 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_yoast_indexable_hierarchy.table.tmpr1001.gz (69/81/fopen): adding to final database dump
+0032.301 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_yoast_indexable_hierarchy.table.gz (70/81/fopen): adding to final database dump
+0032.301 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_yoast_migrations.table.tmpr24.gz (71/81/fopen): adding to final database dump
+0032.302 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_yoast_migrations.table.gz (72/81/fopen): adding to final database dump
+0032.302 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_yoast_primary_term.table.tmpr0.gz (73/81/fopen): adding to final database dump
+0032.303 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_yoast_primary_term.table.gz (74/81/fopen): adding to final database dump
+0032.303 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_yoast_seo_links.table.tmpr3.gz (75/81/fopen): adding to final database dump
+0032.304 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_3_yoast_seo_links.table.gz (76/81/fopen): adding to final database dump
+0032.304 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_actionscheduler_actions.table.tmpr528.gz (77/81/fopen): adding to final database dump
+0032.305 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_actionscheduler_actions.table.gz (78/81/fopen): adding to final database dump
+0032.305 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_actionscheduler_claims.table.tmpr0.gz (79/81/fopen): adding to final database dump
+0032.306 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_actionscheduler_claims.table.gz (80/81/fopen): adding to final database dump
+0032.306 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_actionscheduler_groups.table.tmpr4.gz (81/81/fopen): adding to final database dump
+0032.307 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_actionscheduler_groups.table.gz (82/81/fopen): adding to final database dump
+0032.307 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_actionscheduler_logs.table.tmpr859.gz (83/81/fopen): adding to final database dump
+0032.308 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_actionscheduler_logs.table.gz (84/81/fopen): adding to final database dump
+0032.308 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_aioseo_cache.table.tmpr27.gz (85/81/fopen): adding to final database dump
+0032.309 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_aioseo_cache.table.gz (86/81/fopen): adding to final database dump
+0032.309 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_aioseo_notifications.table.tmpr2.gz (87/81/fopen): adding to final database dump
+0032.310 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_aioseo_notifications.table.gz (88/81/fopen): adding to final database dump
+0032.310 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_aioseo_posts.table.tmpr4.gz (89/81/fopen): adding to final database dump
+0032.311 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_aioseo_posts.table.gz (90/81/fopen): adding to final database dump
+0032.311 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_dms_mapping_values.table.tmpr1.gz (91/81/fopen): adding to final database dump
+0032.312 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_dms_mapping_values.table.gz (92/81/fopen): adding to final database dump
+0032.312 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_dms_mappings.table.tmpr0.gz (93/81/fopen): adding to final database dump
+0032.313 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_dms_mappings.table.gz (94/81/fopen): adding to final database dump
+0032.313 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_domain_mapping.table.tmpr3.gz (95/81/fopen): adding to final database dump
+0032.314 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_domain_mapping.table.gz (96/81/fopen): adding to final database dump
+0032.314 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_e_events.table.tmpr2.gz (97/81/fopen): adding to final database dump
+0032.315 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_e_events.table.gz (98/81/fopen): adding to final database dump
+0032.315 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_e_submissions.table.tmpr0.gz (99/81/fopen): adding to final database dump
+0032.316 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_e_submissions.table.gz (100/81/fopen): adding to final database dump
+0032.317 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (101/81/fopen): adding to final database dump
+0032.317 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_e_submissions_actions_log.table.gz (102/81/fopen): adding to final database dump
+0032.318 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_e_submissions_values.table.tmpr0.gz (103/81/fopen): adding to final database dump
+0032.318 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_e_submissions_values.table.gz (104/81/fopen): adding to final database dump
+0032.319 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_pronamic_domain_posts.table.tmpr1.gz (105/81/fopen): adding to final database dump
+0032.319 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_pronamic_domain_posts.table.gz (106/81/fopen): adding to final database dump
+0032.320 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfblockediplog.table.tmpr1001.gz (107/81/fopen): adding to final database dump
+0032.320 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfblockediplog.table.gz (108/81/fopen): adding to final database dump
+0032.321 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfblocks7.table.tmpr0.gz (109/81/fopen): adding to final database dump
+0032.321 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfblocks7.table.gz (110/81/fopen): adding to final database dump
+0032.322 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfconfig.table.tmpr1001.gz (111/81/fopen): adding to final database dump
+0032.324 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfconfig.table.gz (112/81/fopen): adding to final database dump
+0032.325 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfcrawlers.table.tmpr1001.gz (113/81/fopen): adding to final database dump
+0032.326 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfcrawlers.table.gz (114/81/fopen): adding to final database dump
+0032.326 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wffilechanges.table.tmpr1.gz (115/81/fopen): adding to final database dump
+0032.326 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wffilechanges.table.gz (116/81/fopen): adding to final database dump
+0032.327 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wffilemods.table.tmpr20001.gz (117/81/fopen): adding to final database dump
+0032.335 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wffilemods.table.gz (118/81/fopen): adding to final database dump
+0032.336 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfhits.table.tmpr6011.gz (119/81/fopen): adding to final database dump
+0032.336 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfhits.table.gz (120/81/fopen): adding to final database dump
+0032.337 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfhoover.table.tmpr0.gz (121/81/fopen): adding to final database dump
+0032.338 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfhoover.table.gz (122/81/fopen): adding to final database dump
+0032.339 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfissues.table.tmpr0.gz (123/81/fopen): adding to final database dump
+0032.339 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfissues.table.gz (124/81/fopen): adding to final database dump
+0032.339 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfknownfilelist.table.tmpr12382.gz (125/81/fopen): adding to final database dump
+0032.341 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfknownfilelist.table.gz (126/81/fopen): adding to final database dump
+0032.341 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wflivetraffichuman.table.tmpr1.gz (127/81/fopen): adding to final database dump
+0032.342 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wflivetraffichuman.table.gz (128/81/fopen): adding to final database dump
+0032.342 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wflocs.table.tmpr1001.gz (129/81/fopen): adding to final database dump
+0032.343 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wflocs.table.gz (130/81/fopen): adding to final database dump
+0032.343 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wflogins.table.tmpr1967.gz (131/81/fopen): adding to final database dump
+0032.344 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wflogins.table.gz (132/81/fopen): adding to final database dump
+0032.344 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (133/81/fopen): adding to final database dump
+0032.345 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfls_2fa_secrets.table.gz (134/81/fopen): adding to final database dump
+0032.346 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfls_settings.table.tmpr1001.gz (135/81/fopen): adding to final database dump
+0032.346 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfls_settings.table.gz (136/81/fopen): adding to final database dump
+0032.347 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfnotifications.table.tmpr1001.gz (137/81/fopen): adding to final database dump
+0032.347 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfnotifications.table.gz (138/81/fopen): adding to final database dump
+0032.348 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfpendingissues.table.tmpr0.gz (139/81/fopen): adding to final database dump
+0032.348 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfpendingissues.table.gz (140/81/fopen): adding to final database dump
+0032.349 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfreversecache.table.tmpr1001.gz (141/81/fopen): adding to final database dump
+0032.349 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfreversecache.table.gz (142/81/fopen): adding to final database dump
+0032.350 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfsnipcache.table.tmpr0.gz (143/81/fopen): adding to final database dump
+0032.350 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfsnipcache.table.gz (144/81/fopen): adding to final database dump
+0032.351 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfstatus.table.tmpr10190.gz (145/81/fopen): adding to final database dump
+0032.351 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wfstatus.table.gz (146/81/fopen): adding to final database dump
+0032.352 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wftrafficrates.table.tmpr1.gz (147/81/fopen): adding to final database dump
+0032.353 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wftrafficrates.table.gz (148/81/fopen): adding to final database dump
+0032.353 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wp_phpmyadmin_extension__errors_log.table.tmpr0.gz (149/81/fopen): adding to final database dump
+0032.354 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wp_phpmyadmin_extension__errors_log.table.gz (150/81/fopen): adding to final database dump
+0032.354 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wpforms_tasks_meta.table.tmpr10.gz (151/81/fopen): adding to final database dump
+0032.355 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_wpforms_tasks_meta.table.gz (152/81/fopen): adding to final database dump
+0032.355 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_yoast_indexable.table.tmpr324.gz (153/81/fopen): adding to final database dump
+0032.356 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_yoast_indexable.table.gz (154/81/fopen): adding to final database dump
+0032.356 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (155/81/fopen): adding to final database dump
+0032.356 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_yoast_indexable_hierarchy.table.gz (156/81/fopen): adding to final database dump
+0032.357 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_yoast_migrations.table.tmpr24.gz (157/81/fopen): adding to final database dump
+0032.358 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_yoast_migrations.table.gz (158/81/fopen): adding to final database dump
+0032.358 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_yoast_primary_term.table.tmpr0.gz (159/81/fopen): adding to final database dump
+0032.358 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_yoast_primary_term.table.gz (160/81/fopen): adding to final database dump
+0032.359 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_yoast_seo_links.table.tmpr309.gz (161/81/fopen): adding to final database dump
+0032.359 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db-table-wp_yoast_seo_links.table.gz (162/81/fopen): adding to final database dump
+0032.361 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db.gz: finished writing out complete database file (3024.1 KB)
+0032.386 (0) Total database tables backed up: 81 (backup_2022-06-22-2120_www770world_3b5be4773bd1-db.gz, size: 3096766, sha1: 2ae3ce4239e63df1308a6e50d64f79e5ea0bd947, sha256: 7795db6b0f21338a66040b5db54a2ad3bc8cc4a49541996e7f8f3a2c0e9d8e7f)
+0032.400 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0032.400 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0032.401 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0032.402 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0032.402 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-others.zip: others: This file has not yet been successfully uploaded: will queue
+0032.403 (0) backup_2022-06-22-2120_www770world_3b5be4773bd1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0032.403 (0) Saving backup history. Total backup size: 532.5 MB
+0032.409 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0032.411 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0032.412 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+0036.299 (0) Google Drive: quota usage: used=29561.5 MB, total=102400 MB, available=72838.5 MB
+0036.309 (0) Google Drive: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0041.722 (0) Googledrive chunked upload: 2.7 % uploaded (1048576)
+0048.257 (0) Googledrive chunked upload: 5.4 % uploaded (2097152)
+0053.508 (0) Googledrive chunked upload: 8.1 % uploaded (3145728)
+0058.509 (0) Googledrive chunked upload: 10.8 % uploaded (4194304)
+0063.174 (0) Googledrive chunked upload: 13.5 % uploaded (5242880)
+0068.667 (0) Googledrive chunked upload: 16.2 % uploaded (6291456)
+0073.213 (0) Googledrive chunked upload: 18.9 % uploaded (7340032)
+0077.838 (0) Googledrive chunked upload: 21.6 % uploaded (8388608)
+0082.187 (0) Googledrive chunked upload: 24.3 % uploaded (9437184)
+0084.379 (0) Googledrive chunked upload: 26.9 % uploaded (10485760 - increasing chunk size to 2048 KB - memory usage: 16.1 / 14)
+0088.851 (0) Googledrive chunked upload: 32.3 % uploaded (12582912)
+0095.104 (0) Googledrive chunked upload: 37.7 % uploaded (14680064)
+0102.131 (0) Googledrive chunked upload: 43.1 % uploaded (16777216)
+0113.271 (0) Googledrive chunked upload: 48.5 % uploaded (18874368)
+0120.841 (0) Googledrive chunked upload: 53.9 % uploaded (20971520)
+0126.638 (0) Googledrive chunked upload: 59.3 % uploaded (23068672)
+0129.049 (0) Googledrive chunked upload: 64.7 % uploaded (25165824 - increasing chunk size to 4096 KB - memory usage: 16.1 / 14)
+0132.961 (0) Googledrive chunked upload: 75.5 % uploaded (29360128)
+0136.727 (0) Googledrive chunked upload: 86.2 % uploaded (33554432)
+0140.772 (0) Googledrive chunked upload: 97 % uploaded (37748736)
+0143.077 (0) Googledrive chunked upload: 100 % uploaded (37748736)
+0143.080 (0) Google Drive: OK: Archive backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip uploaded in 106.77 seconds
+0143.081 (0) Recording as successfully uploaded: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip
+0143.085 (0) Deleting local file: backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip: OK
+0143.086 (0) Deleting zip manifest (backup_2022-06-22-2120_www770world_3b5be4773bd1-plugins.zip.list.tmp)
+0143.325 (0) Google Drive: quota usage: used=29598.6 MB, total=102400 MB, available=72801.4 MB
+0143.327 (0) Google Drive: backup_2022-06-22-2120_www770world_3b5be4773bd1-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0144.603 (0) Googledrive chunked upload: 10.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.1 / 14)
+0146.251 (0) Googledrive chunked upload: 32.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.1 / 14)
+0148.950 (0) Googledrive chunked upload: 76.4 % uploaded (7340032)
+0151.694 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0151.698 (0) Google Drive: OK: Archive backup_2022-06-22-2120_www770world_3b5be4773bd1-themes.zip uploaded in 8.37 seconds
+0151.698 (0) Recording as successfully uploaded: backup_2022-06-22-2120_www770world_3b5be4773bd1-themes.zip
+0151.700 (0) Deleting local file: backup_2022-06-22-2120_www770world_3b5be4773bd1-themes.zip: OK
+0151.701 (0) Deleting zip manifest (backup_2022-06-22-2120_www770world_3b5be4773bd1-themes.zip.list.tmp)
+0151.931 (0) Google Drive: quota usage: used=29607.8 MB, total=102400 MB, available=72792.2 MB
+0151.945 (0) Google Drive: backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0153.400 (0) Googledrive chunked upload: 0.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.1 / 14)
+0155.221 (0) Googledrive chunked upload: 0.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.1 / 14)
+0158.488 (0) Googledrive chunked upload: 1.7 % uploaded (7340032)
+0161.456 (0) Googledrive chunked upload: 2.7 % uploaded (11534336)
+0164.301 (0) Googledrive chunked upload: 3.6 % uploaded (15728640)
+0167.132 (0) Googledrive chunked upload: 4.6 % uploaded (19922944)
+0170.414 (0) Googledrive chunked upload: 5.6 % uploaded (24117248)
+0173.766 (0) Googledrive chunked upload: 6.5 % uploaded (28311552)
+0176.556 (0) Googledrive chunked upload: 7.5 % uploaded (32505856)
+0179.545 (0) Googledrive chunked upload: 8.5 % uploaded (36700160)
+0182.890 (0) Googledrive chunked upload: 9.4 % uploaded (40894464)
+0186.454 (0) Googledrive chunked upload: 10.4 % uploaded (45088768)
+0189.624 (0) Googledrive chunked upload: 11.4 % uploaded (49283072)
+0192.814 (0) Googledrive chunked upload: 12.3 % uploaded (53477376)
+0196.400 (0) Googledrive chunked upload: 13.3 % uploaded (57671680)
+0200.705 (0) Googledrive chunked upload: 14.3 % uploaded (61865984)
+0203.768 (0) Googledrive chunked upload: 15.2 % uploaded (66060288)
+0207.746 (0) Googledrive chunked upload: 16.2 % uploaded (70254592)
+0211.391 (0) Googledrive chunked upload: 17.2 % uploaded (74448896)
+0215.781 (0) Googledrive chunked upload: 18.1 % uploaded (78643200)
+0219.460 (0) Googledrive chunked upload: 19.1 % uploaded (82837504)
+0223.409 (0) Googledrive chunked upload: 20.1 % uploaded (87031808)
+0226.791 (0) Googledrive chunked upload: 21 % uploaded (91226112)
+0230.292 (0) Googledrive chunked upload: 22 % uploaded (95420416)
+0235.776 (0) Googledrive chunked upload: 23 % uploaded (99614720)
+0239.405 (0) Googledrive chunked upload: 23.9 % uploaded (103809024)
+0243.159 (0) Googledrive chunked upload: 24.9 % uploaded (108003328)
+0247.405 (0) Googledrive chunked upload: 25.9 % uploaded (112197632)
+0250.595 (0) Googledrive chunked upload: 26.8 % uploaded (116391936)
+0253.892 (0) Googledrive chunked upload: 27.8 % uploaded (120586240)
+0257.245 (0) The scheduled resumption is within 45 seconds - will reschedule
+0257.247 (0) Rescheduling resumption 1: moving to 345 seconds from now (1655947843)
+0257.249 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0257.250 (0) Googledrive chunked upload: 28.8 % uploaded (124780544)
+0260.712 (0) Googledrive chunked upload: 29.7 % uploaded (128974848)
+0263.998 (0) Googledrive chunked upload: 30.7 % uploaded (133169152)
+0267.277 (0) Googledrive chunked upload: 31.7 % uploaded (137363456)
+0270.285 (0) Googledrive chunked upload: 32.6 % uploaded (141557760)
+0273.911 (0) Googledrive chunked upload: 33.6 % uploaded (145752064)
+0277.327 (0) Googledrive chunked upload: 34.6 % uploaded (149946368)
+0280.159 (0) Googledrive chunked upload: 35.5 % uploaded (154140672)
+0283.153 (0) Googledrive chunked upload: 36.5 % uploaded (158334976)
+0286.249 (0) Googledrive chunked upload: 37.5 % uploaded (162529280)
+0289.439 (0) Googledrive chunked upload: 38.4 % uploaded (166723584)
+0293.233 (0) Googledrive chunked upload: 39.4 % uploaded (170917888)
+0296.584 (0) Googledrive chunked upload: 40.4 % uploaded (175112192)
+0299.701 (0) Googledrive chunked upload: 41.3 % uploaded (179306496)
+0302.928 (0) Googledrive chunked upload: 42.3 % uploaded (183500800)
+0307.213 (0) Googledrive chunked upload: 43.3 % uploaded (187695104)
+0318.012 (0) The time we have been running (318) is approaching the resumption interval (345) - increasing resumption interval to 349
+0318.013 (0) Googledrive chunked upload: 44.2 % uploaded (191889408)
+0321.266 (0) The time we have been running (321.3) is approaching the resumption interval (349) - increasing resumption interval to 352
+0321.268 (0) Googledrive chunked upload: 45.2 % uploaded (196083712)
+0324.228 (0) The time we have been running (324.2) is approaching the resumption interval (352) - increasing resumption interval to 355
+0324.230 (0) Googledrive chunked upload: 46.2 % uploaded (200278016)
+0327.129 (0) The time we have been running (327.1) is approaching the resumption interval (355) - increasing resumption interval to 358
+0327.130 (0) Googledrive chunked upload: 47.1 % uploaded (204472320)
+0329.864 (0) The time we have been running (329.9) is approaching the resumption interval (358) - increasing resumption interval to 360
+0329.867 (0) Googledrive chunked upload: 48.1 % uploaded (208666624)
+0332.804 (0) The time we have been running (332.8) is approaching the resumption interval (360) - increasing resumption interval to 363
+0332.806 (0) Googledrive chunked upload: 49.1 % uploaded (212860928)
+0336.433 (0) The time we have been running (336.4) is approaching the resumption interval (363) - increasing resumption interval to 367
+0336.434 (0) Googledrive chunked upload: 50 % uploaded (217055232)
+0340.053 (0) The time we have been running (340.1) is approaching the resumption interval (367) - increasing resumption interval to 371
+0340.055 (0) Googledrive chunked upload: 51 % uploaded (221249536)
+0342.891 (0) The time we have been running (342.9) is approaching the resumption interval (371) - increasing resumption interval to 373
+0342.892 (0) Googledrive chunked upload: 52 % uploaded (225443840)
+0345.840 (0) The time we have been running (345.8) is approaching the resumption interval (373) - increasing resumption interval to 376
+0345.842 (0) Googledrive chunked upload: 52.9 % uploaded (229638144)
+0349.141 (0) The time we have been running (349.1) is approaching the resumption interval (376) - increasing resumption interval to 380
+0349.143 (0) Googledrive chunked upload: 53.9 % uploaded (233832448)
+0352.364 (0) The time we have been running (352.4) is approaching the resumption interval (380) - increasing resumption interval to 383
+0352.366 (0) Googledrive chunked upload: 54.9 % uploaded (238026752)
+0355.585 (0) The time we have been running (355.6) is approaching the resumption interval (383) - increasing resumption interval to 386
+0355.586 (0) Googledrive chunked upload: 55.8 % uploaded (242221056)
+0358.419 (0) The time we have been running (358.4) is approaching the resumption interval (386) - increasing resumption interval to 389
+0358.420 (0) Googledrive chunked upload: 56.8 % uploaded (246415360)
+0361.763 (0) The time we have been running (361.8) is approaching the resumption interval (389) - increasing resumption interval to 392
+0361.765 (0) Googledrive chunked upload: 57.8 % uploaded (250609664)
+0365.288 (0) The time we have been running (365.3) is approaching the resumption interval (392) - increasing resumption interval to 396
+0365.289 (0) Googledrive chunked upload: 58.7 % uploaded (254803968)
+0368.650 (0) The time we have been running (368.6) is approaching the resumption interval (396) - increasing resumption interval to 399
+0368.652 (0) Googledrive chunked upload: 59.7 % uploaded (258998272)
+0372.223 (0) The time we have been running (372.2) is approaching the resumption interval (399) - increasing resumption interval to 403
+0372.224 (0) Googledrive chunked upload: 60.7 % uploaded (263192576)
+0375.295 (0) The time we have been running (375.3) is approaching the resumption interval (403) - increasing resumption interval to 406
+0375.296 (0) Googledrive chunked upload: 61.6 % uploaded (267386880)
+0378.720 (0) The time we have been running (378.7) is approaching the resumption interval (406) - increasing resumption interval to 409
+0378.722 (0) Googledrive chunked upload: 62.6 % uploaded (271581184)
+0382.126 (0) The time we have been running (382.1) is approaching the resumption interval (409) - increasing resumption interval to 413
+0382.127 (0) Googledrive chunked upload: 63.6 % uploaded (275775488)
+0385.400 (0) The time we have been running (385.4) is approaching the resumption interval (413) - increasing resumption interval to 416
+0385.401 (0) Googledrive chunked upload: 64.5 % uploaded (279969792)
+0388.210 (0) The time we have been running (388.2) is approaching the resumption interval (416) - increasing resumption interval to 419
+0388.211 (0) Googledrive chunked upload: 65.5 % uploaded (284164096)
+0391.028 (0) The time we have been running (391) is approaching the resumption interval (419) - increasing resumption interval to 422
+0391.029 (0) Googledrive chunked upload: 66.5 % uploaded (288358400)
+0394.199 (0) The time we have been running (394.2) is approaching the resumption interval (422) - increasing resumption interval to 425
+0394.200 (0) Googledrive chunked upload: 67.4 % uploaded (292552704)
+0397.793 (0) The time we have been running (397.8) is approaching the resumption interval (425) - increasing resumption interval to 428
+0397.794 (0) Googledrive chunked upload: 68.4 % uploaded (296747008)
+0400.792 (0) The time we have been running (400.8) is approaching the resumption interval (428) - increasing resumption interval to 431
+0400.793 (0) Googledrive chunked upload: 69.4 % uploaded (300941312)
+0403.731 (0) The time we have been running (403.7) is approaching the resumption interval (431) - increasing resumption interval to 434
+0403.732 (0) Googledrive chunked upload: 70.3 % uploaded (305135616)
+0406.741 (0) The time we have been running (406.7) is approaching the resumption interval (434) - increasing resumption interval to 437
+0406.743 (0) Googledrive chunked upload: 71.3 % uploaded (309329920)
+0409.614 (0) The time we have been running (409.6) is approaching the resumption interval (437) - increasing resumption interval to 440
+0409.615 (0) Googledrive chunked upload: 72.3 % uploaded (313524224)
+0413.051 (0) The time we have been running (413) is approaching the resumption interval (440) - increasing resumption interval to 444
+0413.052 (0) Googledrive chunked upload: 73.2 % uploaded (317718528)
+0416.383 (0) The time we have been running (416.4) is approaching the resumption interval (444) - increasing resumption interval to 447
+0416.384 (0) Googledrive chunked upload: 74.2 % uploaded (321912832)
+0420.188 (0) The time we have been running (420.2) is approaching the resumption interval (447) - increasing resumption interval to 451
+0420.189 (0) Googledrive chunked upload: 75.2 % uploaded (326107136)
+0423.296 (0) The time we have been running (423.3) is approaching the resumption interval (451) - increasing resumption interval to 454
+0423.297 (0) Googledrive chunked upload: 76.1 % uploaded (330301440)
+0426.497 (0) The time we have been running (426.5) is approaching the resumption interval (454) - increasing resumption interval to 457
+0426.498 (0) Googledrive chunked upload: 77.1 % uploaded (334495744)
+0429.639 (0) The time we have been running (429.6) is approaching the resumption interval (457) - increasing resumption interval to 460
+0429.640 (0) Googledrive chunked upload: 78.1 % uploaded (338690048)
+0432.956 (0) The time we have been running (433) is approaching the resumption interval (460) - increasing resumption interval to 463
+0432.958 (0) Googledrive chunked upload: 79 % uploaded (342884352)
+0436.134 (0) The time we have been running (436.1) is approaching the resumption interval (463) - increasing resumption interval to 467
+0436.135 (0) Googledrive chunked upload: 80 % uploaded (347078656)
+0439.302 (0) The time we have been running (439.3) is approaching the resumption interval (467) - increasing resumption interval to 470
+0439.303 (0) Googledrive chunked upload: 81 % uploaded (351272960)
+0442.725 (0) The time we have been running (442.7) is approaching the resumption interval (470) - increasing resumption interval to 473
+0442.726 (0) Googledrive chunked upload: 81.9 % uploaded (355467264)
+0446.172 (0) The time we have been running (446.2) is approaching the resumption interval (473) - increasing resumption interval to 477
+0446.174 (0) Googledrive chunked upload: 82.9 % uploaded (359661568)
+0448.818 (0) The time we have been running (448.8) is approaching the resumption interval (477) - increasing resumption interval to 479
+0448.820 (0) Googledrive chunked upload: 83.9 % uploaded (363855872)
+0451.757 (0) The time we have been running (451.8) is approaching the resumption interval (479) - increasing resumption interval to 482
+0451.758 (0) Googledrive chunked upload: 84.8 % uploaded (368050176)
+0454.843 (0) The time we have been running (454.8) is approaching the resumption interval (482) - increasing resumption interval to 485
+0454.844 (0) Googledrive chunked upload: 85.8 % uploaded (372244480)
+0458.142 (0) The time we have been running (458.1) is approaching the resumption interval (485) - increasing resumption interval to 489
+0458.143 (0) Googledrive chunked upload: 86.8 % uploaded (376438784)
+0460.886 (0) The time we have been running (460.9) is approaching the resumption interval (489) - increasing resumption interval to 491
+0460.887 (0) Googledrive chunked upload: 87.7 % uploaded (380633088)
+0464.109 (0) The time we have been running (464.1) is approaching the resumption interval (491) - increasing resumption interval to 495
+0464.111 (0) Googledrive chunked upload: 88.7 % uploaded (384827392)
+0467.077 (0) The time we have been running (467.1) is approaching the resumption interval (495) - increasing resumption interval to 498
+0467.078 (0) Googledrive chunked upload: 89.7 % uploaded (389021696)
+0470.354 (0) The time we have been running (470.4) is approaching the resumption interval (498) - increasing resumption interval to 501
+0470.355 (0) Googledrive chunked upload: 90.6 % uploaded (393216000)
+0473.633 (0) The time we have been running (473.6) is approaching the resumption interval (501) - increasing resumption interval to 504
+0473.635 (0) Googledrive chunked upload: 91.6 % uploaded (397410304)
+0476.490 (0) The time we have been running (476.5) is approaching the resumption interval (504) - increasing resumption interval to 507
+0476.491 (0) Googledrive chunked upload: 92.6 % uploaded (401604608)
+0479.423 (0) The time we have been running (479.4) is approaching the resumption interval (507) - increasing resumption interval to 510
+0479.424 (0) Googledrive chunked upload: 93.5 % uploaded (405798912)
+0482.913 (0) The time we have been running (482.9) is approaching the resumption interval (510) - increasing resumption interval to 513
+0482.914 (0) Googledrive chunked upload: 94.5 % uploaded (409993216)
+0486.388 (0) The time we have been running (486.4) is approaching the resumption interval (513) - increasing resumption interval to 517
+0486.389 (0) Googledrive chunked upload: 95.5 % uploaded (414187520)
+0489.685 (0) The time we have been running (489.7) is approaching the resumption interval (517) - increasing resumption interval to 520
+0489.687 (0) Googledrive chunked upload: 96.4 % uploaded (418381824)
+0492.686 (0) The time we have been running (492.7) is approaching the resumption interval (520) - increasing resumption interval to 523
+0492.687 (0) Googledrive chunked upload: 97.4 % uploaded (422576128)
+0495.957 (0) The time we have been running (496) is approaching the resumption interval (523) - increasing resumption interval to 526
+0495.959 (0) Googledrive chunked upload: 98.4 % uploaded (426770432)
+0498.664 (0) The time we have been running (498.7) is approaching the resumption interval (526) - increasing resumption interval to 529
+0498.666 (0) Googledrive chunked upload: 99.3 % uploaded (430964736)
+0501.971 (0) The time we have been running (502) is approaching the resumption interval (529) - increasing resumption interval to 532
+0501.973 (0) Googledrive chunked upload: 100 % uploaded (430964736)
+0501.975 (0) Google Drive: OK: Archive backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads.zip uploaded in 350.02 seconds
+0501.976 (0) Recording as successfully uploaded: backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads.zip
+0502.008 (0) Deleting local file: backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads.zip: OK
+0502.010 (0) Deleting zip manifest (backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads.zip.list.tmp)
+0502.299 (0) Google Drive: quota usage: used=30021.5 MB, total=102400 MB, available=72378.5 MB
+0502.308 (0) Google Drive: backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0504.603 (0) The time we have been running (504.6) is approaching the resumption interval (532) - increasing resumption interval to 535
+0504.604 (0) Googledrive chunked upload: 1.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.1 / 14)
+0507.097 (0) The time we have been running (507.1) is approaching the resumption interval (535) - increasing resumption interval to 538
+0507.100 (0) Googledrive chunked upload: 4.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.1 / 14)
+0510.072 (0) The time we have been running (510.1) is approaching the resumption interval (538) - increasing resumption interval to 541
+0510.074 (0) Googledrive chunked upload: 10.6 % uploaded (7340032)
+0512.724 (0) The time we have been running (512.7) is approaching the resumption interval (541) - increasing resumption interval to 543
+0512.725 (0) Googledrive chunked upload: 16.6 % uploaded (11534336)
+0515.882 (0) The time we have been running (515.9) is approaching the resumption interval (543) - increasing resumption interval to 546
+0515.883 (0) Googledrive chunked upload: 22.6 % uploaded (15728640)
+0519.246 (0) The time we have been running (519.2) is approaching the resumption interval (546) - increasing resumption interval to 550
+0519.247 (0) Googledrive chunked upload: 28.7 % uploaded (19922944)
+0522.214 (0) The time we have been running (522.2) is approaching the resumption interval (550) - increasing resumption interval to 553
+0522.216 (0) Googledrive chunked upload: 34.7 % uploaded (24117248)
+0525.173 (0) The time we have been running (525.2) is approaching the resumption interval (553) - increasing resumption interval to 556
+0525.179 (0) Googledrive chunked upload: 40.8 % uploaded (28311552)
+0528.212 (0) The time we have been running (528.2) is approaching the resumption interval (556) - increasing resumption interval to 559
+0528.213 (0) Googledrive chunked upload: 46.8 % uploaded (32505856)
+0531.467 (0) The time we have been running (531.5) is approaching the resumption interval (559) - increasing resumption interval to 562
+0531.468 (0) Googledrive chunked upload: 52.8 % uploaded (36700160)
+0534.735 (0) The time we have been running (534.7) is approaching the resumption interval (562) - increasing resumption interval to 565
+0534.736 (0) Googledrive chunked upload: 58.9 % uploaded (40894464)
+0537.463 (0) The time we have been running (537.5) is approaching the resumption interval (565) - increasing resumption interval to 568
+0537.465 (0) Googledrive chunked upload: 64.9 % uploaded (45088768)
+0540.468 (0) The time we have been running (540.5) is approaching the resumption interval (568) - increasing resumption interval to 571
+0540.469 (0) Googledrive chunked upload: 71 % uploaded (49283072)
+0543.565 (0) The time we have been running (543.6) is approaching the resumption interval (571) - increasing resumption interval to 574
+0543.566 (0) Googledrive chunked upload: 77 % uploaded (53477376)
+0546.937 (0) The time we have been running (546.9) is approaching the resumption interval (574) - increasing resumption interval to 577
+0546.938 (0) Googledrive chunked upload: 83 % uploaded (57671680)
+0551.026 (0) The time we have been running (551) is approaching the resumption interval (577) - increasing resumption interval to 582
+0551.027 (0) Googledrive chunked upload: 89.1 % uploaded (61865984)
+0554.380 (0) The time we have been running (554.4) is approaching the resumption interval (582) - increasing resumption interval to 585
+0554.382 (0) Googledrive chunked upload: 95.1 % uploaded (66060288)
+0557.930 (0) The time we have been running (557.9) is approaching the resumption interval (585) - increasing resumption interval to 588
+0557.932 (0) The scheduled resumption is within 45 seconds - will reschedule
+0557.933 (0) Rescheduling resumption 1: moving to 633 seconds from now (1655948432)
+0557.935 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 588 + 45 = 633
+0557.936 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0557.937 (0) Google Drive: OK: Archive backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads2.zip uploaded in 55.63 seconds
+0557.938 (0) Recording as successfully uploaded: backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads2.zip
+0557.945 (0) Deleting local file: backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads2.zip: OK
+0557.946 (0) Deleting zip manifest (backup_2022-06-22-2120_www770world_3b5be4773bd1-uploads2.zip.list.tmp)
+0558.230 (0) Google Drive: quota usage: used=30087.7 MB, total=102400 MB, available=72312.3 MB
+0558.240 (0) Google Drive: backup_2022-06-22-2120_www770world_3b5be4773bd1-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0559.756 (0) Googledrive chunked upload: 30 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.1 / 14)
+0561.552 (0) Googledrive chunked upload: 90 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 16.1 / 14)
+0563.114 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0563.116 (0) Google Drive: OK: Archive backup_2022-06-22-2120_www770world_3b5be4773bd1-others.zip uploaded in 4.88 seconds
+0563.117 (0) Recording as successfully uploaded: backup_2022-06-22-2120_www770world_3b5be4773bd1-others.zip
+0563.119 (0) Deleting local file: backup_2022-06-22-2120_www770world_3b5be4773bd1-others.zip: OK
+0563.119 (0) Deleting zip manifest (backup_2022-06-22-2120_www770world_3b5be4773bd1-others.zip.list.tmp)
+0563.335 (0) Google Drive: quota usage: used=30091 MB, total=102400 MB, available=72309 MB
+0563.346 (0) Google Drive: backup_2022-06-22-2120_www770world_3b5be4773bd1-db.gz: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0564.796 (0) Googledrive chunked upload: 33.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 16.1 / 14)
+0567.531 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0567.533 (0) Google Drive: OK: Archive backup_2022-06-22-2120_www770world_3b5be4773bd1-db.gz uploaded in 4.19 seconds
+0567.534 (0) Recording as successfully uploaded: backup_2022-06-22-2120_www770world_3b5be4773bd1-db.gz
+0567.535 (0) Deleting local file: backup_2022-06-22-2120_www770world_3b5be4773bd1-db.gz: OK
+0567.537 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+0567.539 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655523060, 1655393400, 1655390520, 1655364540, 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+0567.539 (0) Number of backup sets in history: 98; groups (db): 1
+0567.540 (0) Examining (for databases) backup set with group_id=0, nonce=3b5be4773bd1, datestamp=1655947241 (Jun 23 2022 01:20:41)
+0567.540 (0) This backup set is the backup set just made, so will not be deleted.
+0567.540 (0) Examining (for databases) backup set with group_id=0, nonce=85fa1198e8b7, datestamp=1655882987 (Jun 22 2022 07:29:47)
+0567.540 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=70f225d7e233, datestamp=1655875823 (Jun 22 2022 05:30:23)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=bffcfab291f6, datestamp=1655868620 (Jun 22 2022 03:30:20)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=196aff88b83b, datestamp=1655861393 (Jun 22 2022 01:29:53)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=f57110b3bc06, datestamp=1655854222 (Jun 21 2022 23:30:22)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=c5b6b6a04434, datestamp=1655847020 (Jun 21 2022 21:30:20)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=d24dbae5b47f, datestamp=1655839916 (Jun 21 2022 19:31:56)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=076b6421cca4, datestamp=1655832620 (Jun 21 2022 17:30:20)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=4747919c11b5, datestamp=1655825421 (Jun 21 2022 15:30:21)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=f9c3f3abf6c4, datestamp=1655818189 (Jun 21 2022 13:29:49)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=49e4db8628d1, datestamp=1655811013 (Jun 21 2022 11:30:13)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=c07bb2329e8b, datestamp=1655803820 (Jun 21 2022 09:30:20)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=167cb45b1b4b, datestamp=1655796585 (Jun 21 2022 07:29:45)
+0567.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.541 (0) Examining (for databases) backup set with group_id=0, nonce=6c1d0fa6d803, datestamp=1655789424 (Jun 21 2022 05:30:24)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=fb7ef73652b1, datestamp=1655782215 (Jun 21 2022 03:30:15)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=b7e38897b070, datestamp=1655775002 (Jun 21 2022 01:30:02)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=daa16f214813, datestamp=1655767811 (Jun 20 2022 23:30:11)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=346c050e06de, datestamp=1655760716 (Jun 20 2022 21:31:56)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=942d5b87d010, datestamp=1655753417 (Jun 20 2022 19:30:17)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=9fbee616d07f, datestamp=1655746298 (Jun 20 2022 17:31:38)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=99d34798984f, datestamp=1655739117 (Jun 20 2022 15:31:57)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=5671fec14ceb, datestamp=1655731916 (Jun 20 2022 13:31:56)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=ceec27b9b2b6, datestamp=1655724716 (Jun 20 2022 11:31:56)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=95cb6b598b9e, datestamp=1655717516 (Jun 20 2022 09:31:56)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=080330a24b7c, datestamp=1655710235 (Jun 20 2022 07:30:35)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=73f494ffa881, datestamp=1655703061 (Jun 20 2022 05:31:01)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=9db95cf69b02, datestamp=1655695915 (Jun 20 2022 03:31:55)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=f6b5cb8d60d1, datestamp=1655688679 (Jun 20 2022 01:31:19)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=e54fd8b2e5b8, datestamp=1655681490 (Jun 19 2022 23:31:30)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=654d1d4fb90e, datestamp=1655674239 (Jun 19 2022 21:30:39)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=15e2544d1046, datestamp=1655667115 (Jun 19 2022 19:31:55)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=f4c44e38bc2b, datestamp=1655659852 (Jun 19 2022 17:30:52)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=8118026472ba, datestamp=1655652716 (Jun 19 2022 15:31:56)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=494110892b32, datestamp=1655645515 (Jun 19 2022 13:31:55)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=cfa96e301bc1, datestamp=1655638316 (Jun 19 2022 11:31:56)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=96f019b2eabb, datestamp=1655631047 (Jun 19 2022 09:30:47)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=5f8477fa4b37, datestamp=1655623809 (Jun 19 2022 07:30:09)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.542 (0) Examining (for databases) backup set with group_id=0, nonce=c8036a8a9afe, datestamp=1655616716 (Jun 19 2022 05:31:56)
+0567.542 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.543 (0) Examining (for databases) backup set with group_id=0, nonce=d73304ae7673, datestamp=1655613108 (Jun 19 2022 04:31:48)
+0567.543 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.543 (0) Examining (for databases) backup set with group_id=0, nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+0567.543 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.543 (0) Examining (for databases) backup set with group_id=0, nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+0567.543 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.543 (0) Examining (for databases) backup set with group_id=0, nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+0567.543 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.543 (0) Examining (for databases) backup set with group_id=0, nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+0567.543 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.543 (0) Examining (for databases) backup set with group_id=0, nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+0567.543 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0567.543 (0) Examining (for databases) backup set with group_id=0, nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+0567.543 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0567.543 (0) Examining (for databases) backup set with group_id=0, nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+0567.543 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0567.543 (0) Examining (for databases) backup set with group_id=0, nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0567.543 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0567.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.544 (0) Number of backup sets in history: 98; groups (files): 1
+0567.545 (0) Examining (for files) backup set with nonce=3b5be4773bd1, datestamp=1655947241 (Jun 23 2022 01:20:41)
+0567.545 (0) This backup set is the backup set just made, so will not be deleted.
+0567.546 (0) This backup set is the backup set just made, so will not be deleted.
+0567.546 (0) This backup set is the backup set just made, so will not be deleted.
+0567.546 (0) This backup set is the backup set just made, so will not be deleted.
+0567.546 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.546 (0) Examining (for files) backup set with nonce=85fa1198e8b7, datestamp=1655882987 (Jun 22 2022 07:29:47)
+0567.546 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.546 (0) Examining (for files) backup set with nonce=70f225d7e233, datestamp=1655875823 (Jun 22 2022 05:30:23)
+0567.546 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.546 (0) Examining (for files) backup set with nonce=bffcfab291f6, datestamp=1655868620 (Jun 22 2022 03:30:20)
+0567.546 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.546 (0) Examining (for files) backup set with nonce=196aff88b83b, datestamp=1655861393 (Jun 22 2022 01:29:53)
+0567.546 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.546 (0) Examining (for files) backup set with nonce=f57110b3bc06, datestamp=1655854222 (Jun 21 2022 23:30:22)
+0567.546 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.546 (0) Examining (for files) backup set with nonce=c5b6b6a04434, datestamp=1655847020 (Jun 21 2022 21:30:20)
+0567.546 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=d24dbae5b47f, datestamp=1655839916 (Jun 21 2022 19:31:56)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=076b6421cca4, datestamp=1655832620 (Jun 21 2022 17:30:20)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=4747919c11b5, datestamp=1655825421 (Jun 21 2022 15:30:21)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=f9c3f3abf6c4, datestamp=1655818189 (Jun 21 2022 13:29:49)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=49e4db8628d1, datestamp=1655811013 (Jun 21 2022 11:30:13)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=c07bb2329e8b, datestamp=1655803820 (Jun 21 2022 09:30:20)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=167cb45b1b4b, datestamp=1655796585 (Jun 21 2022 07:29:45)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=6c1d0fa6d803, datestamp=1655789424 (Jun 21 2022 05:30:24)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=fb7ef73652b1, datestamp=1655782215 (Jun 21 2022 03:30:15)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=b7e38897b070, datestamp=1655775002 (Jun 21 2022 01:30:02)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=daa16f214813, datestamp=1655767811 (Jun 20 2022 23:30:11)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=346c050e06de, datestamp=1655760716 (Jun 20 2022 21:31:56)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=942d5b87d010, datestamp=1655753417 (Jun 20 2022 19:30:17)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=9fbee616d07f, datestamp=1655746298 (Jun 20 2022 17:31:38)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=99d34798984f, datestamp=1655739117 (Jun 20 2022 15:31:57)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=5671fec14ceb, datestamp=1655731916 (Jun 20 2022 13:31:56)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=ceec27b9b2b6, datestamp=1655724716 (Jun 20 2022 11:31:56)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.547 (0) Examining (for files) backup set with nonce=95cb6b598b9e, datestamp=1655717516 (Jun 20 2022 09:31:56)
+0567.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=080330a24b7c, datestamp=1655710235 (Jun 20 2022 07:30:35)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=73f494ffa881, datestamp=1655703061 (Jun 20 2022 05:31:01)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=9db95cf69b02, datestamp=1655695915 (Jun 20 2022 03:31:55)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=f6b5cb8d60d1, datestamp=1655688679 (Jun 20 2022 01:31:19)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=e54fd8b2e5b8, datestamp=1655681490 (Jun 19 2022 23:31:30)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=654d1d4fb90e, datestamp=1655674239 (Jun 19 2022 21:30:39)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=15e2544d1046, datestamp=1655667115 (Jun 19 2022 19:31:55)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=f4c44e38bc2b, datestamp=1655659852 (Jun 19 2022 17:30:52)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=8118026472ba, datestamp=1655652716 (Jun 19 2022 15:31:56)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=494110892b32, datestamp=1655645515 (Jun 19 2022 13:31:55)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=cfa96e301bc1, datestamp=1655638316 (Jun 19 2022 11:31:56)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=96f019b2eabb, datestamp=1655631047 (Jun 19 2022 09:30:47)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=5f8477fa4b37, datestamp=1655623809 (Jun 19 2022 07:30:09)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=c8036a8a9afe, datestamp=1655616716 (Jun 19 2022 05:31:56)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=d73304ae7673, datestamp=1655613108 (Jun 19 2022 04:31:48)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.548 (0) Examining (for files) backup set with nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+0567.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.549 (0) Examining (for files) backup set with nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+0567.549 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.549 (0) Examining (for files) backup set with nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+0567.549 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.549 (0) Examining (for files) backup set with nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+0567.549 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.549 (0) Examining (for files) backup set with nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+0567.549 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0567.550 (0) Examining (for files) backup set with nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+0567.550 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0567.550 (0) Examining (for files) backup set with nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+0567.550 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0567.550 (0) Examining (for files) backup set with nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0567.550 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.550 (0) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0567.550 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.550 (0) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0567.550 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.550 (0) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0567.550 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.550 (0) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0567.550 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.550 (0) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0567.550 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.551 (0) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0567.551 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.551 (0) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0567.551 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.551 (0) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0567.551 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.551 (0) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0567.551 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.551 (0) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0567.551 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.551 (0) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0567.551 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0567.551 (0) Retain: saving new backup history (sets now: 98) and finishing retain operation
+0567.553 (0) Resume backup (3b5be4773bd1, 0): finish run
+0567.555 (0) Decremented the semaphore (fd) by 1
+0567.556 (0) Semaphore (fd) unlocked
+0567.556 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0567.558 (0) No email will/can be sent - the user has not configured an email address.
+0567.559 (0) The backup apparently succeeded and is now complete

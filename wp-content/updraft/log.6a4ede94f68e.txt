@@ -1,0 +1,1151 @@
+0210.364 (1) Opened log file at time: Fri, 17 Jun 2022 23:35:26 +0000 on https://770.world/
+0210.364 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 4M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0210.365 (1) Free space on disk containing Updraft's temporary directory: 158.7 MB
+0210.365 (1) Requesting backup semaphore lock (6a4ede94f68e)
+0210.365 (1) [Info] Lock (updraft_lock_c8945bd49ea0, wp_options) acquired
+0210.366 (1) Backup run: resumption=1, nonce=6a4ede94f68e, file_nonce=6a4ede94f68e begun at=1655508716 (210s ago), job type=backup, previous check-in=52.37s
+0210.367 (1) Scheduling a resumption (2) after 300 seconds (1655509226) in case this run gets aborted
+0210.368 (1) Checking if we have a zip executable available
+0210.368 (1) Creation of backups of directories: already finished
+0210.369 (1) Saving backup status to database (elements: 8)
+0210.373 (1) Database dump (WordPress DB): Creation was completed already
+0210.373 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0210.377 (1) backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0210.377 (1) backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0210.377 (1) backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0210.379 (1) backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0210.379 (1) backup_2022-06-17-1931_www770world_6a4ede94f68e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+0210.379 (1) Saving backup history. Total backup size: Unknown
+0210.383 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0210.384 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0210.384 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+0210.867 (1) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0210.868 (1) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0211.398 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0211.918 (1) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0211.919 (1) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0212.428 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0212.903 (1) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0212.904 (1) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0212.904 (1) Google Drive: File upload expected to fail: file (backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip) size is 275578880 b, whereas available quota is only 32165827 b
+0213.389 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0214.175 (1) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0214.176 (1) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0214.699 (1) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0214.701 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+0214.702 (1) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+0214.703 (1) Number of backup sets in history: 54; groups (db): 1
+0214.703 (1) Examining (for databases) backup set with group_id=0, nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+0214.704 (1) This backup set is the backup set just made, so will not be deleted.
+0214.704 (1) Examining (for databases) backup set with group_id=0, nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+0214.704 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.704 (1) Examining (for databases) backup set with group_id=0, nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+0214.704 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.704 (1) Examining (for databases) backup set with group_id=0, nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+0214.704 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.705 (1) Examining (for databases) backup set with group_id=0, nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+0214.705 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0214.705 (1) Examining (for databases) backup set with group_id=0, nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+0214.705 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0214.705 (1) Examining (for databases) backup set with group_id=0, nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+0214.705 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0214.705 (1) Examining (for databases) backup set with group_id=0, nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0214.705 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.705 (1) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0214.705 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.705 (1) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0214.705 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.705 (1) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0214.705 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.706 (1) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0214.706 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.706 (1) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0214.706 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.706 (1) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0214.706 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.706 (1) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0214.706 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.706 (1) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0214.706 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.706 (1) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0214.706 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.706 (1) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0214.706 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.706 (1) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0214.706 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.706 (1) Number of backup sets in history: 54; groups (files): 1
+0214.706 (1) Examining (for files) backup set with nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+0214.706 (1) This backup set is the backup set just made, so will not be deleted.
+0214.707 (1) This backup set is the backup set just made, so will not be deleted.
+0214.707 (1) This backup set is the backup set just made, so will not be deleted.
+0214.707 (1) This backup set is the backup set just made, so will not be deleted.
+0214.707 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.707 (1) Examining (for files) backup set with nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+0214.707 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.707 (1) Examining (for files) backup set with nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+0214.707 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.707 (1) Examining (for files) backup set with nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+0214.707 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.708 (1) Examining (for files) backup set with nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+0214.708 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0214.708 (1) Examining (for files) backup set with nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+0214.708 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0214.708 (1) Examining (for files) backup set with nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+0214.708 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0214.708 (1) Examining (for files) backup set with nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0214.708 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.708 (1) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0214.708 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.708 (1) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0214.708 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.708 (1) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0214.708 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.708 (1) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0214.708 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.708 (1) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0214.708 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.709 (1) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0214.709 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.709 (1) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0214.709 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.709 (1) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0214.709 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.709 (1) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0214.709 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.709 (1) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0214.709 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.709 (1) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0214.709 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.709 (1) Retain: saving new backup history (sets now: 54) and finishing retain operation
+0214.711 (1) Resume backup (6a4ede94f68e, 1): finish run
+0214.712 (1) [Info] Lock option (updraft_lock_c8945bd49ea0, wp_options) released
+0214.713 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0214.714 (1) No email will/can be sent - the user has not configured an email address.
+0214.714 (1) The backup has not finished; a resumption is scheduled
+0604.902 (2) Opened log file at time: Fri, 17 Jun 2022 23:42:01 +0000 on https://770.world/
+0604.903 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 4M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0604.903 (2) Free space on disk containing Updraft's temporary directory: 158.6 MB
+0604.904 (2) Requesting backup semaphore lock (6a4ede94f68e)
+0604.904 (2) [Info] Lock (updraft_lock_c8945bd49ea0, wp_options) acquired
+0604.905 (2) Backup run: resumption=2, nonce=6a4ede94f68e, file_nonce=6a4ede94f68e begun at=1655508716 (605s ago), job type=backup
+0604.906 (2) Scheduling a resumption (3) after 300 seconds (1655509621) in case this run gets aborted
+0604.907 (2) Checking if we have a zip executable available
+0604.907 (2) Creation of backups of directories: already finished
+0604.908 (2) Saving backup status to database (elements: 8)
+0604.912 (2) Database dump (WordPress DB): Creation was completed already
+0604.913 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0604.917 (2) backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0604.917 (2) backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0604.918 (2) backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0604.918 (2) backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0604.919 (2) backup_2022-06-17-1931_www770world_6a4ede94f68e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+0604.919 (2) Saving backup history. Total backup size: Unknown
+0604.924 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+0604.925 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0604.926 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+0605.434 (2) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0605.436 (2) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0605.999 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0606.578 (2) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0606.580 (2) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0607.078 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0607.582 (2) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0607.583 (2) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0607.584 (2) Google Drive: File upload expected to fail: file (backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip) size is 275578880 b, whereas available quota is only 32165827 b
+0608.100 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0608.560 (2) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0608.561 (2) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0609.085 (2) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0609.087 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+0609.088 (2) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+0609.089 (2) Number of backup sets in history: 54; groups (db): 1
+0609.089 (2) Examining (for databases) backup set with group_id=0, nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+0609.090 (2) This backup set is the backup set just made, so will not be deleted.
+0609.090 (2) Examining (for databases) backup set with group_id=0, nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+0609.090 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.091 (2) Examining (for databases) backup set with group_id=0, nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+0609.091 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.091 (2) Examining (for databases) backup set with group_id=0, nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+0609.091 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.091 (2) Examining (for databases) backup set with group_id=0, nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+0609.091 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0609.091 (2) Examining (for databases) backup set with group_id=0, nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+0609.091 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0609.091 (2) Examining (for databases) backup set with group_id=0, nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+0609.091 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0609.091 (2) Examining (for databases) backup set with group_id=0, nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0609.091 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0609.092 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.092 (2) Number of backup sets in history: 54; groups (files): 1
+0609.093 (2) Examining (for files) backup set with nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+0609.093 (2) This backup set is the backup set just made, so will not be deleted.
+0609.093 (2) This backup set is the backup set just made, so will not be deleted.
+0609.093 (2) This backup set is the backup set just made, so will not be deleted.
+0609.093 (2) This backup set is the backup set just made, so will not be deleted.
+0609.093 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.093 (2) Examining (for files) backup set with nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+0609.093 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.093 (2) Examining (for files) backup set with nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+0609.093 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.093 (2) Examining (for files) backup set with nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+0609.093 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.094 (2) Examining (for files) backup set with nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+0609.094 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0609.094 (2) Examining (for files) backup set with nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+0609.094 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0609.094 (2) Examining (for files) backup set with nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+0609.094 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0609.094 (2) Examining (for files) backup set with nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0609.094 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0609.095 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0609.095 (2) Retain: saving new backup history (sets now: 54) and finishing retain operation
+0609.097 (2) Resume backup (6a4ede94f68e, 2): finish run
+0609.098 (2) [Info] Lock option (updraft_lock_c8945bd49ea0, wp_options) released
+0609.099 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0609.100 (2) No email will/can be sent - the user has not configured an email address.
+0609.100 (2) The backup has not finished; a resumption is scheduled
+0927.830 (3) Opened log file at time: Fri, 17 Jun 2022 23:47:24 +0000 on https://770.world/
+0927.831 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 4M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0927.831 (3) Free space on disk containing Updraft's temporary directory: 158.6 MB
+0927.831 (3) Requesting backup semaphore lock (6a4ede94f68e)
+0927.832 (3) [Info] Lock (updraft_lock_c8945bd49ea0, wp_options) acquired
+0927.833 (3) Backup run: resumption=3, nonce=6a4ede94f68e, file_nonce=6a4ede94f68e begun at=1655508716 (928s ago), job type=backup
+0927.833 (3) Scheduling a resumption (4) after 300 seconds (1655509944) in case this run gets aborted
+0927.834 (3) Checking if we have a zip executable available
+0927.835 (3) Creation of backups of directories: already finished
+0927.835 (3) Saving backup status to database (elements: 8)
+0927.839 (3) Database dump (WordPress DB): Creation was completed already
+0927.839 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0927.843 (3) backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0927.844 (3) backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0927.844 (3) backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0927.844 (3) backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0927.845 (3) backup_2022-06-17-1931_www770world_6a4ede94f68e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+0927.845 (3) Saving backup history. Total backup size: Unknown
+0927.849 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+0927.849 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0927.850 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+0928.340 (3) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0928.342 (3) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0928.871 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0929.417 (3) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0929.419 (3) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0929.948 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0930.428 (3) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0930.429 (3) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0930.430 (3) Google Drive: File upload expected to fail: file (backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip) size is 275578880 b, whereas available quota is only 32165827 b
+0930.975 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0931.553 (3) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+0931.555 (3) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+0932.059 (3) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0932.061 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+0932.063 (3) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+0932.063 (3) Number of backup sets in history: 54; groups (db): 1
+0932.064 (3) Examining (for databases) backup set with group_id=0, nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+0932.064 (3) This backup set is the backup set just made, so will not be deleted.
+0932.064 (3) Examining (for databases) backup set with group_id=0, nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+0932.064 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.065 (3) Examining (for databases) backup set with group_id=0, nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+0932.065 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.065 (3) Examining (for databases) backup set with group_id=0, nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+0932.065 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.065 (3) Examining (for databases) backup set with group_id=0, nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+0932.065 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0932.065 (3) Examining (for databases) backup set with group_id=0, nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+0932.065 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0932.065 (3) Examining (for databases) backup set with group_id=0, nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+0932.065 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0932.065 (3) Examining (for databases) backup set with group_id=0, nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0932.065 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0932.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.066 (3) Number of backup sets in history: 54; groups (files): 1
+0932.067 (3) Examining (for files) backup set with nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+0932.067 (3) This backup set is the backup set just made, so will not be deleted.
+0932.067 (3) This backup set is the backup set just made, so will not be deleted.
+0932.067 (3) This backup set is the backup set just made, so will not be deleted.
+0932.067 (3) This backup set is the backup set just made, so will not be deleted.
+0932.067 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.068 (3) Examining (for files) backup set with nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+0932.068 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.068 (3) Examining (for files) backup set with nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+0932.068 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.068 (3) Examining (for files) backup set with nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+0932.068 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.068 (3) Examining (for files) backup set with nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+0932.068 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0932.068 (3) Examining (for files) backup set with nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+0932.068 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0932.068 (3) Examining (for files) backup set with nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+0932.068 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0932.068 (3) Examining (for files) backup set with nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+0932.068 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+0932.069 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.069 (3) Retain: saving new backup history (sets now: 54) and finishing retain operation
+0932.071 (3) Resume backup (6a4ede94f68e, 3): finish run
+0932.072 (3) [Info] Lock option (updraft_lock_c8945bd49ea0, wp_options) released
+0932.073 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0932.074 (3) No email will/can be sent - the user has not configured an email address.
+0932.075 (3) The backup has not finished; a resumption is scheduled
+1237.209 (4) Opened log file at time: Fri, 17 Jun 2022 23:52:33 +0000 on https://770.world/
+1237.210 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12M | 6M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+1237.211 (4) Free space on disk containing Updraft's temporary directory: 158.5 MB
+1237.211 (4) Requesting backup semaphore lock (6a4ede94f68e)
+1237.212 (4) [Debug] Lock option (updraft_lock_6a4ede94f68e, wp_options) was created in the database
+1237.212 (4) [Info] Lock (updraft_lock_6a4ede94f68e, wp_options) acquired after initialising the database
+1237.213 (4) Backup run: resumption=4, nonce=6a4ede94f68e, file_nonce=6a4ede94f68e begun at=1655508716 (1237s ago), job type=backup
+1237.214 (4) Scheduling a resumption (5) after 300 seconds (1655510253) in case this run gets aborted
+1237.215 (4) Checking if we have a zip executable available
+1237.215 (4) Creation of backups of directories: already finished
+1237.216 (4) Saving backup status to database (elements: 8)
+1237.220 (4) Database dump (WordPress DB): Creation was completed already
+1237.220 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1237.224 (4) backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1237.224 (4) backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1237.224 (4) backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1237.225 (4) backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: others: This file has not yet been successfully uploaded: will queue
+1237.225 (4) backup_2022-06-17-1931_www770world_6a4ede94f68e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+1237.225 (4) Saving backup history. Total backup size: Unknown
+1237.229 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+1237.230 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1237.230 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+1238.936 (4) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+1238.937 (4) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+1239.459 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+1239.460 (4) An error condition has occurred for the first time during this job
+1239.938 (4) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+1239.939 (4) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+1240.479 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+1240.954 (4) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+1240.955 (4) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+1240.955 (4) Google Drive: File upload expected to fail: file (backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip) size is 275578880 b, whereas available quota is only 32165827 b
+1241.470 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+1241.948 (4) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+1241.949 (4) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+1242.467 (4) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+1242.469 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+1242.471 (4) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+1242.471 (4) Number of backup sets in history: 54; groups (db): 1
+1242.472 (4) Examining (for databases) backup set with group_id=0, nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+1242.472 (4) This backup set is the backup set just made, so will not be deleted.
+1242.472 (4) Examining (for databases) backup set with group_id=0, nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+1242.472 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.472 (4) Examining (for databases) backup set with group_id=0, nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+1242.472 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.472 (4) Examining (for databases) backup set with group_id=0, nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+1242.472 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.472 (4) Examining (for databases) backup set with group_id=0, nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+1242.472 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+1242.473 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+1242.473 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+1242.473 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+1242.473 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+1242.473 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+1242.473 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+1242.473 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+1242.473 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+1242.473 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+1242.473 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+1242.473 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.473 (4) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+1242.473 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.474 (4) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+1242.474 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.474 (4) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+1242.474 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.474 (4) Number of backup sets in history: 54; groups (files): 1
+1242.474 (4) Examining (for files) backup set with nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+1242.474 (4) This backup set is the backup set just made, so will not be deleted.
+1242.475 (4) This backup set is the backup set just made, so will not be deleted.
+1242.475 (4) This backup set is the backup set just made, so will not be deleted.
+1242.475 (4) This backup set is the backup set just made, so will not be deleted.
+1242.475 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.475 (4) Examining (for files) backup set with nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+1242.475 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.475 (4) Examining (for files) backup set with nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+1242.475 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.475 (4) Examining (for files) backup set with nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+1242.475 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.475 (4) Examining (for files) backup set with nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+1242.475 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+1242.476 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+1242.476 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+1242.476 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+1242.476 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+1242.476 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+1242.476 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+1242.476 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+1242.476 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+1242.476 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+1242.476 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+1242.476 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.476 (4) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+1242.476 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.477 (4) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+1242.477 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.477 (4) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+1242.477 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1242.477 (4) Retain: saving new backup history (sets now: 54) and finishing retain operation
+1242.479 (4) Resume backup (6a4ede94f68e, 4): finish run
+1242.480 (4) [Info] Lock option (updraft_lock_6a4ede94f68e, wp_options) released
+1242.481 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1242.481 (4) No email will/can be sent - the user has not configured an email address.
+1242.482 (4) The backup has not finished; a resumption is scheduled
+1645.618 (5) Opened log file at time: Fri, 17 Jun 2022 23:59:21 +0000 on https://770.world/
+1645.619 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12M | 6M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+1645.620 (5) Free space on disk containing Updraft's temporary directory: 158.5 MB
+1645.620 (5) Requesting backup semaphore lock (6a4ede94f68e)
+1645.621 (5) [Info] Lock (updraft_lock_6a4ede94f68e, wp_options) acquired
+1645.623 (5) Backup run: resumption=5, nonce=6a4ede94f68e, file_nonce=6a4ede94f68e begun at=1655508716 (1645s ago), job type=backup
+1645.624 (5) Scheduling a resumption (6) after 300 seconds (1655510661) in case this run gets aborted
+1645.625 (5) Checking if we have a zip executable available
+1645.625 (5) Creation of backups of directories: already finished
+1645.625 (5) Saving backup status to database (elements: 8)
+1645.630 (5) Database dump (WordPress DB): Creation was completed already
+1645.631 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1645.635 (5) backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1645.636 (5) backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1645.636 (5) backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1645.636 (5) backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: others: This file has not yet been successfully uploaded: will queue
+1645.637 (5) backup_2022-06-17-1931_www770world_6a4ede94f68e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+1645.637 (5) Saving backup history. Total backup size: Unknown
+1645.641 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+1645.642 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1645.643 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+1647.164 (5) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+1647.166 (5) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+1647.682 (5) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+1647.684 (5) An error condition has occurred for the first time during this job
+1648.167 (5) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+1648.168 (5) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+1648.736 (5) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+1649.280 (5) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+1649.281 (5) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+1649.282 (5) Google Drive: File upload expected to fail: file (backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip) size is 275578880 b, whereas available quota is only 32165827 b
+1649.794 (5) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+1650.277 (5) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+1650.279 (5) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+1650.814 (5) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+1650.816 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+1650.818 (5) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+1650.818 (5) Number of backup sets in history: 54; groups (db): 1
+1650.819 (5) Examining (for databases) backup set with group_id=0, nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+1650.819 (5) This backup set is the backup set just made, so will not be deleted.
+1650.819 (5) Examining (for databases) backup set with group_id=0, nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+1650.819 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.820 (5) Examining (for databases) backup set with group_id=0, nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+1650.820 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.820 (5) Examining (for databases) backup set with group_id=0, nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+1650.820 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.820 (5) Examining (for databases) backup set with group_id=0, nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+1650.820 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1650.820 (5) Examining (for databases) backup set with group_id=0, nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+1650.820 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1650.820 (5) Examining (for databases) backup set with group_id=0, nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+1650.820 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+1650.821 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.821 (5) Number of backup sets in history: 54; groups (files): 1
+1650.822 (5) Examining (for files) backup set with nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+1650.822 (5) This backup set is the backup set just made, so will not be deleted.
+1650.822 (5) This backup set is the backup set just made, so will not be deleted.
+1650.822 (5) This backup set is the backup set just made, so will not be deleted.
+1650.822 (5) This backup set is the backup set just made, so will not be deleted.
+1650.823 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.823 (5) Examining (for files) backup set with nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+1650.823 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.823 (5) Examining (for files) backup set with nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+1650.823 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.823 (5) Examining (for files) backup set with nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+1650.823 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.823 (5) Examining (for files) backup set with nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+1650.823 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1650.823 (5) Examining (for files) backup set with nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+1650.823 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+1650.824 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.824 (5) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+1650.824 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.825 (5) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+1650.825 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1650.825 (5) Retain: saving new backup history (sets now: 54) and finishing retain operation
+1650.827 (5) Resume backup (6a4ede94f68e, 5): finish run
+1650.828 (5) [Info] Lock option (updraft_lock_6a4ede94f68e, wp_options) released
+1650.828 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1650.829 (5) No email will/can be sent - the user has not configured an email address.
+1650.829 (5) The backup has not finished; a resumption is scheduled
+2066.206 (6) Opened log file at time: Sat, 18 Jun 2022 00:06:22 +0000 on https://770.world/
+2066.207 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12M | 2M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+2066.207 (6) Free space on disk containing Updraft's temporary directory: Unknown
+2066.208 (6) Requesting backup semaphore lock (6a4ede94f68e)
+2066.209 (6) [Info] Lock (updraft_lock_6a4ede94f68e, wp_options) acquired
+2066.211 (6) Backup run: resumption=6, nonce=6a4ede94f68e, file_nonce=6a4ede94f68e begun at=1655508716 (2066s ago), job type=backup
+2066.211 (6) Scheduling a resumption (7) after 300 seconds (1655511082) in case this run gets aborted
+2066.213 (6) Checking if we have a zip executable available
+2066.213 (6) Creation of backups of directories: already finished
+2066.213 (6) Saving backup status to database (elements: 8)
+2066.219 (6) Database dump (WordPress DB): Creation was completed already
+2066.219 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2066.225 (6) backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2066.225 (6) backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2066.225 (6) backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2066.226 (6) backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: others: This file has not yet been successfully uploaded: will queue
+2066.226 (6) backup_2022-06-17-1931_www770world_6a4ede94f68e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+2066.227 (6) Saving backup history. Total backup size: Unknown
+2066.231 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+2066.231 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2066.232 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+2067.736 (6) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2067.737 (6) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2068.311 (6) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2068.313 (6) An error condition has occurred for the first time during this job
+2068.900 (6) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2068.902 (6) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2069.428 (6) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2069.985 (6) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2069.986 (6) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2069.987 (6) Google Drive: File upload expected to fail: file (backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip) size is 275578880 b, whereas available quota is only 32165827 b
+2070.508 (6) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2071.092 (6) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2071.093 (6) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2071.641 (6) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2071.643 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+2071.645 (6) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+2071.646 (6) Number of backup sets in history: 54; groups (db): 1
+2071.646 (6) Examining (for databases) backup set with group_id=0, nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+2071.647 (6) This backup set is the backup set just made, so will not be deleted.
+2071.647 (6) Examining (for databases) backup set with group_id=0, nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+2071.647 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.647 (6) Examining (for databases) backup set with group_id=0, nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+2071.647 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.647 (6) Examining (for databases) backup set with group_id=0, nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+2071.647 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.647 (6) Examining (for databases) backup set with group_id=0, nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+2071.647 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+2071.648 (6) Examining (for databases) backup set with group_id=0, nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+2071.648 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+2071.648 (6) Examining (for databases) backup set with group_id=0, nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+2071.648 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+2071.648 (6) Examining (for databases) backup set with group_id=0, nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2071.648 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.648 (6) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2071.648 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.648 (6) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2071.648 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.648 (6) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2071.648 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.649 (6) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2071.649 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.649 (6) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2071.649 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.649 (6) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2071.649 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.649 (6) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2071.649 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.649 (6) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2071.649 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.649 (6) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2071.649 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.649 (6) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2071.649 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.649 (6) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2071.649 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.649 (6) Number of backup sets in history: 54; groups (files): 1
+2071.649 (6) Examining (for files) backup set with nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+2071.649 (6) This backup set is the backup set just made, so will not be deleted.
+2071.650 (6) This backup set is the backup set just made, so will not be deleted.
+2071.650 (6) This backup set is the backup set just made, so will not be deleted.
+2071.650 (6) This backup set is the backup set just made, so will not be deleted.
+2071.650 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.650 (6) Examining (for files) backup set with nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+2071.650 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.650 (6) Examining (for files) backup set with nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+2071.650 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.650 (6) Examining (for files) backup set with nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+2071.650 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.651 (6) Examining (for files) backup set with nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+2071.651 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+2071.651 (6) Examining (for files) backup set with nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+2071.651 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+2071.651 (6) Examining (for files) backup set with nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+2071.651 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+2071.651 (6) Examining (for files) backup set with nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2071.651 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.651 (6) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2071.651 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.651 (6) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2071.651 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.651 (6) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2071.651 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.651 (6) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2071.651 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.651 (6) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2071.651 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.652 (6) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2071.652 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.652 (6) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2071.652 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.652 (6) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2071.652 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.652 (6) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2071.652 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.652 (6) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2071.652 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.652 (6) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2071.652 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2071.652 (6) Retain: saving new backup history (sets now: 54) and finishing retain operation
+2071.654 (6) Resume backup (6a4ede94f68e, 6): finish run
+2071.655 (6) [Info] Lock option (updraft_lock_6a4ede94f68e, wp_options) released
+2071.655 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2071.656 (6) No email will/can be sent - the user has not configured an email address.
+2071.657 (6) The backup has not finished; a resumption is scheduled
+2405.636 (7) Opened log file at time: Sat, 18 Jun 2022 00:12:01 +0000 on https://770.world/
+2405.637 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 4M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+2405.637 (7) Free space on disk containing Updraft's temporary directory: 154.7 MB
+2405.637 (7) Requesting backup semaphore lock (6a4ede94f68e)
+2405.638 (7) [Info] Lock (updraft_lock_c8945bd49ea0, wp_options) acquired
+2405.639 (7) Backup run: resumption=7, nonce=6a4ede94f68e, file_nonce=6a4ede94f68e begun at=1655508716 (2405s ago), job type=backup
+2405.640 (7) Scheduling a resumption (8) after 300 seconds (1655511421) in case this run gets aborted
+2405.641 (7) Checking if we have a zip executable available
+2405.641 (7) Creation of backups of directories: already finished
+2405.642 (7) Saving backup status to database (elements: 8)
+2405.646 (7) Database dump (WordPress DB): Creation was completed already
+2405.647 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2405.650 (7) backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2405.651 (7) backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2405.651 (7) backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2405.651 (7) backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: others: This file has not yet been successfully uploaded: will queue
+2405.652 (7) backup_2022-06-17-1931_www770world_6a4ede94f68e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+2405.652 (7) Saving backup history. Total backup size: Unknown
+2405.656 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+2405.657 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2405.658 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+2406.240 (7) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2406.242 (7) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2406.795 (7) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2407.443 (7) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2407.444 (7) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2407.945 (7) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2408.590 (7) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2408.591 (7) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2408.592 (7) Google Drive: File upload expected to fail: file (backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip) size is 275578880 b, whereas available quota is only 32165827 b
+2409.125 (7) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2409.754 (7) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2409.755 (7) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2410.279 (7) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2410.282 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+2410.283 (7) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+2410.284 (7) Number of backup sets in history: 54; groups (db): 1
+2410.284 (7) Examining (for databases) backup set with group_id=0, nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+2410.285 (7) This backup set is the backup set just made, so will not be deleted.
+2410.285 (7) Examining (for databases) backup set with group_id=0, nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+2410.285 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.285 (7) Examining (for databases) backup set with group_id=0, nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+2410.285 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.285 (7) Examining (for databases) backup set with group_id=0, nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+2410.285 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.285 (7) Examining (for databases) backup set with group_id=0, nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+2410.285 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2410.286 (7) Examining (for databases) backup set with group_id=0, nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+2410.286 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2410.286 (7) Examining (for databases) backup set with group_id=0, nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+2410.286 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2410.286 (7) Examining (for databases) backup set with group_id=0, nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2410.286 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.286 (7) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2410.286 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.286 (7) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2410.286 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.286 (7) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2410.286 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.286 (7) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2410.287 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.287 (7) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2410.287 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.287 (7) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2410.287 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.287 (7) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2410.287 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.287 (7) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2410.287 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.287 (7) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2410.287 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.287 (7) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2410.287 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.287 (7) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2410.287 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.287 (7) Number of backup sets in history: 54; groups (files): 1
+2410.287 (7) Examining (for files) backup set with nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+2410.287 (7) This backup set is the backup set just made, so will not be deleted.
+2410.288 (7) This backup set is the backup set just made, so will not be deleted.
+2410.288 (7) This backup set is the backup set just made, so will not be deleted.
+2410.288 (7) This backup set is the backup set just made, so will not be deleted.
+2410.288 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.288 (7) Examining (for files) backup set with nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+2410.288 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.288 (7) Examining (for files) backup set with nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+2410.288 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.288 (7) Examining (for files) backup set with nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+2410.288 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.288 (7) Examining (for files) backup set with nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+2410.288 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+2410.289 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+2410.289 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2410.289 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.289 (7) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2410.290 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2410.290 (7) Retain: saving new backup history (sets now: 54) and finishing retain operation
+2410.291 (7) Resume backup (6a4ede94f68e, 7): finish run
+2410.292 (7) [Info] Lock option (updraft_lock_c8945bd49ea0, wp_options) released
+2410.293 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2410.293 (7) No email will/can be sent - the user has not configured an email address.
+2410.294 (7) The backup has not finished; a resumption is scheduled
+2717.165 (8) Opened log file at time: Sat, 18 Jun 2022 00:17:13 +0000 on https://770.world/
+2717.165 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 4M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+2717.166 (8) Free space on disk containing Updraft's temporary directory: 154.7 MB
+2717.166 (8) Requesting backup semaphore lock (6a4ede94f68e)
+2717.167 (8) [Info] Lock (updraft_lock_c8945bd49ea0, wp_options) acquired
+2717.167 (8) Backup run: resumption=8, nonce=6a4ede94f68e, file_nonce=6a4ede94f68e begun at=1655508716 (2717s ago), job type=backup
+2717.168 (8) Scheduling a resumption (9) after 300 seconds (1655511733) in case this run gets aborted
+2717.169 (8) Checking if we have a zip executable available
+2717.170 (8) Creation of backups of directories: already finished
+2717.170 (8) Saving backup status to database (elements: 8)
+2717.173 (8) Database dump (WordPress DB): Creation was completed already
+2717.174 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2717.177 (8) backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2717.178 (8) backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2717.178 (8) backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2717.179 (8) backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: others: This file has not yet been successfully uploaded: will queue
+2717.179 (8) backup_2022-06-17-1931_www770world_6a4ede94f68e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+2717.179 (8) Saving backup history. Total backup size: Unknown
+2717.183 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+2717.183 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2717.184 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+2717.703 (8) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2717.704 (8) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2718.208 (8) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2718.672 (8) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2718.674 (8) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2719.183 (8) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2719.674 (8) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2719.675 (8) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2719.676 (8) Google Drive: File upload expected to fail: file (backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip) size is 275578880 b, whereas available quota is only 32165827 b
+2720.213 (8) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2720.724 (8) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+2720.725 (8) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+2721.235 (8) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+2721.237 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+2721.238 (8) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+2721.239 (8) Number of backup sets in history: 54; groups (db): 1
+2721.240 (8) Examining (for databases) backup set with group_id=0, nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+2721.240 (8) This backup set is the backup set just made, so will not be deleted.
+2721.240 (8) Examining (for databases) backup set with group_id=0, nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+2721.240 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.240 (8) Examining (for databases) backup set with group_id=0, nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+2721.240 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.240 (8) Examining (for databases) backup set with group_id=0, nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+2721.240 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.240 (8) Examining (for databases) backup set with group_id=0, nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+2721.240 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2721.241 (8) Examining (for databases) backup set with group_id=0, nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+2721.241 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2721.241 (8) Examining (for databases) backup set with group_id=0, nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+2721.241 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2721.241 (8) Examining (for databases) backup set with group_id=0, nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2721.241 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.241 (8) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2721.241 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.241 (8) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2721.241 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.241 (8) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2721.241 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.241 (8) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2721.242 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.242 (8) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2721.242 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.242 (8) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2721.242 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.242 (8) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2721.242 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.242 (8) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2721.242 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.242 (8) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2721.242 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.242 (8) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2721.242 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.242 (8) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2721.242 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.242 (8) Number of backup sets in history: 54; groups (files): 1
+2721.242 (8) Examining (for files) backup set with nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+2721.242 (8) This backup set is the backup set just made, so will not be deleted.
+2721.243 (8) This backup set is the backup set just made, so will not be deleted.
+2721.243 (8) This backup set is the backup set just made, so will not be deleted.
+2721.243 (8) This backup set is the backup set just made, so will not be deleted.
+2721.243 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.243 (8) Examining (for files) backup set with nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+2721.243 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.243 (8) Examining (for files) backup set with nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+2721.243 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.243 (8) Examining (for files) backup set with nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+2721.243 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.243 (8) Examining (for files) backup set with nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+2721.243 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2721.244 (8) Examining (for files) backup set with nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+2721.244 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2721.244 (8) Examining (for files) backup set with nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+2721.244 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2721.244 (8) Examining (for files) backup set with nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+2721.244 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.244 (8) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+2721.244 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.244 (8) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+2721.244 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.244 (8) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+2721.244 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.244 (8) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+2721.245 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.245 (8) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+2721.245 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.245 (8) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+2721.245 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.245 (8) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+2721.245 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.245 (8) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+2721.245 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.245 (8) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+2721.245 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.245 (8) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+2721.245 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.245 (8) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+2721.245 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2721.245 (8) Retain: saving new backup history (sets now: 54) and finishing retain operation
+2721.247 (8) Resume backup (6a4ede94f68e, 8): finish run
+2721.248 (8) [Info] Lock option (updraft_lock_c8945bd49ea0, wp_options) released
+2721.249 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2721.250 (8) No email will/can be sent - the user has not configured an email address.
+2721.251 (8) The backup has not finished; a resumption is scheduled
+3027.917 (9) Opened log file at time: Sat, 18 Jun 2022 00:22:24 +0000 on https://770.world/
+3027.918 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux eb639e97dfd9 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 4M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+3027.918 (9) Free space on disk containing Updraft's temporary directory: 154.7 MB
+3027.919 (9) Requesting backup semaphore lock (6a4ede94f68e)
+3027.919 (9) [Info] Lock (updraft_lock_c8945bd49ea0, wp_options) acquired
+3027.920 (9) Backup run: resumption=9, nonce=6a4ede94f68e, file_nonce=6a4ede94f68e begun at=1655508716 (3028s ago), job type=backup
+3027.921 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+3027.921 (9) Scheduling a resumption (10) after 300 seconds (1655512044); but the job will then be aborted unless something happens this time
+3027.923 (9) Creation of backups of directories: already finished
+3027.923 (9) Saving backup status to database (elements: 8)
+3027.927 (9) Database dump (WordPress DB): Creation was completed already
+3027.927 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+3027.931 (9) backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3027.932 (9) backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3027.932 (9) backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3027.932 (9) backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: others: This file has not yet been successfully uploaded: will queue
+3027.932 (9) backup_2022-06-17-1931_www770world_6a4ede94f68e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+3027.933 (9) Saving backup history. Total backup size: Unknown
+3027.936 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+3027.937 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+3027.937 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b6630869fb6953e10b0ccc9b4088abf)
+3028.516 (9) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+3028.518 (9) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+3029.097 (9) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+3029.720 (9) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+3029.721 (9) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+3030.264 (9) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+3030.882 (9) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+3030.884 (9) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+3030.885 (9) Google Drive: File upload expected to fail: file (backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip) size is 275578880 b, whereas available quota is only 32165827 b
+3031.395 (9) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+3031.952 (9) Google Drive: quota usage: used=15329.3 MB, total=15360 MB, available=30.7 MB
+3031.953 (9) Google Drive: backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: Attempting to upload to Google Drive (into folder id: 1LBzVVGGw7tZdGBjg9z_ZxecZYK0K8Tko)
+3032.479 (9) Google Drive: Upload exception (Google_Exception): Failed to start the resumable upload (HTTP 403: usageLimits, The user has exceeded their Drive storage quota) (line: 322, file: /var/www/html/wp-content/plugins/updraftplus/includes/google-extensions.php)
+3032.481 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=77, retain_db=77
+3032.482 (9) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1655329320, 1655319000, 1655318460, 1655317980, 1655256960, 1655254320, 1655242560, 1654472220, 1654464960, 1654457820, 1654450620, 1654443300, 1654436340, 1654429080, 1654421700, 1654416000, 1654407600, 1654400220, 1654392960, 1654385700, 1654379520, 1654371360, 1654364160, 1654357920, 1654350060, 1654342620, 1654335480, 1654328100, 1654321080, 1654313820, 1654306500, 1654299300, 1654292280, 1654284960, 1654119480
+3032.483 (9) Number of backup sets in history: 54; groups (db): 1
+3032.483 (9) Examining (for databases) backup set with group_id=0, nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+3032.483 (9) This backup set is the backup set just made, so will not be deleted.
+3032.484 (9) Examining (for databases) backup set with group_id=0, nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+3032.484 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.484 (9) Examining (for databases) backup set with group_id=0, nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+3032.484 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.484 (9) Examining (for databases) backup set with group_id=0, nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+3032.484 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.484 (9) Examining (for databases) backup set with group_id=0, nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+3032.484 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+3032.484 (9) Examining (for databases) backup set with group_id=0, nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+3032.484 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+3032.485 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Examining (for databases) backup set with group_id=0, nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+3032.485 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.485 (9) Number of backup sets in history: 54; groups (files): 1
+3032.486 (9) Examining (for files) backup set with nonce=6a4ede94f68e, datestamp=1655508716 (Jun 17 2022 23:31:56)
+3032.486 (9) This backup set is the backup set just made, so will not be deleted.
+3032.487 (9) This backup set is the backup set just made, so will not be deleted.
+3032.487 (9) This backup set is the backup set just made, so will not be deleted.
+3032.487 (9) This backup set is the backup set just made, so will not be deleted.
+3032.487 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.487 (9) Examining (for files) backup set with nonce=30f1f8accd53, datestamp=1655501462 (Jun 17 2022 21:31:02)
+3032.487 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.487 (9) Examining (for files) backup set with nonce=44db1d5709fe, datestamp=1655494291 (Jun 17 2022 19:31:31)
+3032.487 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.487 (9) Examining (for files) backup set with nonce=729f7181afdc, datestamp=1655487041 (Jun 17 2022 17:30:41)
+3032.487 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.487 (9) Examining (for files) backup set with nonce=dc8494a2900f, datestamp=1655479790 (Jun 17 2022 15:29:50)
+3032.487 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+3032.487 (9) Examining (for files) backup set with nonce=92856eca4989, datestamp=1655472590 (Jun 17 2022 13:29:50)
+3032.487 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+3032.487 (9) Examining (for files) backup set with nonce=7dc70c97c23e, datestamp=1655465412 (Jun 17 2022 11:30:12)
+3032.487 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=e269b51a27de, datestamp=1655458316 (Jun 17 2022 09:31:56)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=4488a29f3e31, datestamp=1655451032 (Jun 17 2022 07:30:32)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=6bf9dc6b29f2, datestamp=1655443880 (Jun 17 2022 05:31:20)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=89aefeacc270, datestamp=1655436620 (Jun 17 2022 03:30:20)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=146d6b0da1c7, datestamp=1655429498 (Jun 17 2022 01:31:38)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=c69d669de043, datestamp=1655422299 (Jun 16 2022 23:31:39)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=5a55e964ad17, datestamp=1655414996 (Jun 16 2022 21:29:56)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=7b7e4da2b034, datestamp=1655407791 (Jun 16 2022 19:29:51)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=c84f1e76aed0, datestamp=1655400591 (Jun 16 2022 17:29:51)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=160408cbfb52, datestamp=1655395635 (Jun 16 2022 16:07:15)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=a0e6c8cc823e, datestamp=1655366664 (Jun 16 2022 08:04:24)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Examining (for files) backup set with nonce=d957072561d3, datestamp=1655357511 (Jun 16 2022 05:31:51)
+3032.488 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3032.488 (9) Retain: saving new backup history (sets now: 54) and finishing retain operation
+3032.490 (9) Resume backup (6a4ede94f68e, 9): finish run
+3032.491 (9) [Info] Lock option (updraft_lock_c8945bd49ea0, wp_options) released
+3032.492 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+3032.493 (9) No email will/can be sent - the user has not configured an email address.
+3032.493 (9) The backup attempt has finished, apparently unsuccessfully
+104391.842 (6) Opened log file at time: Sun, 19 Jun 2022 04:31:48 +0000 on https://770.world/
+104391.842 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.0 WP: 6.0 PHP: 7.4.30 (apache2handler, Linux c71497d64b44 5.15.0-39-generic #42-Ubuntu SMP Thu Jun 9 23:42:32 UTC 2022 x86_64) MySQL: 5.7.38 (max packet size=4194304) WPLANG: en_US Server: Apache/2.4.53 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 10M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+104391.843 (6) Free space on disk containing Updraft's temporary directory: 11581.9 MB
+104391.843 (6) Requesting backup semaphore lock (6a4ede94f68e)
+104391.844 (6) [Info] Lock (updraft_lock_c8945bd49ea0, wp_options) acquired
+104391.845 (6) Backup run: resumption=6, nonce=6a4ede94f68e, file_nonce=6a4ede94f68e begun at=1655508716 (104392s ago), job type=backup
+104391.845 (6) Long time past since expected resumption time: approx expected=1655510661.8, now=1655613108.1, diff=102446.2
+104391.846 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+104391.847 (6) Scheduling a resumption (7) after 300 seconds (1655613408) in case this run gets aborted
+104391.848 (6) Checking if we have a zip executable available
+104391.848 (6) Creation of backups of directories: already finished
+104391.849 (6) Saving backup status to database (elements: 8)
+104391.852 (6) Database dump (WordPress DB): Creation was completed already
+104391.853 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+104391.856 (6) backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip: plugins: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/wp-content/updraft/backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip)
+104391.857 (6) Recording as successfully uploaded: backup_2022-06-17-1931_www770world_c8945bd49ea0-plugins.zip
+104391.858 (6) backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip: themes: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/wp-content/updraft/backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip)
+104391.858 (6) Recording as successfully uploaded: backup_2022-06-17-1931_www770world_c8945bd49ea0-themes.zip
+104391.859 (6) backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip: uploads: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/wp-content/updraft/backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip)
+104391.859 (6) Recording as successfully uploaded: backup_2022-06-17-1931_www770world_c8945bd49ea0-uploads.zip
+104391.860 (6) backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip: others: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/wp-content/updraft/backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip)
+104391.860 (6) Recording as successfully uploaded: backup_2022-06-17-1931_www770world_c8945bd49ea0-others.zip
+104391.861 (6) backup_2022-06-17-1931_www770world_6a4ede94f68e-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+104391.861 (6) Saving backup history. Total backup size: Unknown
+104391.865 (6) Resume backup (6a4ede94f68e, 6): finish run
+104391.866 (6) There were no more files that needed uploading
+104391.866 (6) PHP event: code E_NOTICE: Undefined index: googledrive (line 4136, wp-content/plugins/updraftplus/class-updraftplus.php)
+104391.867 (6) [Info] Lock option (updraft_lock_c8945bd49ea0, wp_options) released
+104391.868 (6) There were no errors in the uploads, so the 'resume' event (7) is being unscheduled
+104391.869 (6) No email will be sent - this backup set was empty.
+104391.869 (6) The backup apparently succeeded (with warnings) and is now complete
